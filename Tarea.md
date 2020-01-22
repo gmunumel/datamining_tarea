@@ -71,7 +71,7 @@ datos[,c('PartidoCCAA')] <- lapply(datos[,c('PartidoCCAA')], factor)
 
 ## 5) Tratamiento de datos atípicos
 
-Se crean dos variables para almacenar las variables objetivos y se almacena en la variable `input` los datos sin las variables objetivos: 
+Se crean dos variables para almacenar las variables objetivos y se almacena en la `input` los datos sin las variables objetivos: 
 ```
 varObjCont <- datos$VotosDerPtge
 varObjBin <- datos$VotosDerIzq
@@ -84,7 +84,13 @@ Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `
 
  Se obtiene la proporción de missings por variable y observación ya que debemos comprobar que los datos para cada variables son sustanciales, para ello se crea la variable `prop_missings` dentro de la variable `input`.
  
-En este caso ninguna observación supera el $50\%$ de ausentes, por lo tanto, se puede afirmar que los datos para cada variable son sustanciales. El máximo valor es de $0.209$.
+En este caso ninguna observación supera el $50\%$ de ausentes, por lo tanto, se puede afirmar que los datos para cada variable son sustanciales. El máximo valor es de $0.209$:
+```
+Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+0.000000 0.000000 0.000000 0.006581 0.000000 0.209302 
+```
+### Imputación
+
 
 
 
@@ -229,6 +235,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjY5MjI4OSwtMjA3MDcyNzEwMCwtMT
-A3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTExMjY2Njg3NDEsLTIwNzA3MjcxMDAsLT
+EwNzU5OTg1NDldfQ==
 -->
