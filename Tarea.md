@@ -114,7 +114,9 @@ input[,as.vector(which(sapply(input, class)=="numeric"))] <-
 ```
 Verifico que no me quedan datos missings y que los datos están bien depurados, para ello utilizo las instrucciones `summary(input)` y `str(input)`. Con la primera instrucción verifico que no hay datos ausentes (`NA`) y con la segunda que los tipos de datos son correctos.
 
-Una vez confirmado que los datos están bien depurados procedo a eliminar aquellas variables que están relacionadas con mi variable objetivo, como lo son: `VotosEmitidos`, `Abstenciones`, `Blancos`, `Nulos`, `Cs`, `PP`, 
+Una vez confirmado que los datos están bien depurados procedo a eliminar aquellas variables que están relacionadas con mi variable objetivo, como lo son: `VotosEmitidos`, `Abstenciones`, `Blancos`, `Nulos`, `Cs`, `PP`, `PSOE`, `VOX`, `Podemos`, `Otros` y `PartidoMasVotado`. 
+
+Se elimina también la variable `CodigoINE` ya que tiene una depend
 
 
 
@@ -261,6 +263,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjc0MDU5NSwyMDg3ODc5NzksLTIwNz
-MxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTEwNzkxMDUwMjYsMjA4Nzg3OTc5LC0yMD
+czMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
