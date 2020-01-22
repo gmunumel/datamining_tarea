@@ -78,7 +78,9 @@ varObjBin <- datos$VotosDerIzq
 input <- as.data.frame(select(datos, -c(VotosDerPtge, VotosDerIzq)))
 ```
 
-Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `outliers`. Para cada variable cuantitativa se sustituye por datos ausentes en el caso de que se encuentren 
+Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `outliers`. Para cada variable cuantitativa se sustituye por datos ausentes en el caso de que se encuentren menos del 5% de ellos, en caso contrario no se hace nada. Aparte del porcentaje se ha visto las gráficas mostrados por el programa para realizar un a
+
+
 
 
 # Files
@@ -220,6 +222,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU2MTM2NzcsLTIwNzA3MjcxMDAsLT
-EwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbMTgyNTc4NTcwMCwtMjA3MDcyNzEwMCwtMT
+A3NTk5ODU0OV19
 -->
