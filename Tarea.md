@@ -112,7 +112,9 @@ Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
 input[,as.vector(which(sapply(input, class)=="numeric"))] <- 
    sapply(Filter(is.numeric, input),function(x) impute(x,"random"))
 ```
-Verifico que no me quedan datos missings y que los datos están bien depurados, para ello utilizo las instrucciones `summary(input)` y `str(input)`. Con la primera instrucción verifico que no hay datos ausentes (`NA`) 
+Verifico que no me quedan datos missings y que los datos están bien depurados, para ello utilizo las instrucciones `summary(input)` y `str(input)`. Con la primera instrucción verifico que no hay datos ausentes (`NA`) y con la segunda que los tipos de datos son correctos.
+
+Una vez confirmado que los datos 
 
 
 
@@ -259,6 +261,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNz
-A3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTE5MDEwMTg3MzEsMjA4Nzg3OTc5LC0yMD
+czMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
