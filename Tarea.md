@@ -75,7 +75,7 @@ Gal_Cant_Ast          493  6.1  6.1
 Nav_PVasc_Rio         689  8.5  8.5
 Val_Mur_Bal           654  8.1  8.1
 ```
-La categoría más baja es `Gal_Cant_Ast` comprendida de Galicia, Cantabria y Asturias tiene un valor de 6.1
+La categoría más baja es `Gal_Cant_Ast` comprendida por Galicia, Cantabria y Asturias que tiene un valor de $6.1\%$. La más alta es `CastillaLeón` $27.7\%$ que.
 
  Se convierte en factor las variables `CCAA` y `PartidoCCAA` ya que tienen pocos valores diferentes:
  ```
@@ -258,6 +258,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDE1MTI3OSwtMjA3MzE1OTU0LC0yMD
+eyJoaXN0b3J5IjpbMTUwODQ5NDY0OCwtMjA3MzE1OTU0LC0yMD
 cwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
