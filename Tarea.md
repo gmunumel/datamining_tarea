@@ -82,7 +82,9 @@ Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `
 
 ### Ausentes (Missings)
 
-Se
+ Obtenes la proporcion de missings por variable y observacion ya que debemos
+ comprobar que los datos para cada variables son sustanciales
+input$prop_missings <- rowMeans(is.na(input))
 
 
 
@@ -226,6 +228,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzcyNzMzOSwtMjA3MDcyNzEwMCwtMT
+eyJoaXN0b3J5IjpbMTE4MjA1NDE3NSwtMjA3MDcyNzEwMCwtMT
 A3NTk5ODU0OV19
 -->
