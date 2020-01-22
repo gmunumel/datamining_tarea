@@ -78,7 +78,7 @@ varObjBin <- datos$VotosDerIzq
 input <- as.data.frame(select(datos, -c(VotosDerPtge, VotosDerIzq)))
 ```
 
-Se procede al reemplazar con 
+Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `outliers`. En el programa 
 
 
 # Files
@@ -220,5 +220,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzA2NTQwNiwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ
+==
 -->
