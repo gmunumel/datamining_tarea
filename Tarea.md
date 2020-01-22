@@ -71,7 +71,7 @@ datos[,c('PartidoCCAA')] <- lapply(datos[,c('PartidoCCAA')], factor)
 
 ## 5) Tratamiento de datos atípicos
 
-
+Para realizar el tratamiento de los datos atípicos es necesario crear c
 
 
 # Files
@@ -213,5 +213,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTEzMzQxMTMwMSwtMTA3NTk5ODU0OV19
 -->
