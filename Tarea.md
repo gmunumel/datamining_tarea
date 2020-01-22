@@ -71,11 +71,14 @@ datos[,c('PartidoCCAA')] <- lapply(datos[,c('PartidoCCAA')], factor)
 
 ## 5) Tratamiento de datos atípicos
 
-Se crean dos variables para almacenar las variables objetivos y se almacena en la variable `input` : 
+Se crean dos variables para almacenar las variables objetivos y se almacena en la variable `input` los datos sin las variables objetivos: 
 ```
 varObjCont <- datos$VotosDerPtge
 varObjBin <- datos$VotosDerIzq
+input <- as.data.frame(select(datos, -c(VotosDerPtge, VotosDerIzq)))
 ```
+
+Se procede al reemplazar con 
 
 
 # Files
@@ -217,6 +220,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA4MTAzMTksLTEwNzU5OTg1NDldfQ
-==
+eyJoaXN0b3J5IjpbLTYxMzA2NTQwNiwtMTA3NTk5ODU0OV19
 -->
