@@ -91,6 +91,9 @@ Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
 ```
 ### Imputación
 
+ Imputo todas las variables cuantitativas, seleccionando el tipo de 
+ imputación: aleatorio (_random_), de forma que se eliminen aquellos datos missings utilizando un valor al azar. 
+
 
 
 
@@ -235,6 +238,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMT
-A3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMTk0MDMxMDk5OSwtMjA3MzE1OTU0LC0yMD
+cwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
