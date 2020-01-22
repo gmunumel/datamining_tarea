@@ -9,7 +9,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 Se cargó el fichero utilizando la instrucción `read_excel` y se almacenó los datos en la variable `datos`.  El nombre del fichero es `DatosEleccionesEuropeas2019.xlsx`.
 
-**Observación:** Avanzando con la práctica he descubierto que la columna  `Age_0-4_Ptge` daba problemas, así que la que cambiado por `Age_0_4_Ptge` . También verifiqué que no hubiese otra columna que presentará los mismos problemas. 
+**Observación:** Avanzado en la práctica he descubierto que la columna  `Age_0-4_Ptge` daba problemas, así que la que cambiado por `Age_0_4_Ptge` . También verifiqué que no hubiese otra columna que presentará los mismos problemas. 
 
 ### Definición de variables objetivos
 
@@ -300,6 +300,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNz
-MxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTUyMTEwOTc5OCwtNTU3NTQ3ODgxLDIwOD
+c4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4
+NTQ5XX0=
 -->
