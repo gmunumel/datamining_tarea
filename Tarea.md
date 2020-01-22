@@ -78,11 +78,13 @@ varObjBin <- datos$VotosDerIzq
 input <- as.data.frame(select(datos, -c(VotosDerPtge, VotosDerIzq)))
 ```
 
-Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `outliers`. Para cada variable cuantitativa se sustituye por datos ausentes en el caso de que se encuentren menos del 5% de ellos, en caso contrario no se hace nada. Aparte del porcentaje se ha visto las gráficas mostradas por el programa para realizar un análisis más detallado. Para evitar posibles errores en la ejecución se realizó este proceso 3 veces para todas las variables. 
+Se procede a colocar por ausentes aquellos datos atípicos con la instrucción `outliers`. Para cada variable cuantitativa se sustituye por datos ausentes en el caso de que se encuentren menos del $5\%$ de ellos, en caso contrario no se hace nada. Aparte del porcentaje se ha visto las gráficas mostradas por el programa para realizar un análisis más detallado. Para evitar posibles errores en la ejecución se realizó este proceso $3$ veces para todas las variables. 
 
 ### Ausentes (Missings)
 
- Se obtiene la proporción de missings por variable y observación ya que debemos comprobar que los datos para cada variables son sustanciales, para ello se crea la variable `prop_missings` dentro de la variable `input`. 
+ Se obtiene la proporción de missings por variable y observación ya que debemos comprobar que los datos para cada variables son sustanciales, para ello se crea la variable `prop_missings` dentro de la variable `input`.
+ 
+En este caso ninguna observación supera el $50\%$ de ausentes, por lo tanto, se puede afirmar que los datos para cada variable son sustanciales. El máximo valor es de $0.209$.
 
 
 
@@ -227,6 +229,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTMzODYxMSwtMjA3MDcyNzEwMCwtMT
-A3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbODg0NzY0NDcxLC0yMDcwNzI3MTAwLC0xMD
+c1OTk4NTQ5XX0=
 -->
