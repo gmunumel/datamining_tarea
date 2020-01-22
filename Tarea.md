@@ -63,9 +63,19 @@ datos$CCAA <- car::recode(datos$CCAA, "'Andalucía'='And_Ceu_Mel_Can_Extr';'Ceut
 'CastillaMancha'='CastManc_Madr';'Madrid'='CastManc_Madr'")
 ```
 Luego de realizar la agrupación verifico que para cada categoría hay valores mayores al $6\%$: 
-
-
-
+```
+> freq(datos$CCAA)
+                        n    % val%
+And_Ceu_Mel_Can_Extr 1250 15.4 15.4
+Aragón                731  9.0  9.0
+CastillaLeón         2248 27.7 27.7
+CastManc_Madr        1098 13.5 13.5
+Cataluña              947 11.7 11.7
+Gal_Cant_Ast          493  6.1  6.1
+Nav_PVasc_Rio         689  8.5  8.5
+Val_Mur_Bal           654  8.1  8.1
+```
+La categoría más baja es `Gal_Cant_Ast` comprendida de Galicia, Cantabria y Asturias tiene un valor de 6.1
 
  Se convierte en factor las variables `CCAA` y `PartidoCCAA` ya que tienen pocos valores diferentes:
  ```
@@ -248,6 +258,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTgxMjQ3NiwtMjA3MzE1OTU0LC0yMD
+eyJoaXN0b3J5IjpbLTg0NDE1MTI3OSwtMjA3MzE1OTU0LC0yMD
 cwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
