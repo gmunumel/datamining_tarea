@@ -93,6 +93,11 @@ Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
 
  Imputo todas las variables cuantitativas, seleccionando el tipo de 
  imputación: aleatorio (_random_), de forma que se eliminen aquellos datos missings utilizando un valor al azar. 
+```
+input[,as.vector(which(sapply(input, class)=="numeric"))] <- 
+   sapply(Filter(is.numeric, input),function(x) impute(x,"random"))
+```
+Verifico que no me quedan datos missings y que los datos de mis 
 
 
 
@@ -238,6 +243,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDMxMDk5OSwtMjA3MzE1OTU0LC0yMD
+eyJoaXN0b3J5IjpbLTIzNDEwMjgzMiwtMjA3MzE1OTU0LC0yMD
 cwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
