@@ -62,6 +62,10 @@ datos$CCAA <- car::recode(datos$CCAA, "'Andalucía'='And_Ceu_Mel_Can_Extr';'Ceut
 'Navarra'='Nav_PVasc_Rio';'PaísVasco'='Nav_PVasc_Rio';'Rioja'='Nav_PVasc_Rio';
 'CastillaMancha'='CastManc_Madr';'Madrid'='CastManc_Madr'")
 ```
+Luego de realizar la agrupación verifico que para cada categoría hay valores mayores al $6\%$: 
+
+
+
 
  Se convierte en factor las variables `CCAA` y `PartidoCCAA` ya que tienen pocos valores diferentes:
  ```
@@ -97,7 +101,7 @@ Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
 input[,as.vector(which(sapply(input, class)=="numeric"))] <- 
    sapply(Filter(is.numeric, input),function(x) impute(x,"random"))
 ```
-Verifico que no me quedan datos missings y que los datos están bien depurados, para ello utilizo las instrucciones `summary(input)` y `str(input)`. Con la primera instrucción verifico que no hay 
+Verifico que no me quedan datos missings y que los datos están bien depurados, para ello utilizo las instrucciones `summary(input)` y `str(input)`. Con la primera instrucción verifico que no hay datos ausentes (`NA`) 
 
 
 
@@ -244,6 +248,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwNzgyNjg2LC0yMDczMTU5NTQsLTIwNz
-A3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbMTM4MTgxMjQ3NiwtMjA3MzE1OTU0LC0yMD
+cwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
