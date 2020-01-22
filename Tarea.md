@@ -118,7 +118,7 @@ Una vez confirmado que los datos están bien depurados procedo a eliminar aquell
 
 Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal con mis variables objetivos. 
  
- El input final es: 
+ El `input` final es: 
  ```
  > str(input)
 'data.frame':	8110 obs. of  32 variables:
@@ -300,6 +300,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTM1NTQ1OSwyMDg3ODc5NzksLTIwNz
+eyJoaXN0b3J5IjpbLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNz
 MxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
