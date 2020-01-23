@@ -47,17 +47,17 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |:---|:---|:---|:---|:---|:---|:---|
 |CCAA|chr|No|8110|NA|NA|NA
 |CodigoINE |chr|No|8110|NA|NA|NA|
-|Censo |num|No|8110|3.00|4353.20
-|VotosEmitidos |num|No|8110|0.00|2798.65
-|Abstenciones|num|No|8110|0.00|1552.56
-|Blancos |num|No|8110|0.00|26.75
-|Nulos |num|No|8110|0.00|23.96
-|Cs|num|No|8110|0.00|338.91
-|PP|num|No|8110|0.00|560.92
-|PSOE|num|No|8110|0.00|909.96
-|VOX |num|No|8110|0.00|173.28
-|Podemos |num|No|8110|0.00|279.14
-|Otros |num|No|8110|0.00|485.73
+|Censo |num|No|8110|3.00|4353.20|2391391.00
+|VotosEmitidos |num|No|8110|0.00|2798.65|1623866.00
+|Abstenciones|num|No|8110|0.00|1552.56|768322.00
+|Blancos |num|No|8110|0.00|26.75|8211.00
+|Nulos |num|No|8110|0.00|23.96|5511.00
+|Cs|num|No|8110|0.00|338.91|289684.00
+|PP|num|No|8110|0.00|560.92|383846.00
+|PSOE|num|No|8110|0.00|909.96|505814.00
+|VOX |num|No|8110|0.00|173.28|149557.00
+|Podemos |num|No|8110|0.00|279.14|213161.00
+|Otros |num|No|8110|0.00|485.73|
 |PartidoMasVotado|chr|No|8110|NA|NA|NA
 |Population|num|No|8110|5.00|5746.77|
 |Age_0_4_Ptge|num|No|8110|0.00|3.02|
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODExNDM4MiwxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbMTczMjEzNzgzLDE5NTg3MjMyNzQsLTEyMT
+cyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1
+NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
