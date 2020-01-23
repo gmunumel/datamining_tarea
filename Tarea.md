@@ -119,7 +119,7 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |PartidoCCAA |chr|No|8110|NA|NA|NA
 |VotosDerIzq |num|No|8110|0.00|0.49|1.00|
 |VotosDerPtge|num|No|8110|0.00|32.57|100.00|
-[Table caption, works as a reference][section-mmd-tables-table1]
+TODO[Table caption, works as a reference][section-mmd-tables-table1]
  
 ## 4) Corrección de errores
 
@@ -239,12 +239,13 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
 ## 6) Relación entre variables input y objetivo
 
 Ejecutando el gráfico del `mosaico_targetbinaria` con la variable binaria objetivo `varObjBin` y la variable `CCAA` se obtiene el siguiente gráfico: 
-GRAFICO 1
+TODO GRAFICO 1
 Del gráfico 1 se aprecia que en `CastillaLeón` se tiene que la relación es muy grande entre la comunidad autónoma y los votos que obtuvieron partidos de derecha, ya que la barra roja es mayor a la azul, mientras que para el `Nav_PVasc_Rioja` hay más votos a los partidos de izquierda, ya que la barra roja es muy pequeña comparada con la barra azul. Por lo tanto, se puede concluir que la relación entre la variable `CCAA` y la variable objetivo binaria es fuerte. 
 
 Realizando la misma instrucción pero con la variable `PartidoCCAA` se obtiene el gráfico 2. 
-GRAFICO 2
+TODO GRAFICO 2
 
+En este caso, la variable `PartidoCCAA`, que significa el partido político que gobierna en la comunidad autónoma en ese momento no guarda relación con la variable binaria de votos de partidos de derecha e izquierda, ya que sus barras tienen casi el mismo tama?o.
 
 
 
@@ -387,8 +388,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODk0NzU2LC04NjQ1MzI1MjIsLTkzND
-cyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2
-ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLT
-IwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTIwMzAxMTE4NjUsLTg2NDUzMjUyMiwtOT
+M0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcy
+MDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NC
+wtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
