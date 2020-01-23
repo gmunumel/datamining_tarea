@@ -288,11 +288,13 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
  * Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matrix $X'X$. 
  * El número de parámetros incluidos en el modelo ha de ser muy inferior al de observaciones, para evitar problemas en la estimación y de sobreajuste.
 
- Sabemos que el modelo de regresión lineal pretende predecir una variable `y` (variable objetivo) a partir de un conjunto de m` variables $x_i$ (input) a través de la ecuación:
- y = f(x1, x2, ..., xm) + e
+ Sabemos que el modelo de regresión lineal pretende predecir una variable $y$ (variable objetivo) a partir de un conjunto de $m$ variables $x_i$ (input) a través de la ecuación:
+ 
+ $y = f(x_1, x_2, ... , x_m) + e$
 
- En el caso particular del modelo la ecuación anterior viene ser simplificada como:
- y' = B0 + B1x1 + B2x2 + ... + BmXm
+ La simplificación de la ecuación anterior es:
+ 
+ $y' = B_0 + B_1x_1 + B_2x_2 + ... + B_mX_m$
 
  En mi caso la formula anterior vendr??a representa de la forma:
 
@@ -443,11 +445,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTQzNjE5Myw5NDkwMDg5MzUsMTIzOD
-cyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2
-MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Nj
-k5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYz
-MiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC
-01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3
-MjcxMDBdfQ==
+eyJoaXN0b3J5IjpbLTE5MTM1Mjc1MzAsOTQ5MDA4OTM1LDEyMz
+g3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMz
+NjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNT
+Y5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2
+MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0My
+wtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcw
+NzI3MTAwXX0=
 -->
