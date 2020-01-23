@@ -64,21 +64,21 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |Age_under19_Ptge|num|No|8110|0.00|13.56
 |Age_19_65_pct |num|No|8110|23.46|57.37
 |Age_over65_pct|num|No|8110|0.00|29.08
-|WomanPopulationPtge |num|No|8110|11.77|
-|ForeignersPtge|num|No|8110|0.00|47.30
-|SameComAutonPtge|num|No|8110|0.00|
-|SameComAutonDiffProvPtge|num|No|8110|0.00|
-|DifComAutonPtge |num|No|8110|0.00|
-|UnemployLess25_Ptge |num|No|8110|0.00|
-|Unemploy25_40_Ptge|num|No|8110|0.00|
-|UnemployMore40_Ptge |num|No|8110|0.00|
-|AgricultureUnemploymentPtge |num|No|8110|0.00|
-|IndustryUnemploymentPtge|num|No|8110|0.00|
-|ConstructionUnemploymentPtge|num|No|8110|0.00|
-|ServicesUnemploymentPtge|num|No|8110|0.00|
-|totalEmpresas |num|Si (5)|8110|0.00|
-|Industria |num|Si (187)|7923|0.00|
-|Construccion|num|Si (138)|7972|0.00|
+|WomanPopulationPtge |num|No|8110|11.77|47.30
+|ForeignersPtge|num|No|8110|0.00|6.38
+|SameComAutonPtge|num|No|8110|0.00|81.62
+|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34
+|DifComAutonPtge |num|No|8110|0.00|10.73
+|UnemployLess25_Ptge |num|No|8110|0.00|7.32
+|Unemploy25_40_Ptge|num|No|8110|0.00|36.99
+|UnemployMore40_Ptge |num|No|8110|0.00|50.18
+|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41
+|IndustryUnemploymentPtge|num|No|8110|0.00|10.00
+|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84
+|ServicesUnemploymentPtge|num|No|8110|0.00|58.64
+|totalEmpresas |num|Si (5)|8110|0.00|398.95
+|Industria |num|Si (187)|7923|0.00|0.04
+|Construccion|num|Si (138)|7972|0.00|0.06
 |ComercTTEHosteleria |num|Si (9)|8101|0.00|
 |Servicios |num|Si (62)|8048|0.00|
 |Inmuebles |num|Si (5)|8105|6.00|
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjQ2ODEwNSwxOTU4NzIzMjc0LC0xMj
+eyJoaXN0b3J5IjpbLTkzOTkzNTYzNiwxOTU4NzIzMjc0LC0xMj
 E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
 NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
