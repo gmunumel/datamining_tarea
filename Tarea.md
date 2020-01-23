@@ -258,7 +258,7 @@ En el gráfico 3 se aprecia que el porcentaje de personas mayores a 65 años tie
 
 TODO GRAFICO 4
 
-Se observa que para la gráfica 4 la relación de la variable cuantitativa `Superficie`. `Superficie` del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
+Se observa que para la gráfica 4 la relación de la variable cuantitativa `Superficie`. La superficie del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
 
 
 
@@ -404,7 +404,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDY3ODUwNiw3MjI3MjQzNTksLTg2ND
+eyJoaXN0b3J5IjpbMTc2MjE2OTg1Myw3MjI3MjQzNTksLTg2ND
 UzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMy
 NzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLT
 IwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
