@@ -272,12 +272,9 @@ El estadístico V de Cramer nos permite detectar la relación que existe entre d
  
 TODO GRAFICO 7
 
-Para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden.
- Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos 
- de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es
- el porcentaje de votos de los partidos de derecha, ambas guardan relaci?n. Una de las variables 
- aleatorias arroja resultados superiores para la variable PartidoCCAA, pero no la otra, por
- lo tanto, no se puede descartar. 
+Para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Una de las variables aleatorias arroja resultados superiores para la variable `PartidoCCAA`, pero no para la otra, por lo tanto, no se puede descartar. Ver g
+
+TODO GRAFICO 8 
 
 # Files
 
@@ -418,9 +415,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNTE1NjEzLDE3NTQ0NDQ4NTIsMTk2Mj
-gwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIs
-LTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTExNDAwNDEzNTIsMTc1NDQ0NDg1MiwxOT
+YyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUy
+MiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLT
+EyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMx
+NTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
