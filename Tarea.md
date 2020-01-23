@@ -39,6 +39,7 @@ Comprobación de valores distintos de las variables cuantitativas, gracias a la 
  ya que no tiene $8110$ registros que es el total de registros: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`, `PobChange_pct`, `PersonasInmueble` y `Explotaciones`. La instrucción utilizada ha sido `psych::describe(Filter...`.
  
 Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que para la variable `CCAA` hay comunidades con muy pocos votos como lo son para _Ceuta_ y _Melilla_. Por lo tanto, hay que hacer correcciones. Para la variable `PartidoCCAA` se observa que solo toma valores entre: _PP_, _PSOE_ y _Otro_, por tanto, es candidato a convertirse en factor. 
+``
 
 He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE`tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
 
@@ -350,8 +351,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOT
-U4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3
-OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1ND
-ldfQ==
+eyJoaXN0b3J5IjpbLTUwMDgwODI3NCwtOTM0NzI1NjMyLC0xOD
+IyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0
+Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMC
+wtMTA3NTk5ODU0OV19
 -->
