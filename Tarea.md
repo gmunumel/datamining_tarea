@@ -247,8 +247,9 @@ TODO GRAFICO 2
 
 En este caso, la variable `PartidoCCAA`, que significa el partido político que gobierna en la comunidad autónoma en ese momento no guarda relación con la variable binaria de votos de partidos de derecha e izquierda, ya que sus barras tienen casi el mismo tamaño.
 
-A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` y `Superficie`. 
+A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` y `Superficie`. Se utiliza la instrucción `boxplot_targetbinaria`.
 
+TODO GRAFICO 3
 
 
 
@@ -391,8 +392,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTEzNTY5MywtODY0NTMyNTIyLC05Mz
-Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
-Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
-0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzND
+cyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2
+ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLT
+IwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
