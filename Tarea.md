@@ -285,12 +285,10 @@ Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la vari
 Antes de realizar el modelo de regresión lineal es importante asegurarnos que las variables input están depurados esto significa:
  * Asegurarse que tanto las variables objetivos como las input no contienen datos ausentes o missings. 
  * Las variables input no deben contener datos atípicos, ya que pueden desvirtuar los resultados.
- * Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la martrix X?X. 
- * El n?mero de par?metros incluidos en el modelo ha de ser muy inferior al de
-   observaciones, para evitar problemas en la estimaci?n y de sobreajuste.
+ * Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matrix $X'X$. 
+ * El número de parámetros incluidos en el modelo ha de ser muy inferior al de observaciones, para evitar problemas en la estimación y de sobreajuste.
 
- Sabemos que el modelo de regresión lineal pretende predecir una variable `y` (variable
- objetivo) a partir de un conjunto de `m` variables `xi` (input) a través de la ecuación:
+ Sabemos que el modelo de regresión lineal pretende predecir una variable `y` (variable objetivo) a partir de un conjunto de m` variables $x_i$ (input) a través de la ecuación:
  y = f(x1, x2, ..., xm) + e
 
  En el caso particular del modelo la ecuación anterior viene ser simplificada como:
@@ -445,7 +443,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE1NzcxMyw5NDkwMDg5MzUsMTIzOD
+eyJoaXN0b3J5IjpbMTUwNTQzNjE5Myw5NDkwMDg5MzUsMTIzOD
 cyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2
 MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Nj
 k5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYz
