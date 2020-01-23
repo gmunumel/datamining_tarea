@@ -251,9 +251,11 @@ A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` 
 
 TODO GRAFICO 3
 
- En el gráfico 3 se aprecia como la proporción de personas mayores a 65 años tiene mucha relación con la variable binaria de votos de la derecha e izquierda conseguidos. En detalle, la caja de bijotes azul se encuentra por encima de la caja
- de bijote roja lo que significa que los votos a partidos de derecha son mas frecuentes 
- entre personas mayores a 65 a?os.
+En el gráfico 3 se aprecia como la proporción de personas mayores a 65 años tiene mucha relación con la variable binaria de votos de la derecha e izquierda conseguidos. En detalle, la caja de bigotes azul se encuentra por encima de la caja de bigote roja lo que significa que los votos a partidos de derecha son más frecuentes entre personas mayores a 65 años.
+
+TODO GRAFICO 4
+
+
 
 
 
@@ -396,7 +398,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDQ3MzI1MSw3MjI3MjQzNTksLTg2ND
+eyJoaXN0b3J5IjpbLTMzNjMwOTkxOCw3MjI3MjQzNTksLTg2ND
 UzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMy
 NzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLT
 IwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
