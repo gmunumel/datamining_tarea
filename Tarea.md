@@ -268,11 +268,7 @@ Se observa en la gráfica 6 la relación de las variables cuantitativas con la v
 TODO GRAFICO 6
 
 ### Importancia de las variables (V Cramer)
-El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el siguiente gráfico podemos ver las variables que más se relacionan con la variable objetivo binaria. De forma que la variable
- `CCAA` (comunidad autónoma) tiene un valor del $50%$, `Age_under19_Pte` (porcentaje de
- ciudadanos con menos de 19 a?os que votan o familias con hijos que votan) tiene un 0.32, 
- seguido de cerca por Age_over65_pct (porcentaje
- de ciudadanos con m?s de 65 a?os que votan) con 0.31, el resto de resultado se aprecia en la gr?fica. Es 
+El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el siguiente gráfico podemos ver las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$, el resto de resultadow se aprecia en la gr?fica. Es 
  importante destacar, que las variables Explotaciones (n?mero de explotaciones agr?colas en 
  el municipio) y PartidoCCAA (partido pol?tico que gobierna en la CCAA en el momento de las 
  elecciones) dieron resultados por debajo de una variable aleatoria, lo que indica que dichas
@@ -422,9 +418,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMzI1ODY3LDE3NTQ0NDQ4NTIsMTk2Mj
-gwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIs
-LTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTEyMjUyNDMzMzAsMTc1NDQ0NDg1MiwxOT
+YyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUy
+MiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLT
+EyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMx
+NTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
