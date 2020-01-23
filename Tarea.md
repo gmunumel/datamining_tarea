@@ -90,6 +90,7 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |PartidoCCAA |chr|No|8110|NA|NA|NA
 |VotosDerIzq |num|No|8110|0.00|0.49|1.00|
 |VotosDerPtge|num|No|8110|0.00|32.57|100.00|
+[Table caption, works as a reference][section-mmd-tables-table1]
  
 ## 4) Corrección de errores
 
@@ -349,7 +350,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMT
-IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
-OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOT
+U4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3
+OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1ND
+ldfQ==
 -->
