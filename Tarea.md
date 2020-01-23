@@ -45,51 +45,51 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|
 |:---|:---|:---|:---|
-|CCAA|chr|
-|CodigoINE |chr
-|Censo |num
-|VotosEmitidos |num
-|Abstenciones|num
-|Blancos |num
-|Nulos |num
-|Cs|num
-|PP|num
-|PSOE|num
-|VOX |num
-|Podemos |num
-|Otros |num
-|PartidoMasVotado|chr
-|Population|num
-|Age_0_4_Ptge|num
-|Age_under19_Ptge|num
-|Age_19_65_pct |num
-|Age_over65_pct|num
-|WomanPopulationPtge |num
-|ForeignersPtge|num
-|SameComAutonPtge|num
-|SameComAutonDiffProvPtge|num
-|DifComAutonPtge |num
-|UnemployLess25_Ptge |num
-|Unemploy25_40_Ptge|num
-|UnemployMore40_Ptge |num
-|AgricultureUnemploymentPtge |num
-|IndustryUnemploymentPtge|num
-|ConstructionUnemploymentPtge|num
-|ServicesUnemploymentPtge|num
-|totalEmpresas |num
-|Industria |num
-|Construccion|num
-|ComercTTEHosteleria |num
-|Servicios |num
-|Inmuebles |num
-|Superficie|num
-|Densidad|num
-|PobChange_pct |num
-|PersonasInmueble|num
-|Explotaciones |num
-|PartidoCCAA |chr
-|VotosDerIzq |num
-|VotosDerPtge|num
+|CCAA|chr|No
+|CodigoINE |chr|No
+|Censo |num|No
+|VotosEmitidos |num|No
+|Abstenciones|num|No
+|Blancos |num|No
+|Nulos |num|No
+|Cs|num|No
+|PP|num|No
+|PSOE|num|No
+|VOX |num|No
+|Podemos |num|No
+|Otros |num|No
+|PartidoMasVotado|chr|No
+|Population|num|No
+|Age_0_4_Ptge|num|No
+|Age_under19_Ptge|num|No
+|Age_19_65_pct |num|No
+|Age_over65_pct|num|No
+|WomanPopulationPtge |num|No
+|ForeignersPtge|num|No
+|SameComAutonPtge|num|No
+|SameComAutonDiffProvPtge|num|
+|DifComAutonPtge |num|No
+|UnemployLess25_Ptge |num|
+|Unemploy25_40_Ptge|num|
+|UnemployMore40_Ptge |num|
+|AgricultureUnemploymentPtge |num|
+|IndustryUnemploymentPtge|num|
+|ConstructionUnemploymentPtge|num|
+|ServicesUnemploymentPtge|num|
+|totalEmpresas |num|
+|Industria |num|
+|Construccion|num|
+|ComercTTEHosteleria |num|
+|Servicios |num|
+|Inmuebles |num|
+|Superficie|num|
+|Densidad|num|
+|PobChange_pct |num|
+|PersonasInmueble|num|
+|Explotaciones |num|
+|PartidoCCAA |chr|
+|VotosDerIzq |num|
+|VotosDerPtge|num|
  
 ## 4) Corrección de errores
 
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2ODg2MTQ1LC0xMjE3MjA2ODQzLC01NT
-c1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3Mjcx
-MDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTIxNzUyODE1OCwtMTIxNzIwNjg0MywtNT
+U3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3
+MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
