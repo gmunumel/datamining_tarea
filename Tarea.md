@@ -41,6 +41,8 @@ Comprobación de valores distintos de las variables cuantitativas, gracias a la 
 Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que para la variable `CCAA` hay comunidades con muy pocos votos como lo son para _Ceuta_ y _Melilla_. Por lo tanto, hay que hacer correcciones. Para la variable `PartidoCCAA` se observa que solo toma valores entre: _PP_, _PSOE_ y _Otro_, por tanto, es candidato a convertirse en factor. 
 
 He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE`tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
+
+En la siguiente tabla se puede apreciar todo el detalle de las varaibl
  
 ## 4) Corrección de errores
 
@@ -300,7 +302,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMD
-g3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5
-ODU0OV19
+eyJoaXN0b3J5IjpbODAyODQxODg0LC0xMjE3MjA2ODQzLC01NT
+c1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3Mjcx
+MDAsLTEwNzU5OTg1NDldfQ==
 -->
