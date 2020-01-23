@@ -47,49 +47,49 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |:---|:---|:---|:---|:---|:---|:---|
 |CCAA|chr|No|8110|NA|NA|NA
 |CodigoINE |chr|No|8110|NA|NA|NA|
-|Censo |num|No|8110|3.00|4353.20|2391391.00
-|VotosEmitidos |num|No|8110|0.00|2798.65|1623866.00
-|Abstenciones|num|No|8110|0.00|1552.56|768322.00
-|Blancos |num|No|8110|0.00|26.75|8211.00
-|Nulos |num|No|8110|0.00|23.96|5511.00
-|Cs|num|No|8110|0.00|338.91|289684.00
-|PP|num|No|8110|0.00|560.92|383846.00
-|PSOE|num|No|8110|0.00|909.96|505814.00
-|VOX |num|No|8110|0.00|173.28|149557.00
-|Podemos |num|No|8110|0.00|279.14|213161.00
-|Otros |num|No|8110|0.00|485.73|373262.00
+|Censo |num|No|8110|3.00|4353.20|2391391.00|
+|VotosEmitidos |num|No|8110|0.00|2798.65|1623866.00|
+|Abstenciones|num|No|8110|0.00|1552.56|768322.00|
+|Blancos |num|No|8110|0.00|26.75|8211.00|
+|Nulos |num|No|8110|0.00|23.96|5511.00|
+|Cs|num|No|8110|0.00|338.91|289684.00|
+|PP|num|No|8110|0.00|560.92|383846.00|
+|PSOE|num|No|8110|0.00|909.96|505814.00|
+|VOX |num|No|8110|0.00|173.28|149557.00|
+|Podemos |num|No|8110|0.00|279.14|213161.00|
+|Otros |num|No|8110|0.00|485.73|373262.00|
 |PartidoMasVotado|chr|No|8110|NA|NA|NA
-|Population|num|No|8110|5.00|5746.77|3141991.00
-|Age_0_4_Ptge|num|No|8110|0.00|3.02|13.24
-|Age_under19_Ptge|num|No|8110|0.00|13.56|33.70
-|Age_19_65_pct |num|No|8110|23.46|57.37|100.00
-|Age_over65_pct|num|No|8110|0.00|29.08|76.47
-|WomanPopulationPtge |num|No|8110|11.77|47.30|72.68
-|ForeignersPtge|num|No|8110|0.00|6.38|71.47
-|SameComAutonPtge|num|No|8110|0.00|81.62|127.16
-|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|67.31
-|DifComAutonPtge |num|No|8110|0.00|10.73|100.00
-|UnemployLess25_Ptge |num|No|8110|0.00|7.32|100.00
-|Unemploy25_40_Ptge|num|No|8110|0.00|36.99|100.00
-|UnemployMore40_Ptge |num|No|8110|0.00|50.18|100.00
-|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41|100.00
-|IndustryUnemploymentPtge|num|No|8110|0.00|10.00|100.00
-|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84|100.00
-|ServicesUnemploymentPtge|num|No|8110|0.00|58.64|100.00
-|totalEmpresas |num|Si (5)|8110|0.00|398.95|299397.00
-|Industria |num|Si (187)|7923|0.00|0.04|0.45
-|Construccion|num|Si (138)|7972|0.00|0.06|0.41
-|ComercTTEHosteleria |num|Si (9)|8101|0.00|0.17|0.81
-|Servicios |num|Si (62)|8048|0.00|0.12|0.72
-|Inmuebles |num|Si (5)|8105|6.00|3254.20|1615548.00
-|Superficie|num|No|8110|0.03|62.38|1750.33
-|Densidad|num|No|8110|0.23|186.15|27856.42
-|PobChange_pct |num|Si (7)|8103|-52.27|-4.90|138.46
-|PersonasInmueble|num|Si (5)|8105|0.11|1.30|3.33
-|Explotaciones |num|Si (23)|8087|1.00|122.26|
+|Population|num|No|8110|5.00|5746.77|3141991.00|
+|Age_0_4_Ptge|num|No|8110|0.00|3.02|13.24|
+|Age_under19_Ptge|num|No|8110|0.00|13.56|33.70|
+|Age_19_65_pct |num|No|8110|23.46|57.37|100.00|
+|Age_over65_pct|num|No|8110|0.00|29.08|76.47|
+|WomanPopulationPtge |num|No|8110|11.77|47.30|72.68|
+|ForeignersPtge|num|No|8110|0.00|6.38|71.47|
+|SameComAutonPtge|num|No|8110|0.00|81.62|127.16|
+|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|67.31|
+|DifComAutonPtge |num|No|8110|0.00|10.73|100.00|
+|UnemployLess25_Ptge |num|No|8110|0.00|7.32|100.00|
+|Unemploy25_40_Ptge|num|No|8110|0.00|36.99|100.00|
+|UnemployMore40_Ptge |num|No|8110|0.00|50.18|100.00|
+|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41|100.00|
+|IndustryUnemploymentPtge|num|No|8110|0.00|10.00|100.00|
+|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84|100.00|
+|ServicesUnemploymentPtge|num|No|8110|0.00|58.64|100.00|
+|totalEmpresas |num|Si (5)|8110|0.00|398.95|299397.00|
+|Industria |num|Si (187)|7923|0.00|0.04|0.45|
+|Construccion|num|Si (138)|7972|0.00|0.06|0.41|
+|ComercTTEHosteleria |num|Si (9)|8101|0.00|0.17|0.81|
+|Servicios |num|Si (62)|8048|0.00|0.12|0.72|
+|Inmuebles |num|Si (5)|8105|6.00|3254.20|1615548.00|
+|Superficie|num|No|8110|0.03|62.38|1750.33|
+|Densidad|num|No|8110|0.23|186.15|27856.42|
+|PobChange_pct |num|Si (7)|8103|-52.27|-4.90|138.46|
+|PersonasInmueble|num|Si (5)|8105|0.11|1.30|3.33|
+|Explotaciones |num|Si (23)|8087|1.00|122.26|4759.00|
 |PartidoCCAA |chr|No|8110|NA|NA|NA
-|VotosDerIzq |num|No|8110|0.00|0.49|
-|VotosDerPtge|num|No|8110|0.00|32.57|
+|VotosDerIzq |num|No|8110|0.00|0.49|1.00|
+|VotosDerPtge|num|No|8110|0.00|32.57|100.00|
  
 ## 4) Corrección de errores
 
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDgyNTE4MywxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMT
+IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
+OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
