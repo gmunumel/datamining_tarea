@@ -307,7 +307,8 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Lo ideal es que $R^2$ o bondad del ajuste sea cercano a $1$ y que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del modelo y por tanto 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usaran las medidas $R^2$ o bondad del ajuste sea cercano a $1$ y que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
+
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|
 ||
@@ -464,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNj
-k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
-ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
-c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
-NTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LD
-E5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3
-ODc5NzldfQ==
+eyJoaXN0b3J5IjpbMTY4NTk3Njg5MSwxODEyOTk0OTgyLDExNz
+EyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMy
+NzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLD
+M5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIx
+NjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLT
+E4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3
+NTQ3ODgxXX0=
 -->
