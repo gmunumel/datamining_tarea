@@ -260,7 +260,7 @@ TODO GRAFICO 4
 
 Se observa para la gráfica 4 la relación de la variable cuantitativa `Superficie`. La superficie del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
 
-Se observa en la siguiente gráfica la relación de las variables cuantitativas con la variable continua. Para las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen relación negativa más obvia ya que tiene un color rojizo, lo que significa, que la relación con la variable continua de porcentaje de votos de los partidos de derecha es inversa. En detalle, para la variable `Age_under19_Ptge`, que es el porcentaje de personas menores a 19 años que pueden votar o familias con hijos menores a 18 años que votan, su relación es fuertemente negativa y decrece. Por el contrario, para la variable `Age_over65_pct` la relación es fuertemente positiva, lo que indica que el porcentaje de persona mayores a 65 años que votan a partidos de derecha es grande. Las Siguientes variables
+Se observa en la siguiente gráfica la relación de las variables cuantitativas con la variable objetivo continua. Para las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen relación negativa más obvia ya que tienen un color rojizo fuerte, lo que significa, que la relación con la variable continua de porcentaje de votos de los partidos de derecha es inversa. En detalle, para la variable `Age_under19_Ptge`, que es el porcentaje de personas menores a 19 años que pueden votar o familias con hijos menores a 18 años que votan, su relación es fuertemente negativa y decrece, lo que nos indica que este grupo de personas votaría por partidos de izquierda. Por el contrario, para la variable `Age_over65_pct` la relación es fuertemente positiva, lo que indica que el porcentaje de persona mayores a 65 años que votan a partidos de derecha es grande. Las Siguientes variables
  son las que se aprecia que tienen m?s relaci?n con la variable continua ya sea 
  creciente o decreciente: Age_0_4_Ptge, Age_under19_Ptge, Age_19_65_ptc, Age_over65_pct,
  WomanPopulationPtge, Industria, Construccion, ComercTTEHosteleria, Servicios, 
@@ -410,9 +410,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk0OTI1NzMsNTY5OTIxNjM0LDcyMj
-cyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4MjI0MTM5
-MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3ODgxLD
-IwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3MTAwLC0xMDc1
-OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbMjEzMDgxNTk5MSw1Njk5MjE2MzQsNzIyNz
+I0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzky
+NCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMj
+A4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5
+OTg1NDldfQ==
 -->
