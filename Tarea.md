@@ -269,7 +269,7 @@ Se observa en la gráfica 6 la relación de las variables cuantitativas con la v
 
 TODO GRAFICO 6
 
-### Importancia de las variables (V Cramer)
+### Importancia de las variables (_V de Cramer_)
 El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el gráfico 7 se observa las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de las dos variables aleatorias, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables originales entonces se podrían descartar.
  
 TODO GRAFICO 7
@@ -278,7 +278,7 @@ En el gráfico 8, para las variables continuas se aprecia una tendencia similar 
 
 TODO GRAFICO 8 
 
-Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
+Con los resultados obtenidos de los gráficos $7$ y $8$ se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
 
 ## 7) Modelo de regresión lineal
 
@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Lo ideal es que $R^2$ o bondad del ajuste sea cercano a $1$ y que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Lo ideal es que $R^2$ o bondad del ajuste sea cercano a $1$ y que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del modelo y por tanto 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|
 ||
@@ -464,11 +464,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMDc3NjY4LDExNzEyMjAyNTksLTE2OT
-Q0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4
-NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNz
-U0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1
-OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMT
-k1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4
-Nzk3OV19
+eyJoaXN0b3J5IjpbLTIxMDczODIyMTYsMTE3MTIyMDI1OSwtMT
+Y5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5
+Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LD
+E3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0
+MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNC
+wxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4
+Nzg3OTc5XX0=
 -->
