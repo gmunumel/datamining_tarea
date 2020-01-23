@@ -260,8 +260,7 @@ TODO GRAFICO 4
 
 Se observa para la gráfica 4 la relación de la variable cuantitativa `Superficie`. La superficie del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
 
-Se observa en la siguiente gráfica la relación de las variables cuantitativas con la variable continua. Para las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen mas relación negativa, lo que significa, que la relacion con la variable continua de porcentaje de votos de los 
- partidos de derecha es inversa. En detalle, para la variable Age_under19_Ptge, que es 
+Se observa en la siguiente gráfica la relación de las variables cuantitativas con la variable continua. Para las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen relación negativa más obvia ya que tiene un color rojizo, lo que significa, que la relación con la variable continua de porcentaje de votos de los partidos de derecha es inversa. En detalle, para la variable `Age_under19_Ptge`, que es 
  el porcentaje de personas menores a 19 a?os que pueden votar o que votan y tienen hijos menores
  a 18 aÃ±os su relaciÃ³n es fuertemente negativa y decrece. Para la variable Age_over65_pct, 
  la relaciÃ³n es fuertemente positiva, lo que indica que el porcentaje de persona 
@@ -415,7 +414,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTA1Mjg2Myw1Njk5MjE2MzQsNzIyNz
+eyJoaXN0b3J5IjpbMTU2NDc4MzI0Nyw1Njk5MjE2MzQsNzIyNz
 I0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzky
 NCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMj
 A4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5
