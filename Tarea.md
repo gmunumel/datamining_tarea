@@ -312,6 +312,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
 |Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|42|XXX|
+|Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` |$0.5851544$|$0.6044848$|$0.01933$|42|XXX|
 
 
 ### Modelo con transformaciones y discretizadas
@@ -466,7 +467,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI5OTkxOTUsMTgxMjk5NDk4MiwxMT
+eyJoaXN0b3J5IjpbLTE2MzMwMTA2NzksMTgxMjk5NDk4MiwxMT
 cxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIz
 MjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMy
 wzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTky
