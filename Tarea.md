@@ -307,11 +307,11 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|
-||
+|Modelo 1|Todas las vv
 
 ### Modelo con transformaciones y discretizadas
 
@@ -465,7 +465,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA5MjAzMDYsMTgxMjk5NDk4MiwxMT
+eyJoaXN0b3J5IjpbLTE5ODczNjgxNjgsMTgxMjk5NDk4MiwxMT
 cxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIz
 MjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMy
 wzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTky
