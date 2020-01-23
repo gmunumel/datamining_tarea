@@ -276,7 +276,7 @@ En el gráfico 8, para las variables continuas se aprecia una tendencia similar 
 
 TODO GRAFICO 8 
 
-Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos tiene valores por debajo de las variables
+Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla ya que me puede proporcionar información en el modelo con la interacción con otra variable. 
 
 # Files
 
@@ -417,10 +417,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwNjQ4NDIxLC03NTI2MzM2MDMsMzkxNT
-c2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQs
-NzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMj
-QxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4
-ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLT
-EwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MT
+U3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0
+LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4Mj
+I0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3
+ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3MTAwLC
+0xMDc1OTk4NTQ5XX0=
 -->
