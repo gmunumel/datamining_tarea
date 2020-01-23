@@ -45,51 +45,51 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 En la siguiente tabla resumen se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|Min Valor|Media|Max Valor|
 |:---|:---|:---|:---|:---|:---|:---|
-|CCAA|chr|No|8110|0.00
-|CodigoINE |chr|No|8110
-|Censo |num|No|8110
-|VotosEmitidos |num|No|8110
-|Abstenciones|num|No|8110
-|Blancos |num|No|8110
-|Nulos |num|No|8110
-|Cs|num|No|8110
-|PP|num|No|8110
-|PSOE|num|No|8110
-|VOX |num|No|8110
-|Podemos |num|No|8110
-|Otros |num|No|8110
-|PartidoMasVotado|chr|No|8110
-|Population|num|No|8110
-|Age_0_4_Ptge|num|No|8110
-|Age_under19_Ptge|num|No|8110
-|Age_19_65_pct |num|No|8110
-|Age_over65_pct|num|No|8110
-|WomanPopulationPtge |num|No|8110
-|ForeignersPtge|num|No|8110
-|SameComAutonPtge|num|No|8110
-|SameComAutonDiffProvPtge|num|No|8110
-|DifComAutonPtge |num|No|8110
-|UnemployLess25_Ptge |num|No|8110
-|Unemploy25_40_Ptge|num|No|8110
-|UnemployMore40_Ptge |num|No|8110
-|AgricultureUnemploymentPtge |num|No|8110
-|IndustryUnemploymentPtge|num|No|8110
-|ConstructionUnemploymentPtge|num|No|8110
-|ServicesUnemploymentPtge|num|No|8110
-|totalEmpresas |num|Si (5)|8110
-|Industria |num|Si (187)|7923    
-|Construccion|num|Si (138)|7972    
-|ComercTTEHosteleria |num|Si (9)|8101    
-|Servicios |num|Si (62)|8048    
-|Inmuebles |num|Si (5)|8105 
-|Superficie|num|No|8110
-|Densidad|num|No|8110
-|PobChange_pct |num|Si (7)|8103   
-|PersonasInmueble|num|Si (5)|8105    
-|Explotaciones |num|Si (23)|8087  
-|PartidoCCAA |chr|No|8110
-|VotosDerIzq |num|No|8110
-|VotosDerPtge|num|No|8110
+|CCAA|chr|No|8110|NA
+|CodigoINE |chr|No|8110|NA
+|Censo |num|No|8110|3.00
+|VotosEmitidos |num|No|8110|0.00
+|Abstenciones|num|No|8110|0.00
+|Blancos |num|No|8110|0.00
+|Nulos |num|No|8110|0.00
+|Cs|num|No|8110|0.00
+|PP|num|No|8110|0.00
+|PSOE|num|No|8110|0.00
+|VOX |num|No|8110|0.00
+|Podemos |num|No|8110|0.00
+|Otros |num|No|8110|0.00
+|PartidoMasVotado|chr|No|8110|0.00
+|Population|num|No|8110|5.00
+|Age_0_4_Ptge|num|No|8110|0.00
+|Age_under19_Ptge|num|No|8110|0.00
+|Age_19_65_pct |num|No|8110|0.00
+|Age_over65_pct|num|No|8110|0.00
+|WomanPopulationPtge |num|No|8110|0.00
+|ForeignersPtge|num|No|8110|0.00
+|SameComAutonPtge|num|No|8110|0.00
+|SameComAutonDiffProvPtge|num|No|8110|0.00
+|DifComAutonPtge |num|No|8110|0.00
+|UnemployLess25_Ptge |num|No|8110|0.00
+|Unemploy25_40_Ptge|num|No|8110|0.00
+|UnemployMore40_Ptge |num|No|8110|0.00
+|AgricultureUnemploymentPtge |num|No|8110|0.00
+|IndustryUnemploymentPtge|num|No|8110|0.00
+|ConstructionUnemploymentPtge|num|No|8110|0.00
+|ServicesUnemploymentPtge|num|No|8110|0.00
+|totalEmpresas |num|Si (5)|8110|0.00
+|Industria |num|Si (187)|7923|0.00
+|Construccion|num|Si (138)|7972|0.00
+|ComercTTEHosteleria |num|Si (9)|8101|0.00
+|Servicios |num|Si (62)|8048|0.00
+|Inmuebles |num|Si (5)|8105|0.00
+|Superficie|num|No|8110|0.00
+|Densidad|num|No|8110|0.00
+|PobChange_pct |num|Si (7)|8103|0.00
+|PersonasInmueble|num|Si (5)|8105|0.00
+|Explotaciones |num|Si (23)|8087|0.00
+|PartidoCCAA |chr|No|8110|0.00
+|VotosDerIzq |num|No|8110|0.00
+|VotosDerPtge|num|No|8110|0.00
  
 ## 4) Corrección de errores
 
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwOTkzMzc1LDE5NTg3MjMyNzQsLTEyMT
-cyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1
-NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTkwNzA0MDkxNSwxOTU4NzIzMjc0LC0xMj
+E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
+NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
