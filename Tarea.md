@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usaran las medidas $R^2$ o bondad del ajuste sea cercano a $1$ y que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o bondad del ajuste. Los valores óptimos son aquellos cercanos a $1$ ya que que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|
@@ -465,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTk3Njg5MSwxODEyOTk0OTgyLDExNz
-EyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMy
-NzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLD
-M5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIx
-NjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLT
-E4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3
-NTQ3ODgxXX0=
+eyJoaXN0b3J5IjpbNTQ3OTA3MjQwLDE4MTI5OTQ5ODIsMTE3MT
+IyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3
+MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMz
+kxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2
+MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMT
+gyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1
+NDc4ODFdfQ==
 -->
