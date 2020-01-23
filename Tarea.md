@@ -274,11 +274,9 @@ TODO GRAFICO 7
 
 En el gráfico 8, para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Las dos variables aleatorias arrojan resultados superiores para la variable `PartidoCCAA`.
 
-Dado que
-
 TODO GRAFICO 8 
 
-Análizandos los gráficos y dado que no hay variable que se encuen
+Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos tiene valores por debajo de las variables
 
 # Files
 
@@ -419,10 +417,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzM5MDkxMywtNzUyNjMzNjAzLDM5MT
-U3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0
-LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4Mj
-I0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3
-ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3MTAwLC
-0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbNTYwNjQ4NDIxLC03NTI2MzM2MDMsMzkxNT
+c2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQs
+NzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMj
+QxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4
+ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLT
+EwNzU5OTg1NDldfQ==
 -->
