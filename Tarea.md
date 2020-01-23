@@ -67,29 +67,29 @@ En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |WomanPopulationPtge |num|No
 |ForeignersPtge|num|No
 |SameComAutonPtge|num|No
-|SameComAutonDiffProvPtge|num|
+|SameComAutonDiffProvPtge|num|No
 |DifComAutonPtge |num|No
-|UnemployLess25_Ptge |num|
-|Unemploy25_40_Ptge|num|
-|UnemployMore40_Ptge |num|
-|AgricultureUnemploymentPtge |num|
-|IndustryUnemploymentPtge|num|
-|ConstructionUnemploymentPtge|num|
-|ServicesUnemploymentPtge|num|
-|totalEmpresas |num|
-|Industria |num|
-|Construccion|num|
-|ComercTTEHosteleria |num|
-|Servicios |num|
-|Inmuebles |num|
-|Superficie|num|
-|Densidad|num|
-|PobChange_pct |num|
-|PersonasInmueble|num|
-|Explotaciones |num|
-|PartidoCCAA |chr|
-|VotosDerIzq |num|
-|VotosDerPtge|num|
+|UnemployLess25_Ptge |num|No
+|Unemploy25_40_Ptge|num|No
+|UnemployMore40_Ptge |num|No
+|AgricultureUnemploymentPtge |num|No
+|IndustryUnemploymentPtge|num|No
+|ConstructionUnemploymentPtge|num|No
+|ServicesUnemploymentPtge|num|No
+|totalEmpresas |num|Si ($5$)
+|Industria |num|Si ($187$)
+|Construccion|num|Si ($138$)
+|ComercTTEHosteleria |num|No
+|Servicios |num|No
+|Inmuebles |num|No
+|Superficie|num|No
+|Densidad|num|No
+|PobChange_pct |num|No
+|PersonasInmueble|num|No
+|Explotaciones |num|No
+|PartidoCCAA |chr|No
+|VotosDerIzq |num|No
+|VotosDerPtge|num|No
  
 ## 4) Corrección de errores
 
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzUyODE1OCwtMTIxNzIwNjg0MywtNT
-U3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3
-MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbLTExMjAwNTg2MzMsLTEyMTcyMDY4NDMsLT
+U1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcy
+NzEwMCwtMTA3NTk5ODU0OV19
 -->
