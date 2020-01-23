@@ -69,7 +69,7 @@ PP   2961 36.5 36.5
 PSOE 3497 43.1 43.1
 ```
 
-He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE`tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
+He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE` tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
 
 En la siguiente tabla resumen se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|Min Valor|Media|Max Valor|
@@ -379,7 +379,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODI1ODExMiwtOTM0NzI1NjMyLC0xOD
+eyJoaXN0b3J5IjpbLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xOD
 IyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0
 Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMC
 wtMTA3NTk5ODU0OV19
