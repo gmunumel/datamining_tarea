@@ -77,16 +77,16 @@ En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |ConstructionUnemploymentPtge|num|No|8110
 |ServicesUnemploymentPtge|num|No|8110
 |totalEmpresas |num|Si (5)|8110
-|Industria |num|Si (187)|8105  
-|Construccion|num|Si (138)|8110
-|ComercTTEHosteleria |num|Si (9)|8110
-|Servicios |num|Si (62)|8110
-|Inmuebles |num|Si (5)|8110
+|Industria |num|Si (187)|7923    
+|Construccion|num|Si (138)|7972    
+|ComercTTEHosteleria |num|Si (9)|8101    
+|Servicios |num|Si (62)|8048    
+|Inmuebles |num|Si (5)|8105 
 |Superficie|num|No|8110
 |Densidad|num|No|8110
-|PobChange_pct |num|Si (7)|8110
-|PersonasInmueble|num|Si (5)|8110
-|Explotaciones |num|Si (23)|8110
+|PobChange_pct |num|Si (7)|8103   
+|PersonasInmueble|num|Si (5)|8105    
+|Explotaciones |num|Si (23)|8087  
 |PartidoCCAA |chr|No|8110
 |VotosDerIzq |num|No|8110
 |VotosDerPtge|num|No|8110
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NzQ1NjAsLTEyMTcyMDY4NDMsLTU1Nz
+eyJoaXN0b3J5IjpbNTk0NDA0MDEsLTEyMTcyMDY4NDMsLTU1Nz
 U0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEw
 MCwtMTA3NTk5ODU0OV19
 -->
