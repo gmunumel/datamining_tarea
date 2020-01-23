@@ -59,37 +59,37 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |Podemos |num|No|8110|0.00|279.14
 |Otros |num|No|8110|0.00|485.73
 |PartidoMasVotado|chr|No|8110|NA|NA|NA
-|Population|num|No|8110|5.00|5746.77
-|Age_0_4_Ptge|num|No|8110|0.00|3.02
-|Age_under19_Ptge|num|No|8110|0.00|13.56
-|Age_19_65_pct |num|No|8110|23.46|57.37
-|Age_over65_pct|num|No|8110|0.00|29.08
-|WomanPopulationPtge |num|No|8110|11.77|47.30
-|ForeignersPtge|num|No|8110|0.00|6.38
-|SameComAutonPtge|num|No|8110|0.00|81.62
-|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34
-|DifComAutonPtge |num|No|8110|0.00|10.73
-|UnemployLess25_Ptge |num|No|8110|0.00|7.32
-|Unemploy25_40_Ptge|num|No|8110|0.00|36.99
-|UnemployMore40_Ptge |num|No|8110|0.00|50.18
-|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41
-|IndustryUnemploymentPtge|num|No|8110|0.00|10.00
-|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84
-|ServicesUnemploymentPtge|num|No|8110|0.00|58.64
-|totalEmpresas |num|Si (5)|8110|0.00|398.95
-|Industria |num|Si (187)|7923|0.00|0.04
-|Construccion|num|Si (138)|7972|0.00|0.06
-|ComercTTEHosteleria |num|Si (9)|8101|0.00|
-|Servicios |num|Si (62)|8048|0.00|
-|Inmuebles |num|Si (5)|8105|6.00|
-|Superficie|num|No|8110|0.03|
-|Densidad|num|No|8110|0.23|
-|PobChange_pct |num|Si (7)|8103|-52.27|
-|PersonasInmueble|num|Si (5)|8105|0.11|
-|Explotaciones |num|Si (23)|8087|1.00|
+|Population|num|No|8110|5.00|5746.77|
+|Age_0_4_Ptge|num|No|8110|0.00|3.02|
+|Age_under19_Ptge|num|No|8110|0.00|13.56|
+|Age_19_65_pct |num|No|8110|23.46|57.37|
+|Age_over65_pct|num|No|8110|0.00|29.08|
+|WomanPopulationPtge |num|No|8110|11.77|47.30|
+|ForeignersPtge|num|No|8110|0.00|6.38|
+|SameComAutonPtge|num|No|8110|0.00|81.62|
+|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|
+|DifComAutonPtge |num|No|8110|0.00|10.73|
+|UnemployLess25_Ptge |num|No|8110|0.00|7.32|
+|Unemploy25_40_Ptge|num|No|8110|0.00|36.99|
+|UnemployMore40_Ptge |num|No|8110|0.00|50.18|
+|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41|
+|IndustryUnemploymentPtge|num|No|8110|0.00|10.00|
+|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84|
+|ServicesUnemploymentPtge|num|No|8110|0.00|58.64|
+|totalEmpresas |num|Si (5)|8110|0.00|398.95|
+|Industria |num|Si (187)|7923|0.00|0.04|
+|Construccion|num|Si (138)|7972|0.00|0.06|
+|ComercTTEHosteleria |num|Si (9)|8101|0.00|0.17|
+|Servicios |num|Si (62)|8048|0.00|0.12|
+|Inmuebles |num|Si (5)|8105|6.00|3254.20|
+|Superficie|num|No|8110|0.03|62.38|
+|Densidad|num|No|8110|0.23|186.15|
+|PobChange_pct |num|Si (7)|8103|-52.27|-4.90|
+|PersonasInmueble|num|Si (5)|8105|0.11|1.30|
+|Explotaciones |num|Si (23)|8087|1.00|122.26|
 |PartidoCCAA |chr|No|8110|NA|NA|NA
-|VotosDerIzq |num|No|8110|0.00|
-|VotosDerPtge|num|No|8110|0.00|
+|VotosDerIzq |num|No|8110|0.00|0.49|
+|VotosDerPtge|num|No|8110|0.00|32.57|
  
 ## 4) Corrección de errores
 
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTkzNTYzNiwxOTU4NzIzMjc0LC0xMj
+eyJoaXN0b3J5IjpbMTQ2ODExNDM4MiwxOTU4NzIzMjc0LC0xMj
 E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
 NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
