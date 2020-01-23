@@ -245,9 +245,9 @@ Ejecutando el gráfico del `mosaico_targetbinaria` con la variable binaria objet
 
 TODO GRAFICO 1
 
-Del gráfico 1 se aprecia que en `CastillaLeón` se tiene que la relación es muy grande entre la comunidad autónoma y los votos que obtuvieron partidos de derecha, ya que la barra roja es mayor a la azul, mientras que para el `Nav_PVasc_Rioja` hay más votos a los partidos de izquierda, ya que la barra roja es muy pequeña comparada con la barra azul. Por lo tanto, se puede concluir que la relación entre la variable `CCAA` y la variable objetivo binaria es fuerte. 
+Del gráfico $1$ se aprecia que en `CastillaLeón` se tiene que la relación es muy grande entre la comunidad autónoma y los votos que obtuvieron partidos de derecha, ya que la barra roja es mayor a la azul, mientras que para el `Nav_PVasc_Rioja` hay más votos a los partidos de izquierda, ya que la barra roja es muy pequeña comparada con la barra azul. Por lo tanto, se puede concluir que la relación entre la variable `CCAA` y la variable objetivo binaria es fuerte. 
 
-Realizando la misma instrucción pero con la variable `PartidoCCAA` se obtiene el gráfico 2. 
+Realizando la misma instrucción pero con la variable `PartidoCCAA` se obtiene el gráfico $2$. 
 
 TODO GRAFICO 2
 
@@ -258,23 +258,23 @@ A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` 
 
 TODO GRAFICO 3
 
-En el gráfico 3 se aprecia que el porcentaje de personas mayores a 65 años tiene mucha relación con la variable binaria de votos de la derecha e izquierda conseguidos. En detalle, la caja de bigotes azul se encuentra por encima de la caja de bigote roja lo que significa que los votos a partidos de derecha son más frecuentes entre personas mayores a 65 años.
+En el gráfico $3$ se aprecia que el porcentaje de personas mayores a $65$ años tiene mucha relación con la variable binaria de votos de la derecha e izquierda conseguidos. En detalle, la caja de bigotes azul se encuentra por encima de la caja de bigote roja lo que significa que los votos a partidos de derecha son más frecuentes entre personas mayores a $65$ años.
 
 TODO GRAFICO 4
 
-Se observa para la gráfica 4 la relación de la variable cuantitativa `Superficie`. La superficie del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
+Se observa para la gráfica $4$ la relación de la variable cuantitativa `Superficie`. La superficie del municipio no tiene mucha relación con la cantidad de votantes de partidos de derecha o izquierda que se pueden obtener, esto se aprecia ya que las tres caja de bigotes parten de la misma altura base, su mediana es casi idéntica y su media es similar, aun a pesar de tener el tercer cuartil diferente.
 
 ### Relación variable objetivo continua con todas las variables continuas
-Se observa en la gráfica 6 la relación de las variables cuantitativas con la variable objetivo continua. Las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen relación negativa más obvia ya que tienen un color rojizo fuerte, lo que significa, que la relación con la variable continua de porcentaje de votos de los partidos de derecha es inversa. En detalle, para la variable `Age_under19_Ptge`, que es el porcentaje de personas menores a 19 años que pueden votar o familias que votan con hijos menores a 18 años, su relación es fuertemente negativa y decrece, lo que nos indica que este grupo de personas votaría por partidos de izquierda. Por el contrario, para la variable `Age_over65_pct` la relación es fuertemente positiva, lo que indica que el porcentaje de personas mayores a 65 años que votan a partidos de derecha es grande y está mostrado por un color azul oscuro. Las siguientes variables son las que se observa que tienen más relación con la variable objetivo continua de forma inversa: `Age_0_4_Ptge`, `Age_under19_Ptge`, `Age_19_65_ptc`,  `WomanPopulationPtge`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `PobChange_pct` y `PersonasInmueble`. Mientras, que la variable que muestra más relación de forma positiva es `Age_over65_pct`.
+Se observa en la gráfica $5$ la relación de las variables cuantitativas con la variable objetivo continua. Las variables `Age_under19_Ptge`, `Age_0_4_Ptge` y `PersonasInmueble` son las que tienen relación negativa más obvia ya que tienen un color rojizo fuerte, lo que significa, que la relación con la variable continua de porcentaje de votos de los partidos de derecha es inversa. En detalle, para la variable `Age_under19_Ptge`, que es el porcentaje de personas menores a $19$ años que pueden votar o familias que votan con hijos menores a $18$ años, su relación es fuertemente negativa y decrece, lo que nos indica que este grupo de personas votaría por partidos de izquierda. Por el contrario, para la variable `Age_over65_pct` la relación es fuertemente positiva, lo que indica que el porcentaje de personas mayores a $65$ años que votan a partidos de derecha es grande y está mostrado por un color azul oscuro. Las siguientes variables son las que se observa que tienen más relación con la variable objetivo continua de forma inversa: `Age_0_4_Ptge`, `Age_under19_Ptge`, `Age_19_65_ptc`,  `WomanPopulationPtge`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `PobChange_pct` y `PersonasInmueble`. Mientras, que la variable que muestra más relación de forma positiva es `Age_over65_pct`.
 
-TODO GRAFICO 6
+TODO GRAFICO 5
 
 ### Importancia de las variables (_V de Cramer_)
-El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el gráfico 7 se observa las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de las dos variables aleatorias, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables originales entonces se podrían descartar.
+El estadístico _V de Cramer_ nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el gráfico $6$ se observa las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de las dos variables aleatorias, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables originales entonces se podrían descartar.
  
 TODO GRAFICO 7
 
-En el gráfico 8, para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Las dos variables aleatorias arrojan resultados superiores para la variable `PartidoCCAA`.
+En el gráfico $8$, para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Las dos variables aleatorias arrojan resultados superiores para la variable `PartidoCCAA`.
 
 TODO GRAFICO 8 
 
@@ -464,11 +464,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDczODIyMTYsMTE3MTIyMDI1OSwtMT
-Y5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5
-Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LD
-E3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0
-MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNC
-wxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4
-Nzg3OTc5XX0=
+eyJoaXN0b3J5IjpbMTA0Njk5ODE0NSwxMTcxMjIwMjU5LC0xNj
+k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
+ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
+c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
+NTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LD
+E5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3
+ODc5NzldfQ==
 -->
