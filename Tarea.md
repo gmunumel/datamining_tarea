@@ -314,8 +314,8 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|42|XXX|
 |Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
 |Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|18|XXX|
-|Modelo 4|Modelo 3 + `CCAA` `Age_19_65_pct` `Industria` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
-
+|Modelo 4|Modelo 3 + `CCAA` `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|22|XXX|
+|Modelo 5|Modelo 4 + `CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
 
 
 ### Modelo con transformaciones y discretizadas
@@ -470,7 +470,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODM5OTEyOSwxODEyOTk0OTgyLDExNz
+eyJoaXN0b3J5IjpbLTM1Mzg2MzM4MiwxODEyOTk0OTgyLDExNz
 EyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMy
 NzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLD
 M5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIx
