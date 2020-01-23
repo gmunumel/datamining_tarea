@@ -239,10 +239,12 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
 ## 6) Relación entre variables input y objetivo
 
 Ejecutando el gráfico del `mosaico_targetbinaria` con la variable binaria objetivo `varObjBin` y la variable `CCAA` se obtiene el siguiente gráfico: 
-
+GRAFICO 1
 Del gráfico 1 se aprecia que en `CastillaLeón` se tiene que la relación es muy grande entre la comunidad autónoma y los votos que obtuvieron partidos de derecha, ya que la barra roja es mayor a la azul, mientras que para el `Nav_PVasc_Rioja` hay más votos a los partidos de izquierda, ya que la barra roja es muy pequeña comparada con la barra azul. Por lo tanto, se puede concluir que la relación entre la variable `CCAA` y la variable objetivo binaria es fuerte. 
 
-Realizando el mismo gráfico pero con la variable `PartidoCCAA`
+Realizando la misma instrucción pero con la variable `PartidoCCAA` se obtiene el gráfico 2. 
+GRAFICO 2
+
 
 
 
@@ -385,8 +387,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDE5MDYxOSwtODY0NTMyNTIyLC05Mz
-Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
-Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
-0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbMTM1ODk0NzU2LC04NjQ1MzI1MjIsLTkzND
+cyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2
+ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLT
+IwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
