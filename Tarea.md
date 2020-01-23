@@ -45,20 +45,20 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 En la siguiente tabla resumen se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|Min Valor|Media|Max Valor|
 |:---|:---|:---|:---|:---|:---|:---|
-|CCAA|chr|No|8110|NA
-|CodigoINE |chr|No|8110|NA
-|Censo |num|No|8110|3.00
-|VotosEmitidos |num|No|8110|0.00
-|Abstenciones|num|No|8110|0.00
-|Blancos |num|No|8110|0.00
-|Nulos |num|No|8110|0.00
-|Cs|num|No|8110|0.00
-|PP|num|No|8110|0.00
-|PSOE|num|No|8110|0.00
-|VOX |num|No|8110|0.00
-|Podemos |num|No|8110|0.00
-|Otros |num|No|8110|0.00
-|PartidoMasVotado|chr|No|8110|0.00
+|CCAA|chr|No|8110|NA|
+|CodigoINE |chr|No|8110|NA|
+|Censo |num|No|8110|3.00|
+|VotosEmitidos |num|No|8110|0.00|
+|Abstenciones|num|No|8110|0.00|
+|Blancos |num|No|8110|0.00|
+|Nulos |num|No|8110|0.00|
+|Cs|num|No|8110|0.00|
+|PP|num|No|8110|0.00|
+|PSOE|num|No|8110|0.00|
+|VOX |num|No|8110|0.00|
+|Podemos |num|No|8110|0.00|
+|Otros |num|No|8110|0.00|
+|PartidoMasVotado|chr|No|8110|NA
 |Population|num|No|8110|5.00
 |Age_0_4_Ptge|num|No|8110|0.00
 |Age_under19_Ptge|num|No|8110|0.00
@@ -87,7 +87,7 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |PobChange_pct |num|Si (7)|8103|-52.27
 |PersonasInmueble|num|Si (5)|8105|0.11
 |Explotaciones |num|Si (23)|8087|1.00
-|PartidoCCAA |chr|No|8110|0.00
+|PartidoCCAA |chr|No|8110|NA
 |VotosDerIzq |num|No|8110|0.00
 |VotosDerPtge|num|No|8110|0.00
  
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzMyOTQwLDE5NTg3MjMyNzQsLTEyMT
-cyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1
-NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMTMwMzIwMzQwNiwxOTU4NzIzMjc0LC0xMj
+E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
+NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
