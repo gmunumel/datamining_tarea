@@ -42,8 +42,8 @@ Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que 
 
 He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE`tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
 
-En la siguiente tabla se puede apreciar todo el detalle de las variables:
-|Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|
+En la siguiente tabla resumen se puede apreciar todo el detalle de las variables:
+|Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|Min Valor|Media
 |:---|:---|:---|:---|
 |CCAA|chr|No|8110
 |CodigoINE |chr|No|8110
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0NDA0MDEsLTEyMTcyMDY4NDMsLTU1Nz
-U0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEw
-MCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNT
+U3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3
+MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
