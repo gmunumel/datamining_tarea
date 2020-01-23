@@ -267,7 +267,7 @@ Se observa en la gráfica 6 la relación de las variables cuantitativas con la v
 
 TODO GRAFICO 6
 
-
+### Importancia de las variables (V Cramer)
 
 
 # Files
@@ -409,7 +409,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjg1MTkxMSwxNzU0NDQ0ODUyLDE5Nj
+eyJoaXN0b3J5IjpbMTMyNDUwMDczMCwxNzU0NDQ0ODUyLDE5Nj
 I4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIy
 LC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMT
 IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
