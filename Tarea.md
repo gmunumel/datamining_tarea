@@ -38,8 +38,36 @@ Comprobación de valores distintos de las variables cuantitativas, gracias a la 
  Se observa que para las siguientes variables faltan datos (_missings_)
  ya que no tiene $8110$ registros que es el total de registros: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`, `PobChange_pct`, `PersonasInmueble` y `Explotaciones`. La instrucción utilizada ha sido `psych::describe(Filter...`.
  
-Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que para la variable `CCAA` hay comunidades con muy pocos votos como lo son para _Ceuta_ y _Melilla_. Por lo tanto, hay que hacer correcciones. Para la variable `PartidoCCAA` se observa que solo toma valores entre: _PP_, _PSOE_ y _Otro_, por tanto, es candidato a convertirse en factor. 
-``
+Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que para la variable `CCAA` hay comunidades con muy pocos votos como lo son para _Ceuta_ y _Melilla_. Por lo tanto, hay que hacer correcciones. Para la variable `PartidoCCAA` se observa que solo toma valores entre: _PP_, _PSOE_, _Otro_ y son significativos, por tanto, es candidato a convertirse en factor y no se debe agrupar en categorías. 
+```
+> freq(datos$CCAA) 
+                  n    % val%
+Andalucía       773  9.5  9.5
+Aragón          731  9.0  9.0
+Asturias         78  1.0  1.0
+Baleares         67  0.8  0.8
+Canarias         88  1.1  1.1
+Cantabria       102  1.3  1.3
+CastillaLeón   2248 27.7 27.7
+CastillaMancha  919 11.3 11.3
+Cataluña        947 11.7 11.7
+Ceuta             1  0.0  0.0
+ComValenciana   542  6.7  6.7
+Extremadura     387  4.8  4.8
+Galicia         313  3.9  3.9
+Madrid          179  2.2  2.2
+Melilla           1  0.0  0.0
+Murcia           45  0.6  0.6
+Navarra         272  3.4  3.4
+PaísVasco       243  3.0  3.0
+Rioja           174  2.1  2.1
+
+> freq(datos$PartidoCCAA)
+        n    % val%
+Otro 1652 20.4 20.4
+PP   2961 36.5 36.5
+PSOE 3497 43.1 43.1
+```
 
 He realizo el análisis y cálculos de los demás apartados y me he dado cuenta que la variable `CodigoINE`tiene una dependencia lineal con mis variables objetivos, por lo tanto, es candidata a ser eliminada. 
 
@@ -351,7 +379,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDgwODI3NCwtOTM0NzI1NjMyLC0xOD
+eyJoaXN0b3J5IjpbLTk1ODI1ODExMiwtOTM0NzI1NjMyLC0xOD
 IyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0
 Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMC
 wtMTA3NTk5ODU0OV19
