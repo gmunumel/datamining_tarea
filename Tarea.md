@@ -62,9 +62,9 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |Population|num|No|8110|5.00
 |Age_0_4_Ptge|num|No|8110|0.00
 |Age_under19_Ptge|num|No|8110|0.00
-|Age_19_65_pct |num|No|8110|0.00
+|Age_19_65_pct |num|No|8110|23.46
 |Age_over65_pct|num|No|8110|0.00
-|WomanPopulationPtge |num|No|8110|0.00
+|WomanPopulationPtge |num|No|8110|11.77
 |ForeignersPtge|num|No|8110|0.00
 |SameComAutonPtge|num|No|8110|0.00
 |SameComAutonDiffProvPtge|num|No|8110|0.00
@@ -81,12 +81,12 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |Construccion|num|Si (138)|7972|0.00
 |ComercTTEHosteleria |num|Si (9)|8101|0.00
 |Servicios |num|Si (62)|8048|0.00
-|Inmuebles |num|Si (5)|8105|0.00
-|Superficie|num|No|8110|0.00
-|Densidad|num|No|8110|0.00
-|PobChange_pct |num|Si (7)|8103|0.00
-|PersonasInmueble|num|Si (5)|8105|0.00
-|Explotaciones |num|Si (23)|8087|0.00
+|Inmuebles |num|Si (5)|8105|6.00
+|Superficie|num|No|8110|0.03
+|Densidad|num|No|8110|0.23
+|PobChange_pct |num|Si (7)|8103|-52.27
+|PersonasInmueble|num|Si (5)|8105|0.11
+|Explotaciones |num|Si (23)|8087|1.00
 |PartidoCCAA |chr|No|8110|0.00
 |VotosDerIzq |num|No|8110|0.00
 |VotosDerPtge|num|No|8110|0.00
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzA0MDkxNSwxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbMTE1NzMyOTQwLDE5NTg3MjMyNzQsLTEyMT
+cyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1
+NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
