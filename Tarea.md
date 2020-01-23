@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. ELos valores óptimos son aquellos cercanos a $1$ ya que nos  que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. También se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|
@@ -465,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTE5NTUxMiwxODEyOTk0OTgyLDExNz
-EyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMy
-NzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLD
-M5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIx
-NjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLT
-E4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3
-NTQ3ODgxXX0=
+eyJoaXN0b3J5IjpbLTE0OTA5MjAzMDYsMTgxMjk5NDk4MiwxMT
+cxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIz
+MjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMy
+wzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTky
+MTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC
+0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1
+NzU0Nzg4MV19
 -->
