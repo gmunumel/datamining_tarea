@@ -290,11 +290,11 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
 
  Sabemos que el modelo de regresión lineal pretende predecir una variable $y$ (variable objetivo) a partir de un conjunto de $m$ variables $x_i$ (input) a través de la ecuación:
  
- $y = f(x_1, x_2, ... , x_m) + e$
+ $y = f(x_1, x_2, ... , x_m) + \epsilon$
 
  La simplificación de la ecuación anterior es:
  
- $y' = B_0 + B_1x_1 + B_2x_2 + ... + B_mX_m$
+ $y' = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$
 
  En mi caso la formula anterior vendr??a representa de la forma:
 
@@ -445,7 +445,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM1Mjc1MzAsOTQ5MDA4OTM1LDEyMz
+eyJoaXN0b3J5IjpbLTE1NDU1MzU1MTUsOTQ5MDA4OTM1LDEyMz
 g3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMz
 NjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNT
 Y5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2
