@@ -298,12 +298,13 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
 
  En mi caso la formula anterior vendría representa de la forma:
 
-$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age_under19_Ptge + Bm*Age_over65_pct + ... + \epsilon$
+$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_under19\_Ptge + \beta_m*Age\_over65\_pct + ... + \epsilon$
 
- Donde n y m son enteros positivos pero menores a la totalidad de variables
+ Donde $n$ y $m$ son enteros positivos pero menores a la totalidad de variables.
 
- Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las
- interacciones entre las variables.
+ Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
+
+
 
 # Files
 
@@ -444,11 +445,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTIzOTcyOCw5NDkwMDg5MzUsMTIzOD
-cyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2
-MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Nj
-k5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYz
-MiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC
-01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3
-MjcxMDBdfQ==
+eyJoaXN0b3J5IjpbLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMz
+g3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMz
+NjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNT
+Y5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2
+MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0My
+wtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcw
+NzI3MTAwXX0=
 -->
