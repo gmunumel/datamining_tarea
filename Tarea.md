@@ -290,23 +290,28 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
 
  Sabemos que el modelo de regresión lineal pretende predecir una variable $y$ (variable objetivo) a partir de un conjunto de $m$ variables $x_i$ (input) a través de la ecuación:
  
- $y = f(x_1, x_2, ... , x_m) + \epsilon$
+ $$y = f(x_1, x_2, ... , x_m) + \epsilon$$
 
  La simplificación de la ecuación anterior es:
  
- $\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$
+ $$\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$$
 
  En mi caso la formula anterior vendría representa de la forma:
 
-$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_under19\_Ptge + \beta_m*Age\_over65\_pct + ... + \epsilon$
+$$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_under19\_Ptge + \beta_m*Age\_over65\_pct + ... + \epsilon$$
 
  Donde $n$ y $m$ son enteros positivos pero menores a la totalidad de variables.
 
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-## 8) Modelo de regresión logi
-
 ### Modelo de regresión linea manual
+
+
+
+
+## 8) Modelo de regresión logística
+
+
 
 # Files
 
@@ -447,7 +452,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDkxNzg1MywtMTY5NDQ3NjYzMSw5ND
+eyJoaXN0b3J5IjpbMTQ3MDc1NTM1OSwtMTY5NDQ3NjYzMSw5ND
 kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
 MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
 k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
