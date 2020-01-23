@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-|Nombre del
+|Nombre Modelo|$R^2\ train$|$R^2\ test$|
 
 ### Modelo con transformaciones y discretizadas
 
@@ -461,7 +461,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk0NjUwMSwxMTcxMjIwMjU5LC0xNj
+eyJoaXN0b3J5IjpbLTQ0ODQ1NjgwOCwxMTcxMjIwMjU5LC0xNj
 k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
 ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
 c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
