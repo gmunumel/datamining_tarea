@@ -272,13 +272,13 @@ TODO GRAFICO 5
 ### Importancia de las variables (_V de Cramer_)
 El estadístico _V de Cramer_ nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el gráfico $6$ se observa las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de las dos variables aleatorias, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables originales entonces se podrían descartar.
  
-TODO GRAFICO 7
+TODO GRAFICO 6
 
-En el gráfico $8$, para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Las dos variables aleatorias arrojan resultados superiores para la variable `PartidoCCAA`.
+En el gráfico $7$, para las variables continuas se aprecia una tendencia similar de los resultados pero a la baja. Las variables `CCAA`, `Age_under19_Pte` y `Age_over65_pct` siguen apareciendo en el mismo orden. Esto se puede explicar ya que mi variable objetivo binaria consiste en los votos de los partidos de derecha sobre los votos de partidos de izquierda mientras la variable objetivo continua es el porcentaje de votos de los partidos de derecha, ambas guardan relación. Las dos variables aleatorias arrojan resultados superiores para la variable `PartidoCCAA`.
 
-TODO GRAFICO 8 
+TODO GRAFICO 7 
 
-Con los resultados obtenidos de los gráficos $7$ y $8$ se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
+Con los resultados obtenidos de los gráficos $6$ y $7$ se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
 
 ## 7) Modelo de regresión lineal
 
@@ -464,7 +464,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njk5ODE0NSwxMTcxMjIwMjU5LC0xNj
+eyJoaXN0b3J5IjpbMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNj
 k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
 ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
 c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
