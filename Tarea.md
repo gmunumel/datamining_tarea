@@ -304,13 +304,13 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-### Modelo de regresión linea manual
+### Modelo de regresión lineal manual
 
-### Modelo con transformaciones
+### Modelo con transformaciones y discretizadas
 
 ### Lasso
 
-
+### Elección mejor modelo
 
 
 
@@ -458,7 +458,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTg0MTYzMywtMTY5NDQ3NjYzMSw5ND
+eyJoaXN0b3J5IjpbMTgyNzcwNTYzNiwtMTY5NDQ3NjYzMSw5ND
 kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
 MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
 k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
