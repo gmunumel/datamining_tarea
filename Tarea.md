@@ -245,7 +245,10 @@ Del gráfico 1 se aprecia que en `CastillaLeón` se tiene que la relación es mu
 Realizando la misma instrucción pero con la variable `PartidoCCAA` se obtiene el gráfico 2. 
 TODO GRAFICO 2
 
-En este caso, la variable `PartidoCCAA`, que significa el partido político que gobierna en la comunidad autónoma en ese momento no guarda relación con la variable binaria de votos de partidos de derecha e izquierda, ya que sus barras tienen casi el mismo tama?o.
+En este caso, la variable `PartidoCCAA`, que significa el partido político que gobierna en la comunidad autónoma en ese momento no guarda relación con la variable binaria de votos de partidos de derecha e izquierda, ya que sus barras tienen casi el mismo tamaño.
+
+A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` y `Superficie`. 
+
 
 
 
@@ -388,8 +391,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAxMTE4NjUsLTg2NDUzMjUyMiwtOT
-M0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcy
-MDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NC
-wtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMTk2OTEzNTY5MywtODY0NTMyNTIyLC05Mz
+Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
+Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
+0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
