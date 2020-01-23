@@ -57,15 +57,15 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |PSOE|num|No|8110|0.00|909.96|505814.00
 |VOX |num|No|8110|0.00|173.28|149557.00
 |Podemos |num|No|8110|0.00|279.14|213161.00
-|Otros |num|No|8110|0.00|485.73|
+|Otros |num|No|8110|0.00|485.73|373262.00
 |PartidoMasVotado|chr|No|8110|NA|NA|NA
-|Population|num|No|8110|5.00|5746.77|
-|Age_0_4_Ptge|num|No|8110|0.00|3.02|
-|Age_under19_Ptge|num|No|8110|0.00|13.56|
-|Age_19_65_pct |num|No|8110|23.46|57.37|
-|Age_over65_pct|num|No|8110|0.00|29.08|
-|WomanPopulationPtge |num|No|8110|11.77|47.30|
-|ForeignersPtge|num|No|8110|0.00|6.38|
+|Population|num|No|8110|5.00|5746.77|3141991.00
+|Age_0_4_Ptge|num|No|8110|0.00|3.02|13.24
+|Age_under19_Ptge|num|No|8110|0.00|13.56|33.70
+|Age_19_65_pct |num|No|8110|23.46|57.37|100.00
+|Age_over65_pct|num|No|8110|0.00|29.08|76.47
+|WomanPopulationPtge |num|No|8110|11.77|47.30|72.68
+|ForeignersPtge|num|No|8110|0.00|6.38|71.47
 |SameComAutonPtge|num|No|8110|0.00|81.62|
 |SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|
 |DifComAutonPtge |num|No|8110|0.00|10.73|
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjEzNzgzLDE5NTg3MjMyNzQsLTEyMT
-cyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1
-NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTIxMzIzNjkwNzYsMTk1ODcyMzI3NCwtMT
+IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
+OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
