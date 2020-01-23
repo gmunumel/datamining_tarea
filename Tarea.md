@@ -238,6 +238,7 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
 
 ## 6) Relación entre variables input y objetivo
 
+### Relación variable objetivo binaria con variables cualitativas
 Ejecutando el gráfico del `mosaico_targetbinaria` con la variable binaria objetivo `varObjBin` y la variable `CCAA` se obtiene el siguiente gráfico: 
 
 TODO GRAFICO 1
@@ -250,6 +251,7 @@ TODO GRAFICO 2
 
 En este caso, la variable `PartidoCCAA`, que significa el partido político que gobierna en la comunidad autónoma en ese momento no guarda relación con la variable binaria de votos de partidos de derecha e izquierda, ya que sus barras tienen casi el mismo tamaño.
 
+### Relación variable objetivo binaria con variables cuantitativas
 A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` y `Superficie`. Se utiliza la instrucción `boxplot_targetbinaria`.
 
 TODO GRAFICO 3
@@ -406,9 +408,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OT
-kyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMy
-LC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLT
-U1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcy
-NzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTEzMzI1MjkyNzIsMTc1NDQ0NDg1MiwxOT
+YyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUy
+MiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLT
+EyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMx
+NTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
