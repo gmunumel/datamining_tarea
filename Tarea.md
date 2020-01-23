@@ -240,6 +240,8 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
 
 
 
+
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -379,7 +381,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODM5NDY4MCwtODY0NTMyNTIyLC05Mz
+eyJoaXN0b3J5IjpbMTYwNjc0OTI3NiwtODY0NTMyNTIyLC05Mz
 Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
 Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
 0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
