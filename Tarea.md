@@ -305,7 +305,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
 ### Modelo de regresión lineal manual
-En este apartado se procede a probar varios modelos en donde se 
+En este apartado se procede a probar varios modelos en donde se selecciona
 
 ### Modelo con transformaciones y discretizadas
 
@@ -459,11 +459,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5ND
-kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
-MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
-k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
-MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC
-0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDcz
-MTU5NTRdfQ==
+eyJoaXN0b3J5IjpbNDY5OTQ2MTUxLDExNzEyMjAyNTksLTE2OT
+Q0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4
+NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNz
+U0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1
+OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMT
+k1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4
+Nzk3OV19
 -->
