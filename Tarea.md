@@ -11,7 +11,7 @@ Se cargó el fichero utilizando la instrucción `read_excel` y se almacenó los 
 
 **Observaciones:** 
 1) Avanzado en la práctica he descubierto que el nombre de la columna  `Age_0-4_Ptge` me daba problemas, así que la que cambiado por `Age_0_4_Ptge` . También verifiqué que no hubiese otra columna que presentará los mismos problemas. 
-2) La primera versión de los datos no estaban correctas. Para la variable `PartidoCCAA` había valores duplicados que generaban errores. Sin embargo, yo no tome en cuenta el cambio del fichero ya tenia la mi
+2) La primera versión de los datos no estaban correctas. Para la variable `PartidoCCAA` había valores duplicados que generaban errores. Sin embargo, yo no tome en cuenta el cambio del fichero ya tenia la mitad de la práctica hecha. 
 
 ### Definición de variables objetivos
 
@@ -419,7 +419,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTc3MzQwMywxMjM4NzIzMjcwLC0xNT
+eyJoaXN0b3J5IjpbLTI4OTg5NjAyNCwxMjM4NzIzMjcwLC0xNT
 M0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0
 OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3Mj
 I3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEz
