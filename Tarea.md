@@ -305,7 +305,9 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
 ### Modelo de regresión lineal manual
-En este apartado se procede a probar varios modelos en donde se selecciona
+En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
+
+|Nombre del
 
 ### Modelo con transformaciones y discretizadas
 
@@ -459,11 +461,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5OTQ2MTUxLDExNzEyMjAyNTksLTE2OT
-Q0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4
-NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNz
-U0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1
-OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMT
-k1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4
-Nzk3OV19
+eyJoaXN0b3J5IjpbLTE3MDk0NjUwMSwxMTcxMjIwMjU5LC0xNj
+k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
+ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
+c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
+NTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LD
+E5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3
+ODc5NzldfQ==
 -->
