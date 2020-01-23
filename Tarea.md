@@ -306,6 +306,10 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 
 ### Modelo de regresión linea manual
 
+### Modelo con transformaciones
+
+### 
+
 
 
 
@@ -452,7 +456,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDc1NTM1OSwtMTY5NDQ3NjYzMSw5ND
+eyJoaXN0b3J5IjpbLTQwOTQ0NTQ4OSwtMTY5NDQ3NjYzMSw5ND
 kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
 MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
 k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
