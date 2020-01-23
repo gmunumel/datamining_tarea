@@ -304,7 +304,7 @@ $VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_und
 
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-
+E
 
 # Files
 
@@ -445,11 +445,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMz
-g3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMz
-NjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNT
-Y5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2
-MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0My
-wtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcw
-NzI3MTAwXX0=
+eyJoaXN0b3J5IjpbLTc5OTk2MzY5MiwtMTY5NDQ3NjYzMSw5ND
+kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
+MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
+k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
+MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC
+0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDcz
+MTU5NTRdfQ==
 -->
