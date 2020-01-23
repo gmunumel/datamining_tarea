@@ -238,7 +238,7 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
 
 ## 6) Relación entre variables input y objetivo
 
-
+ Veo gráficamente el efecto de dos variables cualitativas sobre la binaria. La relación con la variable binaria de votos de partidos de derecha e izquierda viene dado dependiendo de la comunidad autónoma. Por ejemplo, en _Castilla Leon_ se aprecia que la relación es muy grande entre la comunidad autónoma y los votos que obtuvieron partidos de derecha, ya que la barra roja es mayor a la azul, mientras que para el `Nav_PVasc_Rioja` hay más votos a los partidos de izquierda, ya que la barra roja es muy peque?a comparada con la barra azul.
 
 
 
@@ -381,7 +381,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjc0OTI3NiwtODY0NTMyNTIyLC05Mz
+eyJoaXN0b3J5IjpbMTAyMDI1OTYzMiwtODY0NTMyNTIyLC05Mz
 Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
 Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
 0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
