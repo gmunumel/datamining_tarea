@@ -307,8 +307,9 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_un
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia con la información arrojada de V de Cramer para la variable objetivo continua. 
 
-|Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Comentario|
-|:---|:---|:---|:---|:---|
+Primero se realiza la partición de los datos en 
+|Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|:---|
 ||
 
 ### Modelo con transformaciones y discretizadas
@@ -463,11 +464,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIxODg1NiwxMTcxMjIwMjU5LC0xNj
-k0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0Mjky
-ODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMT
-c1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQz
-NTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LD
-E5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3
-ODc5NzldfQ==
+eyJoaXN0b3J5IjpbMzUwOTcyNDAsMTE3MTIyMDI1OSwtMTY5ND
+Q3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0
+MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NT
+Q0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5
+LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOT
+U4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3
+OTc5XX0=
 -->
