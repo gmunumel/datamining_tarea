@@ -309,9 +309,9 @@ En este apartado se procede a probar varios modelos en donde se seleccionan las 
 
 Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
-|Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Complejidad|Comentario|
-|:---|:---|:---|:---|:---|:---|
-|Modelo 1|Todas las vv
+|Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|Delta $R^2$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|:---|:---|
+|Modelo 1|Todas|$0.5851544$|$0.6044848$|XXX|42|XX
 
 ### Modelo con transformaciones y discretizadas
 
@@ -465,11 +465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODczNjgxNjgsMTgxMjk5NDk4MiwxMT
-cxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIz
-MjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMy
-wzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTky
-MTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC
-0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1
-NzU0Nzg4MV19
+eyJoaXN0b3J5IjpbMTk5ODk4NDI2NSwxODEyOTk0OTgyLDExNz
+EyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMy
+NzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLD
+M5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIx
+NjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLT
+E4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3
+NTQ3ODgxXX0=
 -->
