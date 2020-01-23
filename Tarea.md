@@ -45,7 +45,7 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|
 |:---|:---|:---|:---|
-|CCAA|chr
+|CCAA|chr|
 |CodigoINE |chr
 |Censo |num
 |VotosEmitidos |num
@@ -58,7 +58,7 @@ En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |VOX |num
 |Podemos |num
 |Otros |num
-|PartidoMasVotado|num
+|PartidoMasVotado|chr
 |Population|num
 |Age_0_4_Ptge|num
 |Age_under19_Ptge|num
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NjExNDIyLC0xMjE3MjA2ODQzLC01NT
+eyJoaXN0b3J5IjpbNTI2ODg2MTQ1LC0xMjE3MjA2ODQzLC01NT
 c1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3Mjcx
 MDAsLTEwNzU5OTg1NDldfQ==
 -->
