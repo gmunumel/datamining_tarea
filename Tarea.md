@@ -280,7 +280,7 @@ TODO GRAFICO 8
 
 Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
 
-## Modelo de regresión lineal
+## 7) Modelo de regresión lineal
 
 Antes de realizar el modelo de regresión lineal es importante asegurarnos que las variables input están depurados esto significa:
  * Asegurarse que tanto las variables objetivos como las input no contienen datos ausentes o missings. 
@@ -304,7 +304,9 @@ $VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age\_und
 
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-E
+## 8) Modelo de regresión logi
+
+### Modelo de regresión linea manual
 
 # Files
 
@@ -445,7 +447,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTk2MzY5MiwtMTY5NDQ3NjYzMSw5ND
+eyJoaXN0b3J5IjpbMTkwNDkxNzg1MywtMTY5NDQ3NjYzMSw5ND
 kwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgz
 MzA3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMT
 k2MjgwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1
