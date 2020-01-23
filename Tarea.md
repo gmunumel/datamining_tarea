@@ -280,6 +280,10 @@ TODO GRAFICO 8
 
 Con los resultados obtenidos de los gráficos 7 y 8 se podría descartar la variable `PartidoCCAA` ya que en ambos casos tiene valores por debajo de las variables aleatorias. Sin embargo, prefiero no eliminarla por una decisión personal. 
 
+## Modelo de regresión lineal
+
+
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -419,11 +423,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1Mz
-QyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5
-NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMj
-cyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4MjI0MTM5
-MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0MywtNTU3NTQ3ODgxLD
-IwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3MTAwLC0xMDc1
-OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbLTM5MDc3MjkzMSw5NDkwMDg5MzUsMTIzOD
+cyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2
+MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Nj
+k5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYz
+MiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC
+01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3
+MjcxMDBdfQ==
 -->
