@@ -45,11 +45,11 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|
 |:---|:---|:---|:---|
-|CCAA|chr|No
-|CodigoINE |chr|No
-|Censo |num|No
-|VotosEmitidos |num|No
-|Abstenciones|num|No
+|CCAA|chr|No|
+|CodigoINE |chr|No|
+|Censo |num|No|
+|VotosEmitidos |num|No|
+|Abstenciones|num|No|
 |Blancos |num|No
 |Nulos |num|No
 |Cs|num|No
@@ -76,17 +76,17 @@ En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |IndustryUnemploymentPtge|num|No
 |ConstructionUnemploymentPtge|num|No
 |ServicesUnemploymentPtge|num|No
-|totalEmpresas |num|Si ($5$)
-|Industria |num|Si ($187$)
-|Construccion|num|Si ($138$)
-|ComercTTEHosteleria |num|No
-|Servicios |num|No
-|Inmuebles |num|No
+|totalEmpresas |num|Si (5)
+|Industria |num|Si (187)
+|Construccion|num|Si (138)
+|ComercTTEHosteleria |num|Si (9)
+|Servicios |num|Si (62)
+|Inmuebles |num|Si (5)
 |Superficie|num|No
 |Densidad|num|No
-|PobChange_pct |num|No
-|PersonasInmueble|num|No
-|Explotaciones |num|No
+|PobChange_pct |num|Si (7)
+|PersonasInmueble|num|Si (5)
+|Explotaciones |num|Si (23)
 |PartidoCCAA |chr|No
 |VotosDerIzq |num|No
 |VotosDerPtge|num|No
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwNTg2MzMsLTEyMTcyMDY4NDMsLT
-U1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcy
-NzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbOTgyNTMxNjM2LC0xMjE3MjA2ODQzLC01NT
+c1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3Mjcx
+MDAsLTEwNzU5OTg1NDldfQ==
 -->
