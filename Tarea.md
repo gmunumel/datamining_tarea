@@ -251,6 +251,13 @@ A continuación el análisis para dos variables cuantitativas: `Age_over65_pct` 
 
 TODO GRAFICO 3
 
+  Veo gr?ficamente el efecto de dos variables cuantitativas sobre la binaria
+ En la siguiente gr?fica se aprecia como la proporcion de personas mayores a 65 a?os
+ tiene mucha relacion con la variable binaria de votos de la derecha e izquierda 
+ conseguidos. En detalle, la caja de bijotes azul se encuentra por encima de la caja
+ de bijote roja lo que significa que los votos a partidos de derecha son mas frecuentes 
+ entre personas mayores a 65 a?os.
+
 
 
 # Files
@@ -392,8 +399,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzND
-cyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2
-ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLT
-IwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTUyNTkxNjM1OCw3MjI3MjQzNTksLTg2ND
+UzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMy
+NzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLT
+IwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
 -->
