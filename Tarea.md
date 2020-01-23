@@ -276,7 +276,7 @@ En el gráfico 8, para las variables continuas se aprecia una tendencia similar 
 
 TODO GRAFICO 8 
 
-Análizados los gráficos y dado que no hay variable 
+Análizandos los gráficos y dado que no hay variable que se encuen
 
 # Files
 
@@ -417,9 +417,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2Mj
-gwNTU1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIs
-LTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMj
-E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
-NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1ND
+Q0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTks
+LTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NT
+g3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5
+NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV
+19
 -->
