@@ -48,24 +48,24 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |CCAA|chr|No|8110|NA|NA|NA
 |CodigoINE |chr|No|8110|NA|NA|NA|
 |Censo |num|No|8110|3.00|4353.20
-|VotosEmitidos |num|No|8110|0.00|
-|Abstenciones|num|No|8110|0.00|
-|Blancos |num|No|8110|0.00|
-|Nulos |num|No|8110|0.00|
-|Cs|num|No|8110|0.00|
-|PP|num|No|8110|0.00|
-|PSOE|num|No|8110|0.00|
-|VOX |num|No|8110|0.00|
-|Podemos |num|No|8110|0.00|
-|Otros |num|No|8110|0.00|
+|VotosEmitidos |num|No|8110|0.00|2798.65
+|Abstenciones|num|No|8110|0.00|1552.56
+|Blancos |num|No|8110|0.00|26.75
+|Nulos |num|No|8110|0.00|23.96
+|Cs|num|No|8110|0.00|338.91
+|PP|num|No|8110|0.00|560.92
+|PSOE|num|No|8110|0.00|909.96
+|VOX |num|No|8110|0.00|173.28
+|Podemos |num|No|8110|0.00|279.14
+|Otros |num|No|8110|0.00|485.73
 |PartidoMasVotado|chr|No|8110|NA|NA|NA
-|Population|num|No|8110|5.00|
-|Age_0_4_Ptge|num|No|8110|0.00|
-|Age_under19_Ptge|num|No|8110|0.00|
-|Age_19_65_pct |num|No|8110|23.46|
-|Age_over65_pct|num|No|8110|0.00|
+|Population|num|No|8110|5.00|5746.77
+|Age_0_4_Ptge|num|No|8110|0.00|3.02
+|Age_under19_Ptge|num|No|8110|0.00|13.56
+|Age_19_65_pct |num|No|8110|23.46|57.37
+|Age_over65_pct|num|No|8110|0.00|29.08
 |WomanPopulationPtge |num|No|8110|11.77|
-|ForeignersPtge|num|No|8110|0.00|
+|ForeignersPtge|num|No|8110|0.00|47.30
 |SameComAutonPtge|num|No|8110|0.00|
 |SameComAutonDiffProvPtge|num|No|8110|0.00|
 |DifComAutonPtge |num|No|8110|0.00|
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcyMjg0ODMsMTk1ODcyMzI3NCwtMT
-IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
-OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbMTE4MjQ2ODEwNSwxOTU4NzIzMjc0LC0xMj
+E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
+NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
