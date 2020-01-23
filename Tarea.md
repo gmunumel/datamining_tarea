@@ -268,8 +268,7 @@ Se observa en la gráfica 6 la relación de las variables cuantitativas con la v
 TODO GRAFICO 6
 
 ### Importancia de las variables (V Cramer)
-El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el siguiente gráfico podemos ver las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es 
- importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de una variable aleatoria, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables dadas entonces se podrían descartar. Sin embargo, no lo podemos garantizar ya que para la otra variable aleatoria dichas variables mostraron mejores resultados. Es por ello que al final no se descartan.
+El estadístico V de Cramer nos permite detectar la relación que existe entre dos variables, acotando sus resultado a la escala entre $0$ y $1$. En el gráfico 7 se observa las variables que más se relacionan con la variable objetivo binaria. De forma que la variable `CCAA` tiene un valor del $50%$, `Age_under19_Pte`  tiene un $0.32$, seguido de cerca por `Age_over65_pct` con $0.31$ y el resto de variables. Es importante destacar, que las variables `Explotaciones` y `PartidoCCAA` dieron resultados por debajo de una variable aleatoria, lo que indica que dichas variables podrían ser inútiles para el modelo ya que si al elegir una variable al azar, sus resultados muestran más relación con la variable binaria que aquellas variables dadas entonces se podrían descartar. Sin embargo, no lo podemos garantizar ya que para la otra variable aleatoria dichas variables mostraron mejores resultados. Es por ello que al final no se descartan.
  
 TODO GRAFICO 7
 
@@ -414,7 +413,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDE4OTU1OSwxNzU0NDQ0ODUyLDE5Nj
+eyJoaXN0b3J5IjpbMTY2MTY2MzE1OSwxNzU0NDQ0ODUyLDE5Nj
 I4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIy
 LC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMT
 IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
