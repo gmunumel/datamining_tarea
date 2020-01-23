@@ -66,26 +66,26 @@ En la siguiente tabla resumen se puede apreciar todo el detalle de las variables
 |Age_over65_pct|num|No|8110|0.00|29.08|76.47
 |WomanPopulationPtge |num|No|8110|11.77|47.30|72.68
 |ForeignersPtge|num|No|8110|0.00|6.38|71.47
-|SameComAutonPtge|num|No|8110|0.00|81.62|
-|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|
-|DifComAutonPtge |num|No|8110|0.00|10.73|
-|UnemployLess25_Ptge |num|No|8110|0.00|7.32|
-|Unemploy25_40_Ptge|num|No|8110|0.00|36.99|
-|UnemployMore40_Ptge |num|No|8110|0.00|50.18|
-|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41|
-|IndustryUnemploymentPtge|num|No|8110|0.00|10.00|
-|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84|
-|ServicesUnemploymentPtge|num|No|8110|0.00|58.64|
-|totalEmpresas |num|Si (5)|8110|0.00|398.95|
-|Industria |num|Si (187)|7923|0.00|0.04|
-|Construccion|num|Si (138)|7972|0.00|0.06|
-|ComercTTEHosteleria |num|Si (9)|8101|0.00|0.17|
-|Servicios |num|Si (62)|8048|0.00|0.12|
-|Inmuebles |num|Si (5)|8105|6.00|3254.20|
-|Superficie|num|No|8110|0.03|62.38|
-|Densidad|num|No|8110|0.23|186.15|
-|PobChange_pct |num|Si (7)|8103|-52.27|-4.90|
-|PersonasInmueble|num|Si (5)|8105|0.11|1.30|
+|SameComAutonPtge|num|No|8110|0.00|81.62|127.16
+|SameComAutonDiffProvPtge|num|No|8110|0.00|4.34|67.31
+|DifComAutonPtge |num|No|8110|0.00|10.73|100.00
+|UnemployLess25_Ptge |num|No|8110|0.00|7.32|100.00
+|Unemploy25_40_Ptge|num|No|8110|0.00|36.99|100.00
+|UnemployMore40_Ptge |num|No|8110|0.00|50.18|100.00
+|AgricultureUnemploymentPtge |num|No|8110|0.00|8.41|100.00
+|IndustryUnemploymentPtge|num|No|8110|0.00|10.00|100.00
+|ConstructionUnemploymentPtge|num|No|8110|0.00|10.84|100.00
+|ServicesUnemploymentPtge|num|No|8110|0.00|58.64|100.00
+|totalEmpresas |num|Si (5)|8110|0.00|398.95|299397.00
+|Industria |num|Si (187)|7923|0.00|0.04|0.45
+|Construccion|num|Si (138)|7972|0.00|0.06|0.41
+|ComercTTEHosteleria |num|Si (9)|8101|0.00|0.17|0.81
+|Servicios |num|Si (62)|8048|0.00|0.12|0.72
+|Inmuebles |num|Si (5)|8105|6.00|3254.20|1615548.00
+|Superficie|num|No|8110|0.03|62.38|1750.33
+|Densidad|num|No|8110|0.23|186.15|27856.42
+|PobChange_pct |num|Si (7)|8103|-52.27|-4.90|138.46
+|PersonasInmueble|num|Si (5)|8105|0.11|1.30|3.33
 |Explotaciones |num|Si (23)|8087|1.00|122.26|
 |PartidoCCAA |chr|No|8110|NA|NA|NA
 |VotosDerIzq |num|No|8110|0.00|0.49|
@@ -349,7 +349,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIzNjkwNzYsMTk1ODcyMzI3NCwtMT
-IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
-OTU0LC0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
+eyJoaXN0b3J5IjpbMTY2NDgyNTE4MywxOTU4NzIzMjc0LC0xMj
+E3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5
+NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
 -->
