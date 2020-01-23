@@ -265,6 +265,8 @@ Se observa que para la gráfica 4 la relación de la variable cuantitativa `Supe
 
 
 
+
+
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -404,8 +406,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjE2OTg1Myw3MjI3MjQzNTksLTg2ND
-UzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMy
-NzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MSwyMDg3ODc5NzksLT
-IwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbLTExNTYzODg1NzUsNzIyNzI0MzU5LC04Nj
+Q1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQxMzkyNCwxOTU4NzIz
+Mjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4ODEsMjA4Nzg3OTc5LC
+0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEwNzU5OTg1NDldfQ==
+
 -->
