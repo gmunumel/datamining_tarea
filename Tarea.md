@@ -313,7 +313,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |:---|:---|:---|:---|:---|:---|:---|
 |Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|42|XXX|
 |Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
-|Modelo 3|Modelo 2 + `CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
+|Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|18|XXX|
 
 
 
@@ -469,7 +469,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM2MTEzNTQsMTgxMjk5NDk4MiwxMT
+eyJoaXN0b3J5IjpbLTExNDU0NjIzMjgsMTgxMjk5NDk4MiwxMT
 cxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIz
 MjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMy
 wzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTky
