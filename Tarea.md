@@ -294,12 +294,11 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
 
  La simplificación de la ecuación anterior es:
  
- $\hat{y} \hat{a} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$
+ $\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$
 
- En mi caso la formula anterior vendr??a representa de la forma:
+ En mi caso la formula anterior vendría representa de la forma:
 
- VotosPartidoDerechaPtge = B0 + B1*CCAAArag?n + ... + Bn*Age_under19_Ptge 
- + Bm*Age_over65_pct + ... + e
+$VotosPartidoDerechaPtge = \beta_0 + \beta_1*CCAAAragón + ...+ \beta_n*Age_under19_Ptge + Bm*Age_over65_pct + ... + \epsilon$
 
  Donde n y m son enteros positivos pero menores a la totalidad de variables
 
@@ -445,11 +444,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg0MTMxNjksOTQ5MDA4OTM1LDEyMz
-g3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMz
-NjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNT
-Y5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2
-MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIwNjg0My
-wtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcw
-NzI3MTAwXX0=
+eyJoaXN0b3J5IjpbLTYzOTIzOTcyOCw5NDkwMDg5MzUsMTIzOD
+cyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2
+MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Nj
+k5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYz
+MiwtMTgyMjQxMzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC
+01NTc1NDc4ODEsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3
+MjcxMDBdfQ==
 -->
