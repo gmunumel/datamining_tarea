@@ -44,7 +44,8 @@ He realizo el análisis y cálculos de los demás apartados y me he dado cuenta 
 
 En la siguiente tabla se puede apreciar todo el detalle de las variables:
 |Nombre Variable|Tipo de Dato|Ausentes|Cantidad Registros|
-|:---|:---|:-
+|:---|:---|:---|:---|
+|
  
 ## 4) Corrección de errores
 
@@ -304,7 +305,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI1NTY4MTUsLTEyMTcyMDY4NDMsLT
-U1NzU0Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcy
-NzEwMCwtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMjA4MDQwOTU2MCwtMTIxNzIwNjg0MywtNT
+U3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC0yMDcwNzI3
+MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
