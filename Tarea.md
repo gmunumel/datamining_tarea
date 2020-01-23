@@ -11,7 +11,7 @@ Se cargó el fichero utilizando la instrucción `read_excel` y se almacenó los 
 
 **Observaciones:** 
 1) Avanzado en la práctica he descubierto que el nombre de la columna  `Age_0-4_Ptge` me daba problemas, así que la que cambiado por `Age_0_4_Ptge` . También verifiqué que no hubiese otra columna que presentará los mismos problemas. 
-2) La variable 
+2) La primera versión de los datos no estaban correctas. Para la variable `PartidoCCAA` había valores duplicados que generaban errores. Sin embargo, yo no tome en cuenta el cambio del fichero ya tenia la mi
 
 ### Definición de variables objetivos
 
@@ -419,11 +419,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEzNTkxODYsMTIzODcyMzI3MCwtMT
-UzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkxNTc2
-NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1Njk5MjE2MzQsNz
-IyNzI0MzU5LC04NjQ1MzI1MjIsLTkzNDcyNTYzMiwtMTgyMjQx
-MzkyNCwxOTU4NzIzMjc0LC0xMjE3MjA2ODQzLC01NTc1NDc4OD
-EsMjA4Nzg3OTc5LC0yMDczMTU5NTQsLTIwNzA3MjcxMDAsLTEw
-NzU5OTg1NDldfQ==
+eyJoaXN0b3J5IjpbLTM2NTc3MzQwMywxMjM4NzIzMjcwLC0xNT
+M0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0
+OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3Mj
+I3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEz
+OTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0Nzg4MS
+wyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMCwtMTA3
+NTk5ODU0OV19
 -->
