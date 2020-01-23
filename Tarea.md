@@ -268,7 +268,21 @@ Se observa en la gráfica 6 la relación de las variables cuantitativas con la v
 TODO GRAFICO 6
 
 ### Importancia de las variables (V Cramer)
-
+El estadístico V de Cramer nos permite detectar la relaci?n que existe entre dos variables,
+ acotando sus resultado a la escala entreo 0 y 1. Con el siguiente gr?fico podemos ver aquellas
+ variables que m?s se relacionan con mi variable objetivo binaria. De forma que la variable
+ CCAA (comunidad aut?noma) tiene un valor del 50%, Age_under19_Pte (porcentaje de
+ ciudadanos con menos de 19 a?os que votan o familias con hijos que votan) tiene un 0.32, 
+ seguido de cerca por Age_over65_pct (porcentaje
+ de ciudadanos con m?s de 65 a?os que votan) con 0.31, el resto de resultado se aprecia en la gr?fica. Es 
+ importante destacar, que las variables Explotaciones (n?mero de explotaciones agr?colas en 
+ el municipio) y PartidoCCAA (partido pol?tico que gobierna en la CCAA en el momento de las 
+ elecciones) dieron resultados por debajo de una variable aleatoria, lo que indica que dichas
+ variables podr?an ser in?tiles para el modelo ya que si al elegir una variable al azar, sus
+ resultados muestran m?s relaci?n con la variable binaria que aquellas variables dadas
+ entonces se podr?an descartar. Sin embargo, no lo podemos garantizar ya que para la otra
+ variable aleatoria dichas variables mostraron mejores resultados. Es por ello, que al final
+ no se descartan estas variables.
 
 # Files
 
@@ -409,7 +423,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDUwMDczMCwxNzU0NDQ0ODUyLDE5Nj
+eyJoaXN0b3J5IjpbLTE5NTUxMDQ5OCwxNzU0NDQ0ODUyLDE5Nj
 I4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIy
 LC05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMT
 IxNzIwNjg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1
