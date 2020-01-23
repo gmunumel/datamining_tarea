@@ -236,7 +236,7 @@ Se elimina también la variable `CodigoINE` ya que tiene una dependencia lineal 
  ```
 
 
-
+## 6) Relación entre variables input y objetivo
 
 
 
@@ -379,8 +379,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xOD
-IyNDEzOTI0LDE5NTg3MjMyNzQsLTEyMTcyMDY4NDMsLTU1NzU0
-Nzg4MSwyMDg3ODc5NzksLTIwNzMxNTk1NCwtMjA3MDcyNzEwMC
-wtMTA3NTk5ODU0OV19
+eyJoaXN0b3J5IjpbMjEwODM5NDY4MCwtODY0NTMyNTIyLC05Mz
+Q3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIxNzIw
+Njg0MywtNTU3NTQ3ODgxLDIwODc4Nzk3OSwtMjA3MzE1OTU0LC
+0yMDcwNzI3MTAwLC0xMDc1OTk4NTQ5XX0=
 -->
