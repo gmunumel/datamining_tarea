@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad, para ello se cálcula la diferencia entre ambas y se llama $\Delta\ R^2$. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
@@ -320,7 +320,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|$33$|Es el modelo con mejor $R^2\ test$|
 |Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|$26$|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo. |
 |Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|$13$|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad.|
-|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2$|
+|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2 (fiabilidad)$|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
 En general la tendencia a medida que se van agregando mas variables al modelo es que mejora la bondad del ajuste del mismo, $R^2$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM4MzgyMzIsMTMwOTU1MzQwLC0xNz
-Y3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3
-MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2Nj
-MxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEy
-NjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0ND
-g1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2
-NDUzMjUyMl19
+eyJoaXN0b3J5IjpbLTc1ODkxMDY2OCwxMzA5NTUzNDAsLTE3Nj
+c4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1Mzcy
+NDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2Mz
+EsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2
+NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0OD
+UyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0
+NTMyNTIyXX0=
 -->
