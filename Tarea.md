@@ -362,10 +362,6 @@ Los tres métodos a utilizar para la selección de variables son _Forward_, _Bac
 |_ModeloBackAIC_|Todas|$0.5946408$|$27$|XXX|
 |_ModeloStepBIC_|Todas|$0.5946924$|$18$||
 |_ModeloBackBIC_|Todas|$0.5946924$|$18$|El modelo anterior y este son iguales|
-|__||$$|$$|XXX|
-|__||$$|$$|XXX|
-|__||$$|$$|XXX|
-|__||$$|$$|XXX|
 TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Lasso
@@ -518,11 +514,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQ2NDUxLDIxMDQyODI2LC00NzUxMD
-g0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwx
-MDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nz
-g4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5
-ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMT
-IzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2
-MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbLTk4ODA5NTEyMywyMTA0MjgyNiwtNDc1MT
+A4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQs
+MTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Nj
+c4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0
+OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LD
+EyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUy
+NjMzNjAzXX0=
 -->
