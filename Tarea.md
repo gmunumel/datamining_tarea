@@ -381,7 +381,13 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que si se debe elegir entre alguno de estos modelos se eligirá el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
-### Transformadas con las 
+### Transformadas con las variables originales 
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
+|:---|:---|:---|:---|:---|
+|_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$135$|
+|_ModeloStepBIC_Trans_|Originales-Transformaciones|$0.6002378$|$35$|
+TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
+
 
 ### Lasso
 
@@ -533,7 +539,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDk3ODcwMywtOTc1OTQxMTUyLDIxMD
+eyJoaXN0b3J5IjpbMTA4MzYzNjY2NSwtOTc1OTQxMTUyLDIxMD
 QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
 MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
 g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
