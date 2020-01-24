@@ -327,7 +327,7 @@ Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más var
 
 Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo se obtiene que el mejor modelo es el _Modelo 9_ ya que la diferencia entre éste modelo y el modelo con la mejor bondad del ajuste, _Modelo 1_, no es significativa, sólo de un $0.014$ pero su complejidad es mucho más baja, en el _Modelo 9_ es de $13$ variables mientras en el _Modelo 1_ es de $42$. Por el principio de parsimonia se puede afirmar que el mejor modelo es el _Modelo 9_.
 
-Del modelo ganador se aprecia que tiene un $R^2\ train$ de $0.5660495$ y $R^2\ test$ de $0.5899167$. Lo que nos da una diferencia de $0.02386$. Se puede decir que el modelo es bastante fiable ya que el modelo se comporta de forma similar para los conjuntos de datos en _test_ y _train
+Del modelo ganador se aprecia que tiene un $R^2\ train$ de $0.5660495$ y $R^2\ test$ de $0.5899167$. Lo que nos da una diferencia de $0.02386$. Se puede decir que el modelo es bastante fiable ya que se comporta de forma similar para los conjuntos de datos en _test_ y _train_. Adicionalmente, el uso de las variables es pequeño
 
 Observo los coeficientes del _Modelo 9_ y la importancia de las variables en la gráfica $8$.
 ```
@@ -510,11 +510,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNDI0MjU4LC00NzUxMDg0MjksOTMyMT
-UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
-LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtOD
-gwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIy
-MDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MC
-wtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkx
-NTc2NDk0XX0=
+eyJoaXN0b3J5IjpbLTQwMTE0NTAwOSwtNDc1MTA4NDI5LDkzMj
+E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
+NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
+g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
+MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
+AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
+MTU3NjQ5NF19
 -->
