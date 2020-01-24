@@ -373,12 +373,18 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Interacciones con las variables originales 
 
-|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
-|_ModeloStepAIC_Int_|Originales-Interacciones|$0.6303501$|$135$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
-|_ModeloStepBIC_Int_|Originales-Interacciones|$0.5946408$|$27$||
+|_ModeloStepAIC_Int_|Originales-Interacciones|$0.6303501$|$135$|
+|_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
-
+De la ejecución utilizando el método Stepwise y sus m?todo de medici?n _AIC_ Y _BIC_ se 
+ desprende que en el modelo `modeloStepAIC_int` la bondad del ajuste ha sido de 0.6303501
+ mientras que el modelo `modeloStepBIC_int` es de 0.6087072. En el caso de las variables que
+ utilizan tenemos que son 135 y 35 respectivamente. De forma, que si se debe elegir entre
+ alguno de estos modelos se eligir?a el modelo `modeloStepBIC_int` ya que la diferencia
+ de bondades del ajuste es s?lo 0.021, pero su complejidad es mucho menor. Por el principio 
+ de parsimonia, es preferible el `modeloStepBIC_int`.
 
 
 ### Lasso
@@ -531,7 +537,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDI0MTM5MSwtOTc1OTQxMTUyLDIxMD
+eyJoaXN0b3J5IjpbMTMzMzAzNTI2NSwtOTc1OTQxMTUyLDIxMD
 QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
 MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
 g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
