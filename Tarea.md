@@ -350,7 +350,7 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
-Se realizan las transforma
+Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las diosc
 ### Lasso
 
 ### Elección mejor modelo
@@ -501,7 +501,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTQ0ODg3MCw5MzIxNTE5NzUsMTYwMz
+eyJoaXN0b3J5IjpbMTgxNDk5MTc5Myw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
 LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
 EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
