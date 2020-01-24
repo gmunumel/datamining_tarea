@@ -342,6 +342,9 @@ Para las variables categóricas la interpretación debe tomar en cuenta aquella 
 
 TODO GRAFICA 9
 
+Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido d`Age_under19_Ptge con 0.002, luego Age_over65_pct 0.002, 
+ ComercTTEHosteleria con 0.0016, PersonasInmueble con 0.0005 y Servicios
+ 0.00010. 
 
 
 ### Modelo con transformaciones y discretizadas
@@ -496,7 +499,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODIwNjg4OCwxNjAzNTkxOTI3LDE2NT
+eyJoaXN0b3J5IjpbMTAwODA3MDcxOCwxNjAzNTkxOTI3LDE2NT
 Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
 NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
 wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
