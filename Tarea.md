@@ -327,7 +327,7 @@ Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más var
 
 Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo se obtiene que el mejor modelo es el _Modelo 9_ ya que la diferencia entre éste modelo y el modelo con la mejor bondad del ajuste, _Modelo 1_, no es significativa, sólo de un $0.014$ pero su complejidad es mucho más baja, en el _Modelo 9_ es de $13$ variables mientras en el _Modelo 1_ es de $42$. Por el principio de parsimonia se puede afirmar que el mejor modelo es el _Modelo 9_.
 
-Del modelo ganador se aprecia que tiene un $R^2\ train$ de $0.5660495$ y $R^2\ test$ de $0.5899167$. Lo que nos da una diferencia de $0.02386$. Se puede decir que el modelo es bastante fiable ya que se comporta de forma similar para los conjuntos de datos en _test_ y _train_. Adicionalmente, el uso de las variables es pequeño
+Del modelo ganador se aprecia que tiene un $R^2\ train$ de $0.5660495$ y $R^2\ test$ de $0.5899167$. Lo que nos da una diferencia de $0.02386$. Se puede decir que el modelo es bastante fiable ya que se comporta de forma similar para los conjuntos de datos en _test_ y _train_. Adicionalmente, la variables que usa el modelo no son excesivas, sólo 13. Lo que nos permite simplificar la interpretación del modelo. 
 
 Observo los coeficientes del _Modelo 9_ y la importancia de las variables en la gráfica $8$.
 ```
@@ -510,11 +510,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTE0NTAwOSwtNDc1MTA4NDI5LDkzMj
-E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
-NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
-g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
-MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
-AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
-MTU3NjQ5NF19
+eyJoaXN0b3J5IjpbLTE4MzMzNDY0OTMsLTQ3NTEwODQyOSw5Mz
+IxNTE5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQx
+MzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC
+04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcx
+MjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMj
+cwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywz
+OTE1NzY0OTRdfQ==
 -->
