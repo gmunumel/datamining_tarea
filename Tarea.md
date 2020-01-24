@@ -319,14 +319,13 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 6|Modelo 5 + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$||
 |Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|$33$|Es el modelo con mejor $R^2\ test$|
 |Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|$26$|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo|
-|Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|$13$|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad|
-|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2$|
+|_Modelo 9_|_Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|$13$|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad|
+|_Modelo 10_|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2$|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
 Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo para $R^2\ train$ y $R^2\ test$. Por otro lado, en general, la variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
 
-Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el modelo $9 ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, `modelo1`, no es significativa, solo de un 0.014 pero su complejidad es mucho m?s baja, en el 
- modelo 9 es de 13 mientras en el modelo 1 (total) es 42.
+Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el modelo $9$ ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, _Modelo 1_, no es significativa, solo de un $0.014$ pero su complejidad es mucho más baja, en el modelo $9$ es de $13$ mientras en el modelo $1$ (total) es $42$.
 
 
 
@@ -483,11 +482,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MzEzNjI3LDE2MDM1OTE5MjcsMTY1ND
-cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
-OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
-E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
-MDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMz
-A3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2
-MjgwNTU1MV19
+eyJoaXN0b3J5IjpbMTAzOTU5MTk5MiwxNjAzNTkxOTI3LDE2NT
+Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
+NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
+wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
+MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4Mz
+MwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5
+NjI4MDU1NTFdfQ==
 -->
