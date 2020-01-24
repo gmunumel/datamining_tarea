@@ -342,7 +342,7 @@ Para las variables categóricas la interpretación debe tomar en cuenta aquella 
 
 TODO GRAFICA 9
 
-Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` $0.00010$. 
+Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` con $0.00010$. 
 
 
 ### Modelo con transformaciones y discretizadas
@@ -350,7 +350,7 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
-Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se crean dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_, se usa la instrucción `createDataPartition`- 
+Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se usa la instrucción `createDataPartition` para crear dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_.
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
@@ -508,11 +508,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTg1NTU0MiwtNDc1MTA4NDI5LDkzMj
-E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
-NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
-g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
-MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
-AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
-MTU3NjQ5NF19
+eyJoaXN0b3J5IjpbLTIzNzAzNTkxLC00NzUxMDg0MjksOTMyMT
+UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
+LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtOD
+gwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIy
+MDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MC
+wtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkx
+NTc2NDk0XX0=
 -->
