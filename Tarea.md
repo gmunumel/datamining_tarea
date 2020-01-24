@@ -358,8 +358,9 @@ Los tres métodos a utilizar para la selección de variables son _Forward_, _Bac
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
-|_ModeloStepAIC_|Originales|$0.5941304$|$25$|XXX|
-|_ModeloBackAIC_|Originales|$0.5946408$|$27$|XXX|
+|_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia
+ de las bondades del ajuste son muy peque?as, sólo de $0.00051$|
+|_ModeloBackAIC_|Originales|$0.5946408$|$27$||
 |_ModeloStepBIC_|Originales|$0.5946924$|$18$||
 |_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales|
 TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
@@ -514,11 +515,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MTMyNjA5LDIxMDQyODI2LC00NzUxMD
-g0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwx
-MDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nz
-g4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5
-ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMT
-IzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2
-MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbLTExMjQxMjQ0NTQsMjEwNDI4MjYsLTQ3NT
+EwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0
+LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNz
+Y3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5
+NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNS
+wxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1
+MjYzMzYwM119
 -->
