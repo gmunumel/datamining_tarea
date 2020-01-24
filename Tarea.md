@@ -325,7 +325,9 @@ TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
 Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo para $R^2\ train$ y $R^2\ test$. Por otro lado, en general, la variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
 
-Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el _Modelo 9 ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, _Modelo 1_, no es significativa, solo de un $0.014$ pero su complejidad es mucho más baja, en el modelo $9$ es de $13$ mientras en el modelo $1$ (total) es $42$.
+Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el _Modelo 9_ ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, _Modelo 1_, no es significativa, solo de un $0.014$ pero su complejidad es mucho más baja, en el _Modelo 9_ es de $13$ mientras en el _Modelo 1_ es $42$.
+
+
 
 
 
@@ -482,11 +484,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA1MDI2NjYsMTYwMzU5MTkyNywxNj
-U0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2
-NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMD
-UsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0
-OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1OD
-MzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1Miwx
-OTYyODA1NTUxXX0=
+eyJoaXN0b3J5IjpbLTQwMDc2NjI1OCwxNjAzNTkxOTI3LDE2NT
+Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
+NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
+wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
+MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4Mz
+MwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5
+NjI4MDU1NTFdfQ==
 -->
