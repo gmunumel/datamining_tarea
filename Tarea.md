@@ -350,7 +350,10 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
-Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se crean dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_, se usa la instrucción `create
+Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se crean dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_, se usa la instrucción `createDataPartition`- 
+
+Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion)
+ y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC. 
 
 
 ### Lasso
@@ -503,11 +506,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTY0OTE5MSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
-EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
-NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyOD
-QwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1
-NDQ0NDg1Ml19
+eyJoaXN0b3J5IjpbODQ3MTA4MDk2LDkzMjE1MTk3NSwxNjAzNT
+kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
+LTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMT
+A1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0
+NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4ND
+AsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0
+NDQ0ODUyXX0=
 -->
