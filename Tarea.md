@@ -337,7 +337,20 @@ CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal    Age_under19_Ptge    
 PersonasInmueble           Servicios ComercTTEHosteleria 
       -1.0736828           2.3649846          -6.0905217 
 ```
-
+Para las variables categóricas la interpretación debe tomar en cuenta aquella categoría que no se muestra en los coeficientes, así que en los coeficientes mostrados la categoría faltante es `CCAAAndalucía`, de manera que la interpretación se hace comparando las categorías mostrados con la faltante. Por ejemplo, para la variable CCAAAragÃ³n se ha obtenido 4.92, lo que significa que para un voto
+ que se obtenga en dicha comunidad se aumenta en un 4.92% los votos de la derecha en la
+ comunidad autÃ³noma de AndalucÃ­a, CCAAAndaluc?a, por otro lado, para la comunidad 
+ autÃ³noma CCAACataluÃ±a se observa que se tiene un valor de -21.11 lo que indica que
+ un voto que se realice en esa comunidad autÃ³noma disminuye en un -21.11% los votos
+ de la derecha en AndalucÃ­a. . 
+ En el caso de las variables continuas, la interpretaci?n se hace tomando en cuenta
+ la variable de estudio y la variable continua objetivo. Por ejemplo, para la variable
+ Age_under19_Ptge se tiene un valor de -0.25, lo que significa que del porcentaje
+ de personas que votan que tengan menos de 19 aÃ±os o familias votantes que tengan hijos
+ menores a 18 aÃ±os, se disminuye un 0.25% el porcentaje de votos que recibe los partidos
+ de derecha. una pequeÃ±a disminuciÃ³n. De forma anÃ¡loga se puede realizar la
+ interpretaciÃ³n del resto de variables solo hay que tener en cuenta si la variable
+ es continua o categÃ³rica. 
 
 
 TODO GRAFICA 9
@@ -496,7 +509,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDQwODIxNiwxNjAzNTkxOTI3LDE2NT
+eyJoaXN0b3J5IjpbMTI2NTcyNTIwMSwxNjAzNTkxOTI3LDE2NT
 Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
 NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
 wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
