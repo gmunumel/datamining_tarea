@@ -358,6 +358,7 @@ Los tres métodos a utilizar para la selección de variables son _Forward_, _Bac
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
+|||||XXX|
 
 TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 
@@ -511,11 +512,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDA1Mzc3NCwtNDc1MTA4NDI5LDkzMj
-E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
-NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
-g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
-MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
-AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
-MTU3NjQ5NF19
+eyJoaXN0b3J5IjpbMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNT
+E5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYs
+MTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04OD
+AxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIw
+MjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC
+0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1
+NzY0OTRdfQ==
 -->
