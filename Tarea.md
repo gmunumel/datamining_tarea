@@ -327,6 +327,7 @@ Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más var
 
 Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el _Modelo 9_ ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, _Modelo 1_, no es significativa, solo de un $0.014$ pero su complejidad es mucho más baja, en el _Modelo 9_ es de $13$ mientras en el _Modelo 1_ es $42$.
 
+Observo los coeficientes del _Modelo 9_ y la importancia de las variables en la gráfica $8$.
 
 
 
@@ -484,11 +485,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDc2NjI1OCwxNjAzNTkxOTI3LDE2NT
-Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
-NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
-wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
-MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4Mz
-MwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5
-NjI4MDU1NTFdfQ==
+eyJoaXN0b3J5IjpbODUwMzU3MjA1LDE2MDM1OTE5MjcsMTY1ND
+cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
+OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
+E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
+MDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMz
+A3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2
+MjgwNTU1MV19
 -->
