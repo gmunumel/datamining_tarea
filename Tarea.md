@@ -337,12 +337,7 @@ CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal    Age_under19_Ptge    
 PersonasInmueble           Servicios ComercTTEHosteleria 
       -1.0736828           2.3649846          -6.0905217 
 ```
-Para las variables categóricas la interpretación debe tomar en cuenta aquella categoría que no se muestra en los coeficientes, así que en los coeficientes mostrados la categoría faltante es `CCAAAndalucía`, de manera que la interpretación se hace comparando las categorías mostrados con la faltante. Por ejemplo, para la variable CCAAAragÃ³n se ha obtenido 4.92, lo que significa que para un voto
- que se obtenga en dicha comunidad se aumenta en un 4.92% los votos de la derecha en la
- comunidad autÃ³noma de AndalucÃ­a, CCAAAndaluc?a, por otro lado, para la comunidad 
- autÃ³noma CCAACataluÃ±a se observa que se tiene un valor de -21.11 lo que indica que
- un voto que se realice en esa comunidad autÃ³noma disminuye en un -21.11% los votos
- de la derecha en AndalucÃ­a. . 
+Para las variables categóricas la interpretación debe tomar en cuenta aquella categoría que no se muestra en los coeficientes, así que en los coeficientes mostrados la categoría faltante es `CCAAAndalucía`, de manera que la interpretación se hace comparando las categorías mostrados con la faltante. Por ejemplo, para la variable `CCAAAragón` se ha obtenido $4.92$, lo que significa que para un voto que se obtenga en dicha comunidad se aumenta en un $4.92\%$ los votos de la derecha en la comunidad autónoma de Andalucí­a, `CCAAAndalucía`, por otro lado, para la comunidad autónoma `CCAACataluña` se observa que se tiene un valor de $-21.11$ lo que indica que un voto que se realice en esa comunidad autónoma disminuye en un $-21.11\%$ los votos de la derecha en Andalucía. . 
  En el caso de las variables continuas, la interpretaci?n se hace tomando en cuenta
  la variable de estudio y la variable continua objetivo. Por ejemplo, para la variable
  Age_under19_Ptge se tiene un valor de -0.25, lo que significa que del porcentaje
@@ -509,11 +504,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTcyNTIwMSwxNjAzNTkxOTI3LDE2NT
-Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
-NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
-wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
-MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4Mz
-MwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5
-NjI4MDU1NTFdfQ==
+eyJoaXN0b3J5IjpbNDc2NTgxNTU5LDE2MDM1OTE5MjcsMTY1ND
+cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
+OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
+E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
+MDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMz
+A3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2
+MjgwNTU1MV19
 -->
