@@ -323,9 +323,9 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|8|XXX|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
-En general la tendencia a medida que se van agregando mas variables al modelo
- es que mejora la bondad del ajuste del mismo. La variabla CCAA permanece como la
- m?s importante y se mantiene con respecto a las dem?s variables.
+En general la tendencia a medida que se van agregando mas variables al modelo es que mejora la bondad del ajuste del mismo, $R^2$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
+
+
 
 ### Modelo con transformaciones y discretizadas
 
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg3NDM2ODgsLTEwNTM3MjQxMDUsMT
-gxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAw
-ODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMD
-csLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYy
-ODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMi
-wtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3MjMyNzQsLTEy
-MTcyMDY4NDNdfQ==
+eyJoaXN0b3J5IjpbLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxOD
+EyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4
+OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNy
+wtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4
+MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC
+05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIx
+NzIwNjg0M119
 -->
