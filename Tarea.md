@@ -368,10 +368,7 @@ TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 |_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
 TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
- Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_  es diferente, para el primero es 25 y para el segundo es 18 y las bondades 
- del ajuste son 0.5941304 y 0.5946924 respectivamente. Dado que la diferencia de 
- las bondades del ajuste es tan peque?a, 0.00056, se podr?a elegir el modelo
- `modeloStepBIC` por el principio de parsimonia. 
+ Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ es diferente, para el primero es $25$ y para el segundo $18$ y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
 ### Lasso
 
@@ -523,11 +520,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5NDAwNzM5LDIxMDQyODI2LC00NzUxMD
-g0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwx
-MDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nz
-g4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5
-ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMT
-IzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2
-MzM2MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTI2NzQ1NTYsMjEwNDI4MjYsLTQ3NT
+EwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0
+LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNz
+Y3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5
+NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNS
+wxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1
+MjYzMzYwM119
 -->
