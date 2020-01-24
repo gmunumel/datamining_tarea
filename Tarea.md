@@ -390,6 +390,8 @@ TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
+
+
 ### Lasso
 
 ### Elección mejor modelo
@@ -540,7 +542,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzA3MjExNCwtOTc1OTQxMTUyLDIxMD
+eyJoaXN0b3J5IjpbLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMD
 QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
 MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
 g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
