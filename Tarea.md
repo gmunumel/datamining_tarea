@@ -319,7 +319,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 6|Modelo 5 + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|31|XXX|
 |Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|33|XXX|
 |Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|26|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo. |
-|Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|13|XXX|
+|Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|13|La diferencia de los $\Delta\ R^2$entre este modelo y el Modelo 2 es |
 |Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|8|XXX|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxOD
-EyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4
-OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNy
-wtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4
-MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC
-05MzQ3MjU2MzIsLTE4MjI0MTM5MjQsMTk1ODcyMzI3NCwtMTIx
-NzIwNjg0M119
+eyJoaXN0b3J5IjpbNTQ5NDI2MTIxLC04ODAxMjE0OTIsLTEwNT
+M3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2
+NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLD
+EyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0
+NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLT
+g2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIyNDEzOTI0LDE5NTg3
+MjMyNzRdfQ==
 -->
