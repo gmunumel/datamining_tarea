@@ -328,7 +328,14 @@ Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más var
 Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el _Modelo 9_ ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, _Modelo 1_, no es significativa, solo de un $0.014$ pero su complejidad es mucho más baja, en el _Modelo 9_ es de $13$ mientras en el _Modelo 1_ es $42$.
 
 Observo los coeficientes del _Modelo 9_ y la importancia de las variables en la gráfica $8$.
-
+```
+ (Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr        CCAACataluña 
+32.2072016           4.9285833          12.8441282           7.6312992         -21.1182203 
+CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal    Age_under19_Ptge      Age_over65_pct 
+1.3308214          -8.9904299           3.0950148          -0.2570178           0.1326130 
+PersonasInmueble           Servicios ComercTTEHosteleria 
+-1.0736828           2.3649846          -6.0905217 
+```
 
 
 
@@ -485,11 +492,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMzU3MjA1LDE2MDM1OTE5MjcsMTY1ND
-cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
-OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
-E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
-MDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMz
-A3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2
-MjgwNTU1MV19
+eyJoaXN0b3J5IjpbLTE4NDYyNTQ0OTUsMTYwMzU5MTkyNywxNj
+U0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2
+NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMD
+UsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0
+OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1OD
+MzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1Miwx
+OTYyODA1NTUxXX0=
 -->
