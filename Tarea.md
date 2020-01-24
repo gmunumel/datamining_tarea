@@ -350,7 +350,7 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
-Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se re
+Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se crean dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_, se usa la instrucción `create
 
 
 ### Lasso
@@ -503,7 +503,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTg2NTE1NSw5MzIxNTE5NzUsMTYwMz
+eyJoaXN0b3J5IjpbMjA2MTY0OTE5MSw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
 LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
 EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
