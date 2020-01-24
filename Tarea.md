@@ -296,7 +296,7 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
  
  $$\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$$
 
- En mi caso la formula anterior vendría representa de la forma:
+ En mi caso la formula anterior vendría representada por:
 
 $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m*Age\_over65\_pct + ... + \epsilon$$
 
@@ -474,7 +474,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2OTA3NzQ4LC0xMDUzNzI0MTA1LDE4MT
+eyJoaXN0b3J5IjpbODc2ODI5NDc3LC0xMDUzNzI0MTA1LDE4MT
 I5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5
 MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC
 03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2Mjgw
