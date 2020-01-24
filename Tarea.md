@@ -356,6 +356,7 @@ Se realizan las transformaciones de las variables cuantitativas utilizando la va
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
+### Variabl
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
@@ -368,8 +369,21 @@ TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 |_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
 TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
- Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ es diferente, para el primero es $25$ y para el segundo $18$ y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
+ Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
+### Transformaciones variables originales 
+
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|
+|_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
+|_ModeloBackAIC_|Originales|$0.5946408$|$27$||
+TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
+
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|
+|_ModeloStepBIC_|Originales|$0.5946924$|$18$||
+|_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
+TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 ### Lasso
@@ -522,11 +536,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MT
-A4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQs
-MTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Nj
-c4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0
-OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LD
-EyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUy
-NjMzNjAzXX0=
+eyJoaXN0b3J5IjpbMzE2NTQzMzEsLTk3NTk0MTE1MiwyMTA0Mj
+gyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2
+NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4OD
+Y0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEw
+NSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOT
+Q5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4
+MzMwN119
 -->
