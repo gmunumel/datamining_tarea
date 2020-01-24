@@ -323,7 +323,11 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2$|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
-Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo para $R^2\ train$ y $R^2\ test$. En general, la variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
+Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo para $R^2\ train$ y $R^2\ test$. Por otro lado, en general, la variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
+
+Analizando las complejidades de los modelos y las bondades del ajuste para cada modelo considero que el mejor modelo es el modelo $9 ya que la ganancia que obtendrá entre éste modelo y el modelo con la bondad del ajuste más alta, `modelo1`, no es significativa, solo de un 0.014 pero su complejidad es mucho m?s baja, en el 
+ modelo 9 es de 13 mientras en el modelo 1 (total) es 42.
+
 
 
 
@@ -479,7 +483,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNzY1NDkwLDE2MDM1OTE5MjcsMTY1ND
+eyJoaXN0b3J5IjpbNjU2MzEzNjI3LDE2MDM1OTE5MjcsMTY1ND
 cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
 OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
 E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
