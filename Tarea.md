@@ -311,16 +311,16 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
-|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|42|Es el modelo con mejor |
-|Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|14|XXX|
-|Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|18|XXX|
-|Modelo 4|Modelo 3 + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|22|XXX|
-|Modelo 5|Modelo 4 + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|26|XXX|
-|Modelo 6|Modelo 5 + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|31|XXX|
-|Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|33|XXX|
-|Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|26|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo. |
-|Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|13|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad.|
-|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|8|XXX|
+|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|$42$|Es el modelo con mejor |
+|Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|$14$|XXX|
+|Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$|XXX|
+|Modelo 4|Modelo 3 + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$|XXX|
+|Modelo 5|Modelo 4 + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$|XXX|
+|Modelo 6|Modelo 5 + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$|XXX|
+|Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|$33$|XXX|
+|Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|$26$|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo. |
+|Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|$13$|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad.|
+|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|XXX|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
 En general la tendencia a medida que se van agregando mas variables al modelo es que mejora la bondad del ajuste del mismo, $R^2$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
-g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
-MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
-AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
-MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNj
-M0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4
-MjI0MTM5MjRdfQ==
+eyJoaXN0b3J5IjpbMTk5MTg4NDY4MiwtMTc2Nzg4NjQ1OCwtMT
+c2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5
+OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5Mz
+UsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03
+NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNT
+U1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkz
+NDcyNTYzMl19
 -->
