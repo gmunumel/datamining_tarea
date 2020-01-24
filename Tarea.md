@@ -379,11 +379,9 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 |_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
-En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las variables que utilizan tenemos que son 135 y 35 respectivamente. De forma, que si se debe elegir entre
- alguno de estos modelos se eligir?a el modelo `modeloStepBIC_int` ya que la diferencia
- de bondades del ajuste es s?lo 0.021, pero su complejidad es mucho menor. Por el principio 
- de parsimonia, es preferible el `modeloStepBIC_int`.
+En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que si se debe elegir entre alguno de estos modelos se eligirá el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
+###
 
 ### Lasso
 
@@ -535,7 +533,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwOTcxODI4LC05NzU5NDExNTIsMjEwND
+eyJoaXN0b3J5IjpbNTE2MzMyNzM0LC05NzU5NDExNTIsMjEwND
 I4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywx
 NjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3OD
 g2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQx
