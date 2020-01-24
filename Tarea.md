@@ -378,10 +378,8 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 |_ModeloStepAIC_Int_|Originales-Interacciones|$0.6303501$|$135$|
 |_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
-De la ejecución utilizando el método Stepwise y sus m?todo de medici?n _AIC_ Y _BIC_ se 
- desprende que en el modelo `modeloStepAIC_int` la bondad del ajuste ha sido de 0.6303501
- mientras que el modelo `modeloStepBIC_int` es de 0.6087072. En el caso de las variables que
- utilizan tenemos que son 135 y 35 respectivamente. De forma, que si se debe elegir entre
+
+En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las variables que utilizan tenemos que son 135 y 35 respectivamente. De forma, que si se debe elegir entre
  alguno de estos modelos se eligir?a el modelo `modeloStepBIC_int` ya que la diferencia
  de bondades del ajuste es s?lo 0.021, pero su complejidad es mucho menor. Por el principio 
  de parsimonia, es preferible el `modeloStepBIC_int`.
@@ -537,11 +535,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzAzNTI2NSwtOTc1OTQxMTUyLDIxMD
-QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
-MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
-g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
-MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMS
-w5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0
-NTgzMzA3XX0=
+eyJoaXN0b3J5IjpbNjUwOTcxODI4LC05NzU5NDExNTIsMjEwND
+I4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywx
+NjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3OD
+g2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQx
+MDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLD
+k0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1
+ODMzMDddfQ==
 -->
