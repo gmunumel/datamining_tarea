@@ -354,8 +354,9 @@ Se realizan las transformaciones de las variables cuantitativas utilizando la va
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
+En la tabla 
 
-
+TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Lasso
 
@@ -507,11 +508,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
-EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
-NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyOD
-QwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1
-NDQ0NDg1Ml19
+eyJoaXN0b3J5IjpbLTc0OTg1NTU0MiwtNDc1MTA4NDI5LDkzMj
+E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
+NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
+g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
+MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
+AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
+MTU3NjQ5NF19
 -->
