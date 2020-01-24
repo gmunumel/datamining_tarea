@@ -350,6 +350,7 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
+
 ### Lasso
 
 ### Elección mejor modelo
@@ -500,11 +501,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg4NTcwMzEsMTYwMzU5MTkyNywxNj
-U0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2
-NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMD
-UsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0
-OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1OD
-MzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1Miwx
-OTYyODA1NTUxXX0=
+eyJoaXN0b3J5IjpbOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1ND
+cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
+OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
+E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
+MDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMz
+A3LC03NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2
+MjgwNTU1MV19
 -->
