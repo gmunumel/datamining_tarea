@@ -354,7 +354,7 @@ Se realizan las transformaciones de las variables cuantitativas utilizando la va
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
-En la tabla 
+|Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 
 TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 
@@ -508,11 +508,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzAzNTkxLC00NzUxMDg0MjksOTMyMT
-UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
-LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtOD
-gwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIy
-MDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MC
-wtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2MzM2MDMsMzkx
-NTc2NDk0XX0=
+eyJoaXN0b3J5IjpbMjE0MDM0ODQ3MSwtNDc1MTA4NDI5LDkzMj
+E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
+NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
+g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
+MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
+AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
+MTU3NjQ5NF19
 -->
