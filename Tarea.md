@@ -329,14 +329,18 @@ Analizando las complejidades de los modelos y las bondades del ajuste para cada 
 
 Observo los coeficientes del _Modelo 9_ y la importancia de las variables en la gráfica $8$.
 ```
- (Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr        CCAACataluña 
-32.2072016           4.9285833          12.8441282           7.6312992         -21.1182203 
+> coef(modelo9)
+     (Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr        CCAACataluña 
+      32.2072016           4.9285833          12.8441282           7.6312992         -21.1182203 
 CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal    Age_under19_Ptge      Age_over65_pct 
-1.3308214          -8.9904299           3.0950148          -0.2570178           0.1326130 
+       1.3308214          -8.9904299           3.0950148          -0.2570178           0.1326130 
 PersonasInmueble           Servicios ComercTTEHosteleria 
--1.0736828           2.3649846          -6.0905217 
+      -1.0736828           2.3649846          -6.0905217 
 ```
 
+
+
+TODO GRAFICA 9
 
 
 
@@ -492,11 +496,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYyNTQ0OTUsMTYwMzU5MTkyNywxNj
-U0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2
-NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMD
-UsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0
-OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1OD
-MzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1Miwx
-OTYyODA1NTUxXX0=
+eyJoaXN0b3J5IjpbLTcyMDQwODIxNiwxNjAzNTkxOTI3LDE2NT
+Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
+NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
+wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
+MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2NDU4Mz
+MwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5
+NjI4MDU1NTFdfQ==
 -->
