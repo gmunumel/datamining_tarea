@@ -307,7 +307,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último, se valora la co la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTU5ODY4OCwxMzA5NTUzNDAsLTE3Nj
-c4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1Mzcy
-NDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2Mz
-EsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2
-NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0OD
-UyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0
-NTMyNTIyXX0=
+eyJoaXN0b3J5IjpbLTEwNjQ4ODk2OTIsMTMwOTU1MzQwLC0xNz
+Y3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3
+MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2Nj
+MxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEy
+NjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0ND
+g1MiwxOTYyODA1NTUxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2
+NDUzMjUyMl19
 -->
