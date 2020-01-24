@@ -307,20 +307,20 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último se valora la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad. Por último, se valora la co la complejidad del modelo ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
-|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|$42$|Es el modelo con mejor dato para $R^2\ train$|
+|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|$42$|Es el modelo con mejor dato para $R^2\ train$ pero mayor complejidad.|
 |Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|$14$|XXX|
 |Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$|XXX|
 |Modelo 4|Modelo 3 + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$|XXX|
 |Modelo 5|Modelo 4 + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$|XXX|
 |Modelo 6|Modelo 5 + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$|XXX|
-|Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|$33$|XXX|
+|Modelo 7|Modelo 6 + `DifComAutonPtge` `Densidad`|$0.5845147$|$0.6048381$|$0.02032$|$33$|Es el modelo con mejor $R^2\ test$|
 |Modelo 8|Modelo 7 - `CCAA`|$0.3105017$|$0.362801$|$0.05229$|$26$|La eliminación de la variable más importante del modelo `CCAA` empeora mucho el modelo. |
 |Modelo 9|Modelo 2 - `Age_0_4_Ptge`|$0.5660495$|$0.5899167$|$0.02386$|$13$|La diferencia de los $\Delta\ R^2$ entre este modelo y el Modelo 2 es muy pequeña por tanto se puede usar este modelo ya que tiene menos complejidad.|
-|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|XXX|
+|Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
 En general la tendencia a medida que se van agregando mas variables al modelo es que mejora la bondad del ajuste del mismo, $R^2$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNz
-Y3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5
-NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNS
-wxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1
-MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NT
-UxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0
-NzI1NjMyXX0=
+eyJoaXN0b3J5IjpbLTI0OTU5ODY4OCwxMzA5NTUzNDAsLTE3Nj
+c4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1Mzcy
+NDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2Mz
+EsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2
+NDU4MzMwNywtNzUyNjMzNjAzLDM5MTU3NjQ5NCwxNzU0NDQ0OD
+UyLDE5NjI4MDU1NTEsNTY5OTIxNjM0LDcyMjcyNDM1OSwtODY0
+NTMyNTIyXX0=
 -->
