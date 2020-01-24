@@ -371,19 +371,14 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
  Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
-### Transformaciones variables originales 
+### Interacciones con las variables originales 
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
-|_modeloStepAIC_int_|Originales Trans|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
-|_ModeloBackAIC_|Originales Trans|$0.5946408$|$27$||
+|_ModeloStepAIC_Int_|Originales-Interacciones|$0.6303501$|$135$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
+|_ModeloStepBIC_Int_|Originales-Interacciones|$0.5946408$|$27$||
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
-|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
-|:---|:---|:---|:---|:---|
-|_ModeloStepBIC_|Originales Trans|$0.5946924$|$18$||
-|_ModeloBackBIC_|Originales Trans|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
-TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 ### Lasso
@@ -536,7 +531,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTAxMjY0MiwtOTc1OTQxMTUyLDIxMD
+eyJoaXN0b3J5IjpbLTMwMDI0MTM5MSwtOTc1OTQxMTUyLDIxMD
 QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
 MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
 g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
