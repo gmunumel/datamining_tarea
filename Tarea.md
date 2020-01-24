@@ -384,10 +384,12 @@ En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mie
 ### Transformadas con las variables originales 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
-|_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$135$|
-|_ModeloStepBIC_Trans_|Originales-Transformaciones|$0.6002378$|$35$|
+|_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$34$|
+|_ModeloStepBIC_Trans_|Originales-Transformaciones|$0.6002378$|$15$|
 TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
-
+  Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ ya que la diferencia de las bondades del 
+ ajuste son muy peque?as, s?lo 0.0073 y su complejidad es menor, 15 comparado
+ con 34. Por el principio de parsimonia, es preferible el `modeloStepBIC_trans`.
 
 ### Lasso
 
@@ -539,11 +541,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzYzNjY2NSwtOTc1OTQxMTUyLDIxMD
-QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
-MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
-g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
-MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMS
-w5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0
-NTgzMzA3XX0=
+eyJoaXN0b3J5IjpbLTEyMzcxMTMyODQsLTk3NTk0MTE1MiwyMT
+A0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3
+LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Nj
+c4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1Mzcy
+NDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2Mz
+EsOTQ5MDA4OTM1LDEyMzg3MjMyNzAsLTE1MzQyOTI4NDAsMTI2
+NDU4MzMwN119
 -->
