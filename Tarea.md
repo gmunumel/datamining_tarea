@@ -323,7 +323,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 |Modelo 10|`CCAA`|$0.5219683$|$0.530841$|$0.00887$|$8$|Modelo con menor complejidad y menor $\Delta\ R^2$|
 TODO TABLA 2[Table caption, works as a reference][section-mmd-tables-table1]
 
-Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo, $R^2$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
+Desde los modelos $2$ al $7$ la tendencia a medida que se van agregando más variables es que mejora la bondad del ajuste del mismo para $R^2\ train$ y $R^2\ test$. La variable `CCAA` permanece como la más importante y se mantiene con respecto a las demás variables.
 
 
 
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU0MjI5ODQsMTY1NDcxOTE2NCwxMD
-M2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4
-NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5OD
-IsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIz
-ODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03NTI2Mz
-M2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNTU1MSw1
-Njk5MjE2MzRdfQ==
+eyJoaXN0b3J5IjpbMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMz
+YxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2
+NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4Mi
+wxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4
+NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMz
+YwMywzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2
+OTkyMTYzNF19
 -->
