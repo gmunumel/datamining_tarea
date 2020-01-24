@@ -358,8 +358,14 @@ Los tres métodos a utilizar para la selección de variables son _Forward_, _Bac
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
-||Todas|||XXX|
-
+|_ModeloStepAIC_|Todas|$0.5941304$|$25$|XXX|
+|_modeloBackAIC_|Todas|$0.5946408$|$27$|XXX|
+|__||$$|$$|XXX|
+|__||$$|$$|XXX|
+|__||$$|$$|XXX|
+|__||$$|$$|XXX|
+|__||$$|$$|XXX|
+|__||$$|$$|XXX|
 TODO TABLA 3[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Lasso
@@ -512,7 +518,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDg0OTgxOSwyMTA0MjgyNiwtNDc1MT
+eyJoaXN0b3J5IjpbMTY3NTUwMzk5NywyMTA0MjgyNiwtNDc1MT
 A4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQs
 MTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Nj
 c4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0
