@@ -390,7 +390,9 @@ TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
-Comparando modelos _ModeloStepAIC_ y _odeloStepAIC_trans
+#### Comparando modelos _ModeloStepAIC_ y _ModeloStepAIC_Trans_
+
+
 
 ### Lasso
 
@@ -542,11 +544,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUwMjU5OTMsLTU3NzA0NTI5OCwtOT
-c1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1
-LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMD
-k1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIx
-NDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OS
-wtMTY5NDQ3NjYzMSw5NDkwMDg5MzUsMTIzODcyMzI3MCwtMTUz
-NDI5Mjg0MF19
+eyJoaXN0b3J5IjpbMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05Nz
+U5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUs
+MTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOT
+U1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0
+OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC
+0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC0xNTM0
+MjkyODQwXX0=
 -->
