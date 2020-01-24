@@ -32,9 +32,6 @@ datos$VotosDerPtge <- ((datos$PP + datos$Cs + datos$VOX) * 100) / datos$Censo
 
 Con la instrucción `str(datos)` se observa el tipo de datos de las variables. Se aprecia que las variables `CCAA`, `CodigoINE`, `PartidoMasVotado` y `PartidoCCAA` son de tipo caracter (_chr_). El resto de variables son de tipo numérico (_num_).
 
-{: style="text-align: justify"}
-```
-
 Comprobación de valores distintos de las variables cuantitativas, gracias a la instrucción `sapply(Filter...`. Se observa que haya más de $10$ valores para cada variable. Se aprecia que la variable binaria, `VotosDerIzq` tiene pocos valores distintos, por lo tanto es candidato a ser convertido en factor.
 
  Con la siguiente instrucción `summary(datos)` se aprecia los datos faltantes (_NA_) en las variables: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`,
@@ -482,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTgzNjM1LC0xNzY3ODg2NDU4LC04OD
-AxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIw
-MjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4NzIzMjcwLC
-0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1MjYzMzYwMywzOTE1
-NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NTUxLDU2OTkyMTYzNC
-w3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0NzI1NjMyLC0xODIy
-NDEzOTI0XX0=
+eyJoaXN0b3J5IjpbLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
+g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
+MjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3MjMyNz
+AsLTE1MzQyOTI4NDAsMTI2NDU4MzMwNywtNzUyNjMzNjAzLDM5
+MTU3NjQ5NCwxNzU0NDQ0ODUyLDE5NjI4MDU1NTEsNTY5OTIxNj
+M0LDcyMjcyNDM1OSwtODY0NTMyNTIyLC05MzQ3MjU2MzIsLTE4
+MjI0MTM5MjRdfQ==
 -->
