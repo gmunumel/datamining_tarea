@@ -311,7 +311,7 @@ Primero se realiza la partición de los datos en _train_ y _test_ para tener un 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
-|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|$42$|Es el modelo con mejor |
+|Modelo 1|Todas|$0.5851544$|$0.6044848$|$0.01933$|$42$|Es el modelo con mejor dato para $R^2\ train$|
 |Modelo 2|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|$14$|XXX|
 |Modelo 3|Modelo 2 + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$|XXX|
 |Modelo 4|Modelo 3 + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$|XXX|
@@ -479,11 +479,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTg4NDY4MiwtMTc2Nzg4NjQ1OCwtMT
-c2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5
-OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkwMDg5Mz
-UsMTIzODcyMzI3MCwtMTUzNDI5Mjg0MCwxMjY0NTgzMzA3LC03
-NTI2MzM2MDMsMzkxNTc2NDk0LDE3NTQ0NDQ4NTIsMTk2MjgwNT
-U1MSw1Njk5MjE2MzQsNzIyNzI0MzU5LC04NjQ1MzI1MjIsLTkz
-NDcyNTYzMl19
+eyJoaXN0b3J5IjpbMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNz
+Y3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5
+NDk4MiwxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNS
+wxMjM4NzIzMjcwLC0xNTM0MjkyODQwLDEyNjQ1ODMzMDcsLTc1
+MjYzMzYwMywzOTE1NzY0OTQsMTc1NDQ0NDg1MiwxOTYyODA1NT
+UxLDU2OTkyMTYzNCw3MjI3MjQzNTksLTg2NDUzMjUyMiwtOTM0
+NzI1NjMyXX0=
 -->
