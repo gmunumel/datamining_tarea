@@ -457,7 +457,10 @@ $$VotosPartidoDerechaPtge =  42.97+ (-0.26)*Age\_under19\_Ptge + ... + (-0.06)*S
 
 Las bondades del ajuste para _train_ es $0.5845296$ y para _test_ $0.5946924$. Su complejidad es de 18 variables. La fiabilidad del modelo es buena ya que la diferencia entre sus bondades es de sólo $0.010$. 
 
+TODO GRAFICO 13.
+
 La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploymentPtge` con $0.0076$. Las demás siguen una tendencia a la baja como se muestra en el gráfico $13$. 
+
 
 **Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las variables `Censo`, `Construccion`, `Population` en todos los modelos anteriores y se ha observado que el cambio algunas veces ha mejorado o empeorado pero por muy poco. Dado que no hay una mejora sustancial he decidido descartar la eliminación. 
 
@@ -605,11 +608,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMD
-QzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2Mjkz
-MTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zND
-QwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUy
-OTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMj
-E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
-Nl19
+eyJoaXN0b3J5IjpbLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLT
+U2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4
+OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMz
+U5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2
+NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtND
+c1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkx
+NjRdfQ==
 -->
