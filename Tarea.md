@@ -302,7 +302,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
  Donde $n$ y $m$ son enteros positivos pero menores a la totalidad de variables.
 
- Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
+Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
 Según la tercera premisa que menciona que las variables input no deben estar muy correlacionadas
 
@@ -546,7 +546,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzU4MjU5NCwxMDU1MjM2NjAzLC01Nz
+eyJoaXN0b3J5IjpbLTU4OTcwNDg3OCwxMDU1MjM2NjAzLC01Nz
 cwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5
 LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNj
 E3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0
