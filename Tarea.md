@@ -407,7 +407,12 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos
  sin transformar. 
 
-### 
+### Variables originales, transformados y discretizados
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
+|:---|:---|:---|:---|:---|
+|_ModeloStepAIC_Disc_|Originales-Interacciones|$0.604728$|$135$|
+|_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
+TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Lasso
 
@@ -561,7 +566,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjI0NDA3NiwtMzQ0MDk4NjA3LDE5Mj
+eyJoaXN0b3J5IjpbMTU2NTQ3NjQ1OCwtMzQ0MDk4NjA3LDE5Mj
 cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
 NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
