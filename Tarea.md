@@ -588,21 +588,22 @@ Se observa que el valor que mayor igualdad ofrece entre la sensibilidad (_Sensit
 
 TODO GRAFICA 17
 
-Probando con varios puntos al azar para encontrar aquel en donde me de más similitud entre la sensibilidad y especificidad ha sido el punto $0.503137$. 
+Probando con varios puntos al azar para encontrar aquel en donde me de más similitud entre la sensibilidad y especificidad y no perder exactitud (_Accuracy_) ha sido el punto $0.503137$. 
 ```
 > sensEspCorte(modeloStepBIC,data_test,"varObjBin",0.503137,"1")
 Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value 
 0.6977175      0.6975000      0.6979294      0.6923077      0.7030675
 ```
 
+
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTI4ODgxMCwtMTUzMjA2NzEzMiwyNj
-g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
-MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
-E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
-ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
-k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
-MTc3MzI1NDJdfQ==
+eyJoaXN0b3J5IjpbMzEwMDM1OTIxLC0xNTMyMDY3MTMyLDI2OD
+c1MDQxNywxNDg1Nzk3OTQ1LDc0NTQ0Mjc3NiwxMjk4NDQyNjMz
+LC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3ODcsMT
+Y4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOSwtMTc4
+MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYwOT
+czNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLTMx
+NzczMjU0Ml19
 -->
