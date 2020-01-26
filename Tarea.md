@@ -421,7 +421,7 @@ TODO GRAFICA 12
 
  El modelo _Lasso_ se descarta ya que me ofrece casi la misma bondad del ajuste que el _Modelo 1_ pero mucha más variables. Al final elijo el _Modelo 1_ _ModeloStepBIC_ ya que a pesar que la complejidad del _Modelo 2_ _ModeloStepBIC_Trans_ tiene menos variables, $15$ comparado a $18$ respectivamente, la diferencia del $R^2$ es pequeña y es más fácil de interpretar en el _Modelo 1_. 
 
-Se analizan 
+Se análizan los datos 
 
 
 
@@ -571,11 +571,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc4NDc2NjMsMjA0Mzk1MzYzMSwxMz
-Q0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MDM1
-OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5Mj
-cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
-NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-XX0=
+eyJoaXN0b3J5IjpbLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzND
+Q2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4
+LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNz
+IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
+MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
+kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDBd
+fQ==
 -->
