@@ -410,8 +410,8 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 ### Variables originales, transformados y discretizados
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
-|_ModeloStepAIC_Disc_|Originales-Interacciones|$0.604728$|$135$|
-|_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
+|_ModeloStepAIC_Disc_|Originales-Interacciones|$0.604728$|$63$|
+|_ModeloStepBIC_Disc_|Originales-Interacciones|$0.6002378$|$15$|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### Lasso
@@ -566,11 +566,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTQ3NjQ1OCwtMzQ0MDk4NjA3LDE5Mj
-cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
-NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
-EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
-NDc2NjMxXX0=
+eyJoaXN0b3J5IjpbLTEwODA1OTM1NDgsLTM0NDA5ODYwNywxOT
+I3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQx
+MTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MD
+M1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0
+MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC
+0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5
+NDQ3NjYzMV19
 -->
