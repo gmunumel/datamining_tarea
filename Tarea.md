@@ -506,8 +506,8 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 ### 8.2) Modelos con variables originales
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
-|_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
-|_ModeloBackAIC_|Originales|$0.5946408$|$27$||
+|_ModeloStepAIC_|Originales|$0.2239545$|$26$||
+|_ModeloBackAIC_|Originales|$0.2241339$|$27$|Modelo con mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
@@ -538,11 +538,11 @@ TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NDE0NzE5LC0yMDQ5NzU1NzIxLC04MD
-IwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEy
-MjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2Mz
-EsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5
-NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNy
-wxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1
-OTQxMTUyXX0=
+eyJoaXN0b3J5IjpbMTY2Mjg0OTA5OCwtMjA0OTc1NTcyMSwtOD
+AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
+MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
+MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
+OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
+csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
+NTk0MTE1Ml19
 -->
