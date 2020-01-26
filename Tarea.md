@@ -398,7 +398,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  se obtiene una diferencia de $0.013$, las complejidades de los 
  modelos han sido de $25$ a $34$ respectivamente. Por el principio
  de parsimonia se tomaría el modelo _ModeloStepAIC_.
-#### _ModeloStepBIC_ y _ModeloStepAIC_Trans_
+#### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Si se comparan las bondades del ajuste para los modelos _ModeloStepBIC_ y _ModeloStepBIC_Trans_ se obtiene una diferencia de $0.0055$, las complejidades de los modelos han sido de $18$ a $15$ respectivamente. Aunque hay una mejora de la complejidad del modelo transformado _ModeloStepBIC_Trans_ no se lo toma en cuenta ya que la diferencia de las bondades del ajuste es muy pequeña y su interpretación mucho más compleja. Por el principio de parsimonia se tomaría el modelo _ModeloStepBIC_.
  
  Se aprecian de los modelos transformados y sin transformar que 
@@ -415,6 +415,12 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
+
+### Comparando modelos con variables originales y las discretizadas
+#### _ModeloStepAIC_ vs _ModeloStepAIC_Disc_
+
+#### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
+ 
 
 ### Lasso
 
@@ -568,7 +574,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTkwNzk2OSwtMzQ0MDk4NjA3LDE5Mj
+eyJoaXN0b3J5IjpbLTEyNjk4MzE0OCwtMzQ0MDk4NjA3LDE5Mj
 cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
 NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
