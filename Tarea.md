@@ -550,7 +550,9 @@ El valor de pseudo bondad del ajuste obtenido ha sido de $0.2326836$ y las varia
 ### Validación cruzada con todos los modelos
 Para realizar esta validación se utilizan los mejores modelos de cada medición: _Modelo 2_, _ModeloStepAIC_, _ModeloStepBIC_, _ModeloStepBIC_Int_, _ModeloStepBIC_Trans_, _ModeloStepBIC_Disc_, _ModeloStepBIC_TransInt_).
 
-TODO GRAFICO 
+TODO GRAFICO 14
+
+
 
 
 
@@ -559,7 +561,7 @@ TODO GRAFICO
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY3MDYyNCw3NDU0NDI3NzYsMTI5OD
+eyJoaXN0b3J5IjpbMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5OD
 Q0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0
 Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMT
 ksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEz
