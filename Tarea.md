@@ -475,7 +475,7 @@ Al igual que en los modelos lineales se realizan pruebas con modelos en donde se
 
 ### 8.1) Modelo de regresión logística manual
 
-Se muestra en la tabla
+En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primero modelo, que contiene todas las variables y se han ido agregado un conjunto de ellas para crear los modelos siguientes. 
 
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -495,7 +495,7 @@ Se muestra en la tabla
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTA4OTc1MywtMjA2OTA3NDUyOCwtMT
+eyJoaXN0b3J5IjpbLTczMzA3NjQyOCwtMjA2OTA3NDUyOCwtMT
 I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
 NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
 EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
