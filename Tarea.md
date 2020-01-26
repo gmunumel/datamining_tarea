@@ -542,7 +542,8 @@ La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _Mo
 
 ### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Disc_
-
+La diferencia de las pseudo bondades del ajuste entre el modelo _ModeloStepBIC_ y _ModeloStepBIC_Disc_ es de $0.024$, un $2\%$. Es una diferencia muy pequeña, así que observo las complejidades y se tiene que el modelo _ModeloStepBIC_ es más sencillo que el modelo _ModeloStepBIC_Disc_ ya que se tienen las variables $17$ y $19$ respectivamente. Por lo tanto, se elige
+ el modelo _ModeloStepBIC_, que también es el más sencillo. 
 ### 8.6) Modelos con todas las variables e interacciones
 ### Validación cruzada con todos los modelos
 ### 8.7) Modelo _Lasso_
@@ -550,7 +551,7 @@ La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _Mo
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMxNjUyMDMsNzQ1NDQyNzc2LDEyOT
+eyJoaXN0b3J5IjpbLTE5MDY5MjA0NjgsNzQ1NDQyNzc2LDEyOT
 g0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLTgwMjA2
 NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMD
 E5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwx
