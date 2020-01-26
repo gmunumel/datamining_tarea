@@ -562,19 +562,21 @@ TODO GRAFICO 15
 
 ### Validación cruzada entre todos los modelos utilizando _ROC_
 
+Del gráfico $16$ se puede decir que los modelos que mayor área bajo la curva ofrecen son los modelos 7 y 4, sin embargo, los descarto ya que tienen muchas variables, $32$ y $26$ respectivamente. Los modelos que le siguen son el _Modelo 8_ (_Lasso_), _Modelo 6_, _5_ y _3_. Descarto el modelo _Lasso_ por tener mucha complejidad, $35$ variables. Entre el _Modelo 6_, _5_ y _3_, eligo el _Modelo 3_ ya que no hay mucha diferencia entre las áreas bajo la curva de los tres modelos, $0.0047$, pero el _Modelo 3_ es mucho más sencillo de interpretar. El nombre del modelo es _ModeloStepBIC_.
 
 TODO GRAFICO 16
 
 ### Área bajo la curva
+Para buscar el área bajo la curva para el modelo ej
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIwNjcxMzIsMjY4NzUwNDE3LDE0OD
-U3OTc5NDUsNzQ1NDQyNzc2LDEyOTg0NDI2MzMsLTE3MzMyMzc2
-NzAsLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNjg5NDY1MzQ1LC
-0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgwMTMzOTMyLC01
-NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1OD
-k0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1
-OTc4NzM4N119
+eyJoaXN0b3J5IjpbLTc2NDU3MjczMSwtMTUzMjA2NzEzMiwyNj
+g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
+MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
+E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
+ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
+k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
+MTc3MzI1NDJdfQ==
 -->
