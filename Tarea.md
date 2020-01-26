@@ -481,8 +481,8 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 |:---|:---|:---|:---|:---|:---|:---|
 |_Modelo 1_|Todas|$0.2223965$|$0.2218339$|$0.00056$|$44$|Es el modelo con mejor XXX|
 |_Modelo 2_|`CCAA` `ForeignersPtge` `Densidad` `Superficie` `ComercTTEHosteleria` `WomanPopulationPtge` `Age_0_4_Ptge`|$0.2085862$|$0.2031566$|$0.013$|$14$||
-|_Modelo 3_|_Modelo 2_ + `Explotaciones` `DifComAutonPtge` `Servicios` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$||
-|_Modelo 4_|_Modelo 3_ + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$||
+|_Modelo 3_|_Modelo 2_ + `Explotaciones` `DifComAutonPtge` `Servicios` `AgricultureUnemploymentPtge`|$0.2117713$|$0.2142237$|$0.0024$|$18$||
+|_Modelo 4_|_Modelo 3_ + `UnemployLess25_Ptge` `Industria` `PobChange_pct` `ServicesUnemploymentPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$||
 |_Modelo 5_|_Modelo 4_ + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$||
 |_Modelo 6_|_Modelo 5_ + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$|| 
 
@@ -504,11 +504,11 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjU2NzA2MCwtMjA2OTA3NDUyOCwtMT
-I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
-NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
-EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
-ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
-wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
-OTc1XX0=
+eyJoaXN0b3J5IjpbLTExNjM1MTcwMTgsLTIwNjkwNzQ1MjgsLT
+EyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQz
+OTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMT
+YxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQw
+OTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOT
+gsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1
+MTk3NV19
 -->
