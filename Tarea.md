@@ -371,20 +371,9 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
 ### 7.4) Modelos con las variables originales e  interacciones
 
-|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
-|:---|:---|:---|:---|:---|
-|_ModeloStepAIC_Int_|Originales-Interacciones|$0.6303501$|$135$|
-|_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
-TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
-
 En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que se elige el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
 ### 7.5) Modelos con variables originales y transformadas
-|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
-|:---|:---|:---|:---|:---|
-|_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$34$|
-|_ModeloStepBIC_Trans_|Originales-Transformaciones|$0.6002378$|$15$|
-TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
@@ -395,11 +384,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Si se comparan las bondades del ajuste para los modelos _ModeloStepBIC_ y _ModeloStepBIC_Trans_ se obtiene una diferencia de $0.0055$, las complejidades de los modelos han sido de $18$ a $15$ respectivamente. Aunque hay una mejora de la complejidad del modelo transformado _ModeloStepBIC_Trans_ no se lo toma en cuenta ya que la diferencia de las bondades del ajuste es muy pequeña y su interpretación mucho más compleja. Por el principio de parsimonia se tomaría el modelo _ModeloStepBIC_.
  
- Se aprecian de los modelos transformados y sin transformar que 
- las posibles mejoras en los índices de bondades del ajuste ($R^2$) para 
- los primeros no son tan altos comparados con los 
- modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos
- sin transformar. 
+ Se aprecian de los modelos transformados y sin transformar que las posibles mejoras en los índices de bondades del ajuste ($R^2$) para los primeros no son tan altos comparados con los modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos sin transformar. 
 
 ### 7.6) Modelos con variables originales, transformadas y discretizados
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
@@ -581,11 +566,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ3Njc2LDkwOTUwMzU4LC0zMTc3Mz
-I1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIzODMwMiwx
-MDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1MiwyMTA0Mj
-gyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2
-NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4OD
-Y0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEw
-NV19
+eyJoaXN0b3J5IjpbLTE3MzkxMjEyMDcsOTA5NTAzNTgsLTMxNz
+czMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4MzAy
+LDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMD
+QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
+MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
+g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
+MTA1XX0=
 -->
