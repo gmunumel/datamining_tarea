@@ -515,15 +515,16 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
 
 ### 8.6) Modelos con todas las variables e interacciones
+### Validación cruzada con todos los modelos
 ### 8.7) Modelo _Lasso_
 ### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcyMjIyNjUsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
-A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
-NzU5NDExNTJdfQ==
+eyJoaXN0b3J5IjpbMTcxMzE4NzkyMiwtMjA0OTc1NTcyMSwtOD
+AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
+MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
+MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
+OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
+csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
+NTk0MTE1Ml19
 -->
