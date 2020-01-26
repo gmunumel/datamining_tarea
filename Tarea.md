@@ -487,6 +487,8 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 |_Modelo 6_|_Modelo 5_ + `PersonasInmueble` `SameComAutonPtge` `Inmuebles`|$0.2212066$|$0.2242951$|$0.0030$|$31$|| 
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
+ El mejor modelo es el _Modelo 2_ ya que no proporciona grandes diferencias con las pseudo bondades de los ajustes de los otros modelos, pero sí que tiene menor complejidad con $14$ variables. 
+
 
 
 ### 8.2) Modelo con transformaciones y discretizadas
@@ -507,11 +509,11 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MDI4NDUxLC0yMDY5MDc0NTI4LC0xMj
-YxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1
-MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MS
-w5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4
-NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC
-05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5
-NzVdfQ==
+eyJoaXN0b3J5IjpbMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMT
+I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
+NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
+EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
+ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
+wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
+OTc1XX0=
 -->
