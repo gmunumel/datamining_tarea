@@ -584,16 +584,16 @@ Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value
 0.7038865      0.7287500      0.6796590      0.6891253      0.7200000 
 ```
 
-Se observa que el valor que m
+Se observa que el valor que mayor igualdad ofrece entre la sensibilidad (_Sencitivity_) y especifficidad (_Specificity_) es $0.49$. 
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODk5ODI2LC0xNTMyMDY3MTMyLDI2OD
-c1MDQxNywxNDg1Nzk3OTQ1LDc0NTQ0Mjc3NiwxMjk4NDQyNjMz
-LC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3ODcsMT
-Y4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOSwtMTc4
-MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYwOT
-czNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLTMx
-NzczMjU0Ml19
+eyJoaXN0b3J5IjpbMTI5NTE3NzgzMiwtMTUzMjA2NzEzMiwyNj
+g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
+MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
+E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
+ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
+k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
+MTc3MzI1NDJdfQ==
 -->
