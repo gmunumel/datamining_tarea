@@ -390,7 +390,7 @@ TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
-### Comparando modelos con variables originales y los transformados 
+### Comparando modelos con variables originales y las transformadas 
 
 #### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
  Si se comparan las bondades del 
@@ -399,17 +399,15 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  modelos han sido de $25$ a $34$ respectivamente. Por el principio
  de parsimonia se tomaría el modelo _ModeloStepAIC_.
 #### _ModeloStepBIC_ y _ModeloStepAIC_Trans_
- Si se comparan las bondades del 
- ajuste para los modelos _ModeloStepBIC_ y _ModeloStepBIC_Trans_
- se obtiene una diferencia de $0.0055$, las complejidades de los 
- modelos han sido de $18$ a $15$ respectivamente. Aunque hay una 
- mejora de la complejidad del modelo transformado _ModeloStepBIC_Trans_ no se lo toma en cuenta ya que la diferencia de las bondades del ajuste es muy pequeña y su interpretación mucho más compleja. Por el principio de parsimonia se tomaría el modelo _ModeloStepBIC_.
+ Si se comparan las bondades del ajuste para los modelos _ModeloStepBIC_ y _ModeloStepBIC_Trans_ se obtiene una diferencia de $0.0055$, las complejidades de los modelos han sido de $18$ a $15$ respectivamente. Aunque hay una mejora de la complejidad del modelo transformado _ModeloStepBIC_Trans_ no se lo toma en cuenta ya que la diferencia de las bondades del ajuste es muy pequeña y su interpretación mucho más compleja. Por el principio de parsimonia se tomaría el modelo _ModeloStepBIC_.
  
  Se aprecian de los modelos transformados y sin transformar que 
  las posibles mejoras en los índices de bondades del ajuste ($R^2$) para 
- los modelos transformados no son tan altos comparados con los 
+ los primeros no son tan altos comparados con los 
  modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos
  sin transformar. 
+
+### 
 
 ### Lasso
 
@@ -563,11 +561,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk2MDk1MjQsLTM0NDA5ODYwNywxOT
-I3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQx
-MTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MD
-M1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0
-MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC
-0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5
-NDQ3NjYzMV19
+eyJoaXN0b3J5IjpbLTM3MjI0NDA3NiwtMzQ0MDk4NjA3LDE5Mj
+cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
+NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
+U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
+LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
+EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
+NDc2NjMxXX0=
 -->
