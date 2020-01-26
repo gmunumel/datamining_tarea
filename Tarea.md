@@ -443,6 +443,8 @@ ConstructionUnemploymentPtge               ForeignersPtge
          WomanPopulationPtge     SameComAutonDiffProvPtge 
                  -0.13504343                  -0.12671021
 ```
+Para las variables categóricas la interpretación debe tomar en cuenta aquella categoría que no se muestra en los coeficientes, así que en los coeficientes mostrados la categoría faltante es `CCAAAndalucía`, de manera que la interpretación se hace comparando las categorías mostradas con la faltante. Por ejemplo, para la variable `CCAAAragón` se ha obtenido $4.17$, lo que significa que para un voto que se obtenga en dicha comunidad se aumenta en un $4.17\%$ los votos de la derecha en comparación con los votos obtenidos en la comunidad autónoma de Andalucí­a, `CCAAAndalucía`, por otro lado, para la comunidad autónoma `CCAACataluña` se observa que se tiene un valor de $-21.$ lo que indica que un voto que se realice en esa comunidad autónoma disminuye en un $-21.11\%$ los votos de la derecha en comparación con los votos en Andalucía. En el caso de las variables continuas, la interpretación se hace tomando en cuenta la variable de estudio y la variable continua objetivo. Por ejemplo, para la variable `Age_under19_Ptge` se tiene un valor de $-0.25$, lo que significa que del porcentaje de personas que votan con edades menores a $19$ años o familias votantes que tengan hijos menores a $18$ años, se disminuye un $0.25\%$ el porcentaje de votos que recibe los partidos de derecha. De forma análoga se puede realizar la interpretación del resto de variables solo hay que tener en cuenta si la variable es continua o categórica. 
+
 ```
 > formula(modeloStepBIC)
 varObjCont ~ CCAA + Age_under19_Ptge + ServicesUnemploymentPtge + 
@@ -598,7 +600,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUyNTE0OSwtNTYxNjExMTA4LDIwND
+eyJoaXN0b3J5IjpbLTg2NjkzODExNSwtNTYxNjExMTA4LDIwND
 M5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMx
 NjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
 A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
