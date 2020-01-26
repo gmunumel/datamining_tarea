@@ -614,13 +614,13 @@ ComercTTEHosteleria      ForeignersPtge      Age_over65_pct          Superficie
           1.0000061 
 ``` 
 
-El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, 
+El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcxNTAxLC0xNTMyMDY3MTMyLDI2OD
-c1MDQxNywxNDg1Nzk3OTQ1LDc0NTQ0Mjc3NiwxMjk4NDQyNjMz
-LC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3ODcsMT
-Y4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOSwtMTc4
-MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYwOT
-czNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLTMx
-NzczMjU0Ml19
+eyJoaXN0b3J5IjpbLTY0ODY1MDI3OCwtMTUzMjA2NzEzMiwyNj
+g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
+MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
+E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
+ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
+k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
+MTc3MzI1NDJdfQ==
 -->
