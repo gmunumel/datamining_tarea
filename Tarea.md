@@ -397,7 +397,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. Por lo tanto, no es el mejor modelo ya maneja muchas variables. 
 
 ### Validación cruzada con todos los modelos
-El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
+El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. Los modelos usados han sido: modeloManual,modeloStepAIC,modeloStepBIC,modeloStepBIC_int,modeloStepBIC_trans, _MmodeloStepBIC_Disc_, _ModeloStepBIC_TransInt_.
 
 TODO GRAFICO 10. 
 
@@ -548,17 +548,20 @@ La diferencia de las pseudo bondades del ajuste entre el modelo _ModeloStepBIC_ 
 El valor de pseudo bondad del ajuste obtenido ha sido de $0.2326836$ y las variables que utiliza es $32$. La fórmula generada es muy compleja. Por lo tanto, no es el mejor modelo ya maneja muchas variables. 
 
 ### Validación cruzada con todos los modelos
-Para realizar esta validación se utilizan los mejores modelos de cada medición: _Modelo 2_, _ModeloStepAIC_, _ModeloStepBIC_, _ModeloStepBIC_Int_, _ModeloStepBIC_Trans_, _ModeloStepBIC_Disc_, _ModeloStepBIC_TransInt
+Para realizar esta validación se utilizan los mejores modelos de cada medición: _Modelo 2_, _ModeloStepAIC_, _ModeloStepBIC_, _ModeloStepBIC_Int_, _ModeloStepBIC_Trans_, _ModeloStepBIC_Disc_, _ModeloStepBIC_TransInt_)
+
+
+
 ### 8.7) Modelo _Lasso_
 ### Área bajo la curva
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE4NzkwNzAsNzQ1NDQyNzc2LDEyOT
-g0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLTgwMjA2
-NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMD
-E5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwx
-MzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MD
-M1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5
-MjcyMzgzMDJdfQ==
+eyJoaXN0b3J5IjpbMTMxNTE3NjI0Myw3NDU0NDI3NzYsMTI5OD
+Q0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0
+Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMT
+ksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEz
+NDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMz
+U4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTky
+NzIzODMwMl19
 -->
