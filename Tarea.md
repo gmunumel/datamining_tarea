@@ -429,7 +429,7 @@ TODO GRAFICO 10.
  
 Entre el _Modelo 4_ y _Modelo 7_ se elige el primero ya que tiene mucho menos complejidad y su interpretación es más fácil. Comparando los modelos $3$ y $4$, llamados _ModeloStepBIC_ y _ModeloStepBIC_Int_ respectivamente, se elige el _Modelo 3_ ya que la diferencia de bondades del ajuste es sólo del $1\%$ ($0.014$) y su interpretación mucho más sencilla. 
  
- Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el Modelo $3$ y Modelo $5$ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del Modelo $5$ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
+Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el _Modelo 3_ y _Modelo 5_ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del _Modelo 5_ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
 
 
 
@@ -585,7 +585,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2NzQzMTQsLTMxNzczMjU0MiwzNT
+eyJoaXN0b3J5IjpbLTE5ODY2ODIxOTAsLTMxNzczMjU0MiwzNT
 k3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2
 MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00Nz
 UxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2
