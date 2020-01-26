@@ -417,8 +417,6 @@ TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
 ### Comparando modelos con variables originales y las discretizadas
-#### _ModeloStepAIC_ vs _ModeloStepAIC_Disc_
-
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  
 
@@ -574,7 +572,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk4MzE0OCwtMzQ0MDk4NjA3LDE5Mj
+eyJoaXN0b3J5IjpbMTgyMjcyMTczMSwtMzQ0MDk4NjA3LDE5Mj
 cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
 NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
