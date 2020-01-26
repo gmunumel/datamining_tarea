@@ -524,7 +524,11 @@ De la comparación de los modelos ganadores mostrados anteriormente se observa q
 
 ### 8.3) Modelos con las variables originales e  interacciones
 
+El modelo _ModeloStepAIC_Int_ y _ModeloStepBIC_Int_ tienen pseudos bondades del ajuste de $0.1756561$ y $0.2162576$ que muestran una diferencia de $0.040$. La diferencia es pequeña pero la complejidad de los modelos no. Dado que el modelo _ModeloStepAIC_Int_ tiene $128$ variables y el modelo _ModeloStepBIC_Int_ sólo $26$ se toma éste último. 
+
 ### 8.4) Modelos con variables originales y transformadas
+
+
 ### Comparando modelos con variables originales y las transformadas 
 
 #### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
@@ -542,11 +546,11 @@ De la comparación de los modelos ganadores mostrados anteriormente se observa q
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
-A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
-NzU5NDExNTJdfQ==
+eyJoaXN0b3J5IjpbNzAyOTkxODAwLC0xNzMzMjM3NjcwLC0yMD
+Q5NzU1NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3
+NDUyOCwtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMT
+A4LDIwNDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3
+MjYyOTMxNjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczOD
+csLTM0NDA5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3
+NzA0NTI5OF19
 -->
