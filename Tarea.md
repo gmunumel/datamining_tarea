@@ -468,6 +468,12 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 ## 8) Modelo de regresión logística
 
 ### 8.1) Modelo de regresión lineal manual
+### 8.2) Modelo con transformaciones y discretizadas
+### 8.3) Modelos con variables originales
+### 8.4) Modelos con las variables originales e  interacciones
+### 8.5) Modelos con variables originales y transformadas
+### 8.6) Modelos con variables originales, transformadas y discretizados
+### 8.7) Modelos con todas las variables e interacciones
 
 # Files
 
@@ -608,7 +614,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTQ2MjM5OCwtMTI2MTEyMjAxOSwtMT
+eyJoaXN0b3J5IjpbMTY3MDczNjE3NSwtMTI2MTEyMjAxOSwtMT
 c4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYw
 OTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLT
 MxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4
