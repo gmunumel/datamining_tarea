@@ -479,13 +479,15 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ train$|$pseudoR^2\ test$|$\Delta\ pseudoR^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
-|_Modelo 1_|Todas|$0.2223965$|$0.2218339$|$0.00056$|$44$|Es el modelo con mejor XXX|
+|_Modelo 1_|Todas|$0.2223965$|$0.2218339$|$0.00056$|$44$|Es el modelo con mejor valor para $pseusoR^2 t$|
 |_Modelo 2_|`CCAA` `ForeignersPtge` `Densidad` `Superficie` `ComercTTEHosteleria` `WomanPopulationPtge` `Age_0_4_Ptge`|$0.2085862$|$0.2031566$|$0.013$|$14$||
 |_Modelo 3_|_Modelo 2_ + `Explotaciones` `DifComAutonPtge` `Servicios` `AgricultureUnemploymentPtge`|$0.2117713$|$0.2142237$|$0.0024$|$18$||
 |_Modelo 4_|_Modelo 3_ + `UnemployLess25_Ptge` `Industria` `PobChange_pct` `ServicesUnemploymentPtge`|$0.214493$|$0.2188012$|$0.0043$|$22$||
 |_Modelo 5_|_Modelo 4_ + `ConstructionUnemploymentPtge` `Age_under19_Ptge` `PartidoCCAA` `Age_19_65_pct` `IndustryUnemploymentPtge`|$0.2203828$|$0.2251811$|$0.0047$|$28$||
 |_Modelo 6_|_Modelo 5_ + `PersonasInmueble` `SameComAutonPtge` `Inmuebles`|$0.2212066$|$0.2242951$|$0.0030$|$31$|| 
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
+
+
 
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -505,7 +507,7 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODMxNzc1NCwtMjA2OTA3NDUyOCwtMT
+eyJoaXN0b3J5IjpbLTUxNzM4MDI4NywtMjA2OTA3NDUyOCwtMT
 I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
 NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
 EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
