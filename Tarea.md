@@ -419,7 +419,8 @@ Se comparan tres modelos, el mejor modelo anterior _ModeloStepBIC_, el segundo m
 
 TODO GRAFICA 12
 
- El modelo _Lasso_ se descarta ya que me ofrece casi la misma bondad del ajuste que el _Modelo 1_ pero mucha más variables. Al final eligo el _Modelo 1_ _ModeloStepBIC_ ya que a pesar que la complejidad del _Modelo 2_ _ModeloStepBIC_Trans_ tiene menos variables, $15$ comparado a $18$, la diferencia del $R^2$ es pequeña y es más fácil de interpretar en el _Modelo 1_. 
+ El modelo _Lasso_ se descarta ya que me ofrece casi la misma bondad del ajuste que el _Modelo 1_ pero mucha más variables. Al final elijo el _Modelo 1_ _ModeloStepBIC_ ya que a pesar que la complejidad del _Modelo 2_ _ModeloStepBIC_Trans_ tiene menos variables, $15$ comparado a $18$, la diferencia del $R^2$ es pequeña y es más fácil de interpretar en el _Modelo 1_. 
+
 
 
 
@@ -569,7 +570,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Mjg1MDQyNywxMDQ1NTg5NDM5LDE3Mj
+eyJoaXN0b3J5IjpbMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3Mj
 YyOTMxNjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcs
 LTM0NDA5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3Nz
 A0NTI5OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0Mjks
