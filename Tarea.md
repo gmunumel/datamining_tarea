@@ -489,6 +489,18 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
  El mejor modelo es el _Modelo 2_ ya que no proporciona grandes diferencias con las pseudo bondades de los ajustes de los otros modelos, pero sí que tiene menor complejidad con $14$ variables. 
 
+Analizando sus resultados
+```
+> exp(modelo2$coefficients)
+(Intercept)          CCAAArag?n    CCAACastillaLe?n   CCAACastManc_Madr        CCAACatalu?a 
+1.7461357           2.3711080          10.5346443           2.8048985           0.3423511 
+CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal      ForeignersPtge     Densidad 
+4.6850965           0.9561143           3.2408524           1.0353985           0.9998684 
+Superficie ComercTTEHosteleria WomanPopulationPtge        Age_0_4_Ptge 
+0.9970582           0.3243609           0.9723004           0.9851439 
+```
+
+
 
 
 ### 8.2) Modelo con transformaciones y discretizadas
@@ -509,11 +521,11 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMT
-I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
-NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
-EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
-ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
-wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
-OTc1XX0=
+eyJoaXN0b3J5IjpbLTgwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMD
+Y5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2
+MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0Mz
+ksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4
+NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMy
+wtNTc3MDQ1Mjk4LC05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEw
+ODQyOV19
 -->
