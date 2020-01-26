@@ -475,11 +475,11 @@ Al igual que en los modelos lineales se realizan pruebas con modelos en donde se
 
 ### 8.1) Modelo de regresión logística manual
 
-En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primer _Modelo 1_, que contiene todas las variables y se han ido agregado un conjunto de ellas para crear los modelos siguientes.
+En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el prime _Modelo 1_, que contiene todas las variables y se han ido agregando un conjunto de ellas para crear los modelos siguientes siguiendo el orden mostrado en la gra.
 
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ train$|$pseudoR^2\ test$|$\Delta\ pseudoR^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
-|_Modelo 1_|Todas|$0.2223965$|$$|$0.01933$|$42$|Es el modelo con mejor dato para $R^2\ train$ pero mayor complejidad|
+|_Modelo 1_|Todas|$0.2223965$|$0.2218339$|$0.00056$|$44$|Es el modelo con mejor XXX|
 |_Modelo 2_|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|$14$||
 |_Modelo 3_|_Modelo 2_ + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$||
 |_Modelo 4_|_Modelo 3_ + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$||
@@ -504,11 +504,11 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primer _Mod
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjM3OTY5OCwtMjA2OTA3NDUyOCwtMT
-I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
-NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
-EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
-ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
-wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
-OTc1XX0=
+eyJoaXN0b3J5IjpbMjIxOTIzMjY2LC0yMDY5MDc0NTI4LC0xMj
+YxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1
+MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MS
+w5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4
+NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC
+05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5
+NzVdfQ==
 -->
