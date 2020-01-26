@@ -506,6 +506,7 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 ### 8.2) Modelos con variables originales
 
 ### 8.3) Modelos con las variables originales e  interacciones
+
 ### 8.4) Modelos con variables originales y transformadas
 ### Comparando modelos con variables originales y las transformadas 
 
@@ -524,11 +525,11 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc4OTMzNjAsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
-A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
-NzU5NDExNTJdfQ==
+eyJoaXN0b3J5IjpbMzY5ODE0NzgyLC0yMDQ5NzU1NzIxLC04MD
+IwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEy
+MjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2Mz
+EsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5
+NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNy
+wxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1
+OTQxMTUyXX0=
 -->
