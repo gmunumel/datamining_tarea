@@ -390,7 +390,9 @@ TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
-#### Comparando modelos con variables _ModeloStepAIC_ y _ModeloStepAIC_Trans_
+### Comparando modelos con variables originales y los transformados 
+
+#### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
  Comparando ambos modelos se observa que no vale la pena
  tener los modelos con las transformadas ya que no proporcionan
  una ganancia sustancial. Si se comparan las bondades del 
@@ -398,6 +400,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  se obtiene una diferencia de $0.013$, las complejidades de los 
  modelos han sido de $25$ a $34$ respectivamente. Por el principio
  de parsimonia se tomaría el modelo _ModeloStepAIC_.
+#### _ModeloStepBIC_ y _ModeloStepAIC_Trans_
 
 
 ### Lasso
@@ -552,7 +555,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkwMzA2NjksLTM0NDA5ODYwNywxOT
+eyJoaXN0b3J5IjpbLTEzMDY3NTk0ODgsLTM0NDA5ODYwNywxOT
 I3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQx
 MTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MD
 M1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0
