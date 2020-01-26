@@ -389,14 +389,14 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 ### 7.5) Modelos con variables originales, transformadas y discretizados
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
-### Comparando modelos con variables originales y las discretizadas
+#### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### 7.6) Modelos con todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
 
-### Validación cruzada con todos los modelos
+#### Validación cruzada con todos los modelos
 El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
 
 TODO GRAFICO 10. 
@@ -407,13 +407,13 @@ Entre el _Modelo 4_ y _Modelo 7_ se elige el primero ya que tiene mucho menos co
  
 Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el _Modelo 3_ y _Modelo 5_ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del _Modelo 5_ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
 
-### Modelo _Lasso_
+### 7.7) Modelo _Lasso_
 
 La gráfica 11 del modelo _Lasso_ nos muestra que hay dos puntos cuando la media del $R^2$ sigue siendo bajo, el óptimo se encuentra entre $97$ y $83$ variables aproximadamente y el segundo mejor entre $27$ y $17$ variables. A partir de este punto la media del $R^2$ aumenta. Se podría tomar este segundo rango de valores como el mejor ya que proporciona menos variables al modelo y así menos complejidad.
 
 TODO GRAFICO 11
 
-### Elección mejor modelo
+#### Elección mejor modelo
 
 Se comparan tres modelos, el mejor modelo anterior _ModeloStepBIC_, el segundo mejor _ModeloStepBIC_Trans_ y _Lasso_. Los resultados se muestran en la gráfica 12.
 
@@ -519,11 +519,11 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjQzOTgxLC0yMDQ5NzU1NzIxLC04MD
-IwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEy
-MjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2Mz
-EsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5
-NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNy
-wxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1
-OTQxMTUyXX0=
+eyJoaXN0b3J5IjpbLTYxODg2MzIwNSwtMjA0OTc1NTcyMSwtOD
+AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
+MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
+MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
+OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
+csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
+NTk0MTE1Ml19
 -->
