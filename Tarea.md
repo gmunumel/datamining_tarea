@@ -556,23 +556,20 @@ TODO GRAFICO 14
 
 ### 8.7) Modelo _Lasso_
 
-La gráfica del modelo _Lasso_ nos muestra que hay dos puntos cuando el 
- área bajo la curva sigue siendo alta, el óptimo se encuentra en las
- variables $60$ aproximadamente y el segundo mejor en $34$ variables. 
- A partir de este punto el área bajo la curva disminuye constantemente. 
- Se podría tomar este segundo punto como el mejor ya que proporciona
- menos variables al modelo y así menos complejidad.
+De la gráfica $15$, el modelo _Lasso_ nos muestra que hay dos puntos cuando el área bajo la curva sigue siendo alta, el óptimo se encuentra en las variables $60$ aproximadamente y el segundo mejor en $34$ variables. A partir de este punto el área bajo la curva disminuye constantemente. Se podría tomar este segundo punto como el mejor ya que proporciona menos variables al modelo y así menos complejidad.
+
 TODO GRAFICO 15
 
 ### Área bajo la curva
+
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDQwMTEyMCwxNDg1Nzk3OTQ1LDc0NT
-Q0Mjc3NiwxMjk4NDQyNjMzLC0xNzMzMjM3NjcwLC0yMDQ5NzU1
-NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOC
-wtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIw
-NDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOT
-MxNjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0
-NDA5ODYwN119
+eyJoaXN0b3J5IjpbMjkyODA4ODY3LDE0ODU3OTc5NDUsNzQ1ND
+QyNzc2LDEyOTg0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3
+MjEsLTgwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC
+0xMjYxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0
+Mzk1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5Mz
+E2MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0
+MDk4NjA3XX0=
 -->
