@@ -510,13 +510,15 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 |_ModeloBackAIC_|Originales|$0.2241339$|$27$|Modelo con mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
+El mejor modelo es _ModeloStepAIC_ ya que la diferencia de los $pseudoR^2\ test$ es muy pequeña, sólo $0.00017$, y 
+
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
 |_ModeloStepBIC_|Originales|$0.2091306$|$17$||
 |_ModeloBackBIC_|Originales|$0.2092159$|$18$|Este modelo tiene mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
-Considero mejor el modelo modelo _ModeloStepBIC_ ya que tiene mejor complejidad y la diferencia entre $pseudoR^2\ test$ es muy pequeña, sólo 0.000085. 
+Considero mejor el modelo _ModeloStepBIC_ ya que tiene mejor complejidad y la diferencia entre $pseudoR^2\ test$ es muy pequeña, sólo $0.000085$. 
 
 De la comparación de los modelos ganadores mostrados anteriormente se observa que el mejor modelo es el _ModeloStepBIC_ ya que la diferencia entre ambos modelos es de sólo $0.014$, pero éste tiene mucho menos variables $17$ comparadas con $26$ que tenia el modelo _ModeloStepAIC_. 
 
@@ -540,11 +542,11 @@ De la comparación de los modelos ganadores mostrados anteriormente se observa q
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwODMzMywtMjA0OTc1NTcyMSwtODAyMD
-Y0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIw
-MTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLD
-EzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUw
-MzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMT
-kyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0
-MTE1Ml19
+eyJoaXN0b3J5IjpbLTEyMTc4Njc0MjAsLTIwNDk3NTU3MjEsLT
+gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
+MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
+YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
+MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
+A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
+NzU5NDExNTJdfQ==
 -->
