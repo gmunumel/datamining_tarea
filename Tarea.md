@@ -305,7 +305,7 @@ Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuen
 ### 7.1) Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
-Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad, para ello se cálcula la diferencia entre ambas y se llama $\Delta\ R^2$. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
+Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad, para ello se calcula la diferencia entre ambas y se llama $\Delta\ R^2$. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
 
 |Nombre Modelo|Variables introducidas|$R^2\ train$|$R^2\ test$|$\Delta\ R^2$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|:---|:---|
@@ -603,11 +603,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQxNDkzMzAsLTU2MTYxMTEwOCwyMD
-QzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2Mjkz
-MTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zND
-QwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUy
-OTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMj
-E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
-Nl19
+eyJoaXN0b3J5IjpbLTEyMTU2MjQ1MCwtNTYxNjExMTA4LDIwND
+M5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMx
+NjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
+A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
+OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMT
+UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
+XX0=
 -->
