@@ -475,7 +475,16 @@ Al igual que en los modelos lineales se realizan pruebas con modelos en donde se
 
 ### 8.1) Modelo de regresión logística manual
 
-En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primero modelo, que contiene todas las variables y se han ido agregado un conjunto de ellas para crear los modelos siguientes. 
+En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primer _Modelo 1_, que contiene todas las variables y se han ido agregado un conjunto de ellas para crear los modelos siguientes.
+
+|Nombre Modelo|Variables introducidas|$pseudoR^2\ train$|$pseudoR^2\ test$|$\Delta\ pseudoR^2$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|:---|:---|
+|_Modelo 1_|Todas|$0.2223965$|$$|$0.01933$|$42$|Es el modelo con mejor dato para $R^2\ train$ pero mayor complejidad|
+|_Modelo 2_|`CCAA` `Age_under19_Ptge` `Age_over65_pct` `PersonasInmueble` `Age_0_4_Ptge` `Servicios` `ComercTTEHosteleria`|$0.5660609$|$0.5897057$|$0.02364$|$14$||
+|_Modelo 3_|_Modelo 2_ + `Construccion` `ServicesUnemploymentPtge` `UnemployMore40_Ptge` `Unemploy25_40_Ptge`|$0.5745172$|$0.5949663$|$0.02044$|$18$||
+|_Modelo 4_|_Modelo 3_ + `Age_19_65_pct` `Industria` `PobChange_pct` `WomanPopulationPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$||
+|_Modelo 5_|_Modelo 4_ + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$||
+|_Modelo 6_|_Modelo 5_ + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$|| 
 
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -495,7 +504,7 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado el primero mod
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzA3NjQyOCwtMjA2OTA3NDUyOCwtMT
+eyJoaXN0b3J5IjpbMTYxNjM3OTY5OCwtMjA2OTA3NDUyOCwtMT
 I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
 NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
 EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
