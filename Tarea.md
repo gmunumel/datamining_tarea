@@ -390,8 +390,8 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
 ### Comparando modelos con variables originales y las discretizadas
-#### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
- Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
+#### _ModeloStepBIC_ y _ModeloStepBIC_Disc_
+ Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Disc_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### 7.6) Modelos con todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
@@ -541,7 +541,7 @@ A pesar de que el modelo con las trasformaciones,  _ModeloStepBIC_Trans_ tenga m
 La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _ModeloStepBIC_Disc_ es sólo $0.0034$. Dado que la diferencia es muy pequeña se debe análizar su complejidad. Se observa que el modelo _ModeloStepBIC_Disc_ es más sencillo que el modelo _ModeloStepAIC_Disc_ ya que tiene $19$ variables comparadas a $41$ respectivamente. Por lo tanto, se selecciona el modelo _ModeloStepBIC_Disc_.
 
 ### Comparando modelos con variables originales y las discretizadas
-#### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
+#### _ModeloStepBIC_ y _ModeloStepBIC_T_
 
 ### 8.6) Modelos con todas las variables e interacciones
 ### Validación cruzada con todos los modelos
@@ -550,11 +550,11 @@ La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _Mo
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NDQyNzc2LDEyOTg0NDI2MzMsLTE3Mz
-MyMzc2NzAsLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNjg5NDY1
-MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgwMTMzOT
-MyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5NzM0LDEw
-NDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3NzMyNT
-QyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMDIsMTA1
-NTIzNjYwM119
+eyJoaXN0b3J5IjpbMzE1Njg5MzA0LDc0NTQ0Mjc3NiwxMjk4ND
+QyNjMzLC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3
+ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOS
+wtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0
+NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNT
+gsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3
+MjM4MzAyXX0=
 -->
