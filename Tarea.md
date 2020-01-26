@@ -415,7 +415,9 @@ TODO GRAFICO 11
 
 ### Elección mejor modelo
 
-Se comparan todos los mo
+Se comparan tres modelos, el mejor modelo anterior _ModeloStepBIC_, el segundo mejor _ModeloStepBIC_Trans_ y _Lasso_. Los resultados se muestran en la gráfica 12.
+
+G
 
 
 
@@ -565,11 +567,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwMjQxNDA3LDE3MjYyOTMxNjEsOTA5NT
-AzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywx
-OTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OT
-QxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2
-MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NT
-M0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDky
-XX0=
+eyJoaXN0b3J5IjpbLTEzNzM3NDc4NzIsMTcyNjI5MzE2MSw5MD
+k1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3
+LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05Nz
+U5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUs
+MTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOT
+U1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0
+OTJdfQ==
 -->
