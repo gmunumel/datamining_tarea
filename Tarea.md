@@ -469,6 +469,7 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. Es importante notar que a diferencia del modelo lineal en donde se median los errores cuadrados ($R^2$) para evaluar si un modelo era bueno o malo, en este caso se trabajará con el $pseudoR^2$, que tiene valores entre $2$ y $4$. Los mejores modelos serán aquellos cuyos $pseudoR^2$ estén cercanos a $4$. 
 
+
 ### 8.1) Modelo de regresión lineal manual
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -488,11 +489,11 @@ El modelo de regresión logística parte con la idea de construir un modelo que 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLT
-E3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2
-MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC
-0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIz
-ODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1Mi
-wyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkx
-OTI3XX0=
+eyJoaXN0b3J5IjpbMzIwMzY1ODEwLC0yMDY5MDc0NTI4LC0xMj
+YxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1
+MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MS
+w5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4
+NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC
+05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5
+NzVdfQ==
 -->
