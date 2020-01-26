@@ -499,7 +499,7 @@ CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal      ForeignersPtge    
 Superficie ComercTTEHosteleria WomanPopulationPtge        Age_0_4_Ptge 
 0.9970582           0.3243609           0.9723004           0.9851439 
 ```
-Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades comprendidas en Navarra, País Vasco y Rioja hay $0.956$ más posibilidades que se obtengan más votos para los partidos de izquierda que en Andalucía, (`CCAAAndalucía`). En cambio para la comunidad de Castilla León hay $10.53$ más posibilidades que se consigan más votos para los partidos de derecha que en _Andalucía_. Analizando la variable `WomanPopulationPtge` se puede decir para el porcentaje de población de mujeres que hay $0.97$ más posibilidades que se obtengan más votos para los partidos de la izquierda que de derecha.
+Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades comprendidas en Navarra, País Vasco y Rioja hay $0.956$ más posibilidades que se obtengan más votos para los partidos de izquierda que en Andalucía, (`CCAAAndalucía`). En cambio para la comunidad de Castilla León hay $10.53$ más posibilidades que se consigan más votos para los partidos de derecha que en Andalucía. Analizando la variable `WomanPopulationPtge` se puede decir para el porcentaje de población de mujeres que hay $0.97$ más posibilidades que se obtengan más votos para los partidos de la izquierda que de derecha.
 
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -519,7 +519,7 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgwODUzMTEsLTgwMjA2NDc4NywxNj
+eyJoaXN0b3J5IjpbLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNj
 g5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgw
 MTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5Nz
 M0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3
