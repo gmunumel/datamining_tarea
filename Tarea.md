@@ -467,6 +467,10 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 ## 8) Modelo de regresión logística
 
+El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. 
+
+
+
 ### 8.1) Modelo de regresión lineal manual
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
@@ -486,11 +490,11 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY1NDE1MDIsLTEyNjExMjIwMTksLT
-E3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2
-MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC
-0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIz
-ODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1Mi
-wyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkx
-OTI3XX0=
+eyJoaXN0b3J5IjpbMTAyNTE5MTIwNSwtMTI2MTEyMjAxOSwtMT
+c4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYw
+OTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLT
+MxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4
+MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLD
+IxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5
+MjddfQ==
 -->
