@@ -446,7 +446,6 @@ ConstructionUnemploymentPtge               ForeignersPtge
 Para las variables categóricas la interpretación debe tomar en cuenta aquella categoría que no se muestra en los coeficientes, así que en los coeficientes mostrados la categoría faltante es `CCAAAndalucía`, de manera que la interpretación se hace comparando las categorías mostradas con la faltante. Por ejemplo, para la variable `CCAAAragón` se ha obtenido $4.17$, lo que significa que para un voto que se obtenga en dicha comunidad se aumenta en un $4.17\%$ los votos de la derecha en comparación con los votos obtenidos en la comunidad autónoma de Andalucí­a, `CCAAAndalucía`, por otro lado, para la comunidad autónoma `CCAACataluña` se observa que se tiene un valor de $-20.80$ lo que indica que un voto que se realice en esa comunidad autónoma disminuye en un $-20.80\%$ los votos de la derecha en comparación con los votos en Andalucía. En el caso de las variables continuas, la interpretación se hace tomando en cuenta la variable de estudio y la variable continua objetivo. Por ejemplo, para la variable `Age_under19_Ptge` se tiene un valor de $-0.26$, lo que significa que del porcentaje de personas que votan con edades menores a $19$ años o familias votantes que tengan hijos menores a $18$ años, se disminuye un $0.26\%$ el porcentaje de votos que recibe los partidos de derecha. De forma análoga se puede realizar la interpretación del resto de variables solo hay que tener en cuenta si la variable es continua o categórica. 
 
 ```
-
 > formula(modeloStepBIC)
 varObjCont ~ CCAA + Age_under19_Ptge + ServicesUnemploymentPtge + 
   ComercTTEHosteleria + IndustryUnemploymentPtge + ConstructionUnemploymentPtge + 
@@ -601,11 +600,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMjQ4NDEzLC01NjE2MTExMDgsMjA0Mz
-k1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2
-MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MD
-k4NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4
-LC05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNT
-E5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzZd
-fQ==
+eyJoaXN0b3J5IjpbMTkzNTUwMjYzOSwtNTYxNjExMTA4LDIwND
+M5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMx
+NjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
+A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
+OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMT
+UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
+XX0=
 -->
