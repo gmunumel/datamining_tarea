@@ -283,10 +283,10 @@ Con los resultados obtenidos de los gráficos $6$ y $7$ se podría descartar la 
 ## 7) Modelo de regresión lineal
 
 Antes de realizar el modelo de regresión lineal es importante asegurarnos que las variables input están depurados esto significa:
- * Asegurarse que tanto las variables objetivos como las input no contienen datos ausentes o missings. 
- * Las variables input no deben contener datos atípicos, ya que pueden desvirtuar los resultados.
- * Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matrix $X'X$. 
- * El número de parámetros incluidos en el modelo ha de ser muy inferior al de observaciones, para evitar problemas en la estimación y de sobreajuste.
+ 1) Asegurarse que tanto las variables objetivos como las input no contienen datos ausentes o missings. 
+ 2) Las variables input no deben contener datos atípicos, ya que pueden desvirtuar los resultados.
+ 3) Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matrix $X'X$. 
+ 4) El número de parámetros incluidos en el modelo ha de ser muy inferior al de observaciones, para evitar problemas en la estimación y de sobreajuste.
 
  Sabemos que el modelo de regresión lineal pretende predecir una variable $y$ (variable objetivo) a partir de un conjunto de $m$ variables $x_i$ (input) a través de la ecuación:
  
@@ -304,7 +304,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
  Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-Según la tercera premisa 
+Según la tercera premisa que menciona que las variables input no deben estar muy correlacionadas
 
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
@@ -546,11 +546,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTExMTU3NzgsMTA1NTIzNjYwMywtNT
-c3MDQ1Mjk4LC05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQy
-OSw5MzIxNTE5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMz
-YxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNzY3ODg2
-NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5NDk4Mi
-wxMTcxMjIwMjU5LC0xNjk0NDc2NjMxLDk0OTAwODkzNSwxMjM4
-NzIzMjcwXX0=
+eyJoaXN0b3J5IjpbMTE3NzU4MjU5NCwxMDU1MjM2NjAzLC01Nz
+cwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5
+LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNj
+E3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0
+NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLD
+ExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3
+MjMyNzBdfQ==
 -->
