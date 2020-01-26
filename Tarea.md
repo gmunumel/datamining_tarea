@@ -488,7 +488,7 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
  El mejor modelo es el _Modelo 2_ ya que no proporciona grandes diferencias con las pseudo bondades de los ajustes de los otros modelos, pero sí que tiene menor complejidad con $14$ variables. 
 
-Analizando sus resultados
+Analizando los resultados del modelo ganador:
 ```
 > exp(modelo2$coefficients)
 (Intercept)          CCAAArag?n    CCAACastillaLe?n   CCAACastManc_Madr        CCAACatalu?a 
@@ -500,30 +500,30 @@ Superficie ComercTTEHosteleria WomanPopulationPtge        Age_0_4_Ptge
 ```
 Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades comprendidas en Navarra, País Vasco y Rioja hay $0.956$ más posibilidades que se obtengan más votos para los partidos de izquierda que en Andalucía, (`CCAAAndalucía`). En cambio para la comunidad de Castilla León hay $10.53$ más posibilidades que se consigan más votos para los partidos de derecha que en Andalucía. Analizando la variable `WomanPopulationPtge` se puede decir para el porcentaje de población de mujeres que hay $0.97$ más posibilidades que se obtengan más votos para los partidos de la izquierda que de derecha.
 
-#### Modelo con transformaciones y discretizadas
+### Transformaciones y discretizadas
 ### 8.2) Modelos con variables originales
 ### 8.3) Modelos con las variables originales e  interacciones
 ### 8.4) Modelos con variables originales y transformadas
-#### Comparando modelos con variables originales y las transformadas 
+### Comparando modelos con variables originales y las transformadas 
 
-##### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
+#### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
 
-##### _ModeloStepBIC_ vs _ModeloStepBIC_Trans_
+#### _ModeloStepBIC_ vs _ModeloStepBIC_Trans_
 
 ### 8.5) Modelos con variables originales, transformadas y discretizados
-#### Comparando modelos con variables originales y las discretizadas
-##### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
+### Comparando modelos con variables originales y las discretizadas
+#### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
 
 ### 8.6) Modelos con todas las variables e interacciones
 ### 8.7) Modelo _Lasso_
-#### 
+###
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU0MjQwMTAsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
-A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
-NzU5NDExNTJdfQ==
+eyJoaXN0b3J5IjpbLTQ5MDM1NDE5OSwtMjA0OTc1NTcyMSwtOD
+AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
+MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
+MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
+OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
+csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
+NTk0MTE1Ml19
 -->
