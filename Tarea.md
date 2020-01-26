@@ -560,18 +560,21 @@ De la gráfica $15$, el modelo _Lasso_ nos muestra que hay dos puntos cuando el 
 
 TODO GRAFICO 15
 
-### Validación cruzada entre todos los modelos ut
+### Validación cruzada entre todos los modelos utilizando _ROC_
+
+
+TODO GRAFICO 16
 
 ### Área bajo la curva
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODY3MTMwOCwyNjg3NTA0MTcsMTQ4NT
-c5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3
-MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLT
-IwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2
-MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OT
-QzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5
-Nzg3Mzg3XX0=
+eyJoaXN0b3J5IjpbLTE1MzIwNjcxMzIsMjY4NzUwNDE3LDE0OD
+U3OTc5NDUsNzQ1NDQyNzc2LDEyOTg0NDI2MzMsLTE3MzMyMzc2
+NzAsLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNjg5NDY1MzQ1LC
+0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgwMTMzOTMyLC01
+NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1OD
+k0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1
+OTc4NzM4N119
 -->
