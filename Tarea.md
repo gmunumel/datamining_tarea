@@ -414,7 +414,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 |_ModeloStepBIC_Disc_|Originales-Interacciones|$0.6002378$|$15$|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
-
+Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
 ### Lasso
 
@@ -568,7 +568,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDIwNzQ0MCwtMzQ0MDk4NjA3LDE5Mj
+eyJoaXN0b3J5IjpbLTc4MTkwNzk2OSwtMzQ0MDk4NjA3LDE5Mj
 cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
 NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
 U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
