@@ -547,12 +547,12 @@ La diferencia de las pseudo bondades del ajuste entre el modelo _ModeloStepBIC_ 
 ### 8.6) Modelos con todas las variables e interacciones
 El valor de pseudo bondad del ajuste obtenido ha sido de $0.2326836$ y las variables que utiliza es $32$. La fórmula generada es muy compleja. Por lo tanto, no es el mejor modelo ya maneja muchas variables. 
 
-### Validación cruzada con todos los modelos
+### Comparación entre todos los modelos
 Para realizar esta validación se utilizan los mejores modelos de cada medición: _Modelo 2_, _ModeloStepAIC_, _ModeloStepBIC_, _ModeloStepBIC_Int_, _ModeloStepBIC_Trans_, _ModeloStepBIC_Disc_, _ModeloStepBIC_TransInt_).
 
 TODO GRAFICO 14
 
- Se observa del gráfico $14$ que el mejor es el _ModeloStepBIC_ ya tiene poca complejidad, $17$ variables y su pseudo bondad del ajuste es pequeño comparado con el mejor ajuste _ModeloStepBIC_Disc_, $0.024$. Su mayor fortalece es que es fácil de interpretar.
+ Se observa del gráfico $14$ que el mejor modelo parace ser _ModeloStepBIC_ ya tiene poca complejidad, $17$ variables y su pseudo bondad del ajuste es pequeño comparado con el mejor ajuste _ModeloStepBIC_Disc_, $0.024$. Su mayor fortalece es que es fácil de interpretar.
 
 ### 8.7) Modelo _Lasso_
 
@@ -560,16 +560,18 @@ De la gráfica $15$, el modelo _Lasso_ nos muestra que hay dos puntos cuando el 
 
 TODO GRAFICO 15
 
+### Validación cruzada entre todos los modelos ut
+
 ### Área bajo la curva
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NzUwNDE3LDE0ODU3OTc5NDUsNzQ1ND
-QyNzc2LDEyOTg0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3
-MjEsLTgwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC
-0xMjYxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0
-Mzk1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5Mz
-E2MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0
-MDk4NjA3XX0=
+eyJoaXN0b3J5IjpbMjAyODY3MTMwOCwyNjg3NTA0MTcsMTQ4NT
+c5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3
+MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLT
+IwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2
+MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OT
+QzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5
+Nzg3Mzg3XX0=
 -->
