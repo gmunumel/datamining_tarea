@@ -304,7 +304,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
 Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-### Modelo de regresión lineal manual
+### 7.1) Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
 Primero se realiza la partición de los datos en _train_ y _test_ para tener un conjunto de valores a los que aplicar los modelos y tomar mediciones. Para comparar los modelos se usará la medida $R^2$ o suma de cuadrados de los errores. Se espera tener valores cercanos a $1$ ya que mejora la bondad del ajuste. También, se busca que el valor del $R^2\ train$ y $R^2\ test$ sean muy parecidos ya que nos garantiza fiabilidad, para ello se cálcula la diferencia entre ambas y se llama $\Delta\ R^2$. Por último, se valora la cantidad de variables del modelo (complejidad) ya que nos permite simplificar la interpretación del mismo y así facilita la obtención de datos en el futuro. 
@@ -347,7 +347,7 @@ TODO GRAFICA 9
 Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` con $0.00010$. 
 
 
-### Modelo con transformaciones y discretizadas
+### 7.2) Modelo con transformaciones y discretizadas
 El modelo manual se ha realizado pero sin transformar las variables inputs es por ello que los resultados conseguidos para algunas de ellas podrán no ser los más óptimos. Es por ello que se hace necesario probar ahora el modelo introduciendo las siguientes transformaciones $X$, $log(X)$, $e^X$, $X^2$, $\sqrt{X}$, $X^4$, $\sqrt[4]{X}$. Cabe destacar, que la transformación sólo se realizará para las variables cuantitativas. 
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
@@ -420,7 +420,9 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
 ### Todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la formula del modelo es bastante más compleja. 
 
-#
+### Validación cruzada con todos los modelos
+
+
 
 ### Lasso
 
@@ -574,11 +576,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mzk2MDU0MiwtMzQ0MDk4NjA3LDE5Mj
-cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
-NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
-EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
-NDc2NjMxXX0=
+eyJoaXN0b3J5IjpbMTQ0MTI3ODQxLC0zNDQwOTg2MDcsMTkyNz
+IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
+MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
+kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
+LTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMT
+A1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0
+NzY2MzFdfQ==
 -->
