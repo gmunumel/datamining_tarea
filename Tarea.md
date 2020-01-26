@@ -345,7 +345,7 @@ TODO GRAFICA 9
 Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` con $0.00010$. 
 
 
-### Modelo con transformaciones y discretizadas
+###  Transformaciones y discretizadas
 El modelo manual se ha realizado pero sin transformar las variables inputs es por ello que los resultados conseguidos para algunas de ellas podrán no ser los más óptimos. Es por ello que se hace necesario probar ahora el modelo introduciendo las siguientes transformaciones $X$, $log(X)$, $e^X$, $X^2$, $\sqrt{X}$, $X^4$, $\sqrt[4]{X}$. Cabe destacar, que la transformación sólo se realizará para las variables cuantitativas. 
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
@@ -519,11 +519,11 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 #### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODkwOTU1MCwtMjA0OTc1NTcyMSwtOD
-AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
-MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
-MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
-OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
-csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
-NTk0MTE1Ml19
+eyJoaXN0b3J5IjpbLTEwNDU0MjQwMTAsLTIwNDk3NTU3MjEsLT
+gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
+MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
+YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
+MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
+A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
+NzU5NDExNTJdfQ==
 -->
