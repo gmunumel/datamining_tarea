@@ -552,6 +552,8 @@ Para realizar esta validación se utilizan los mejores modelos de cada medición
 
 TODO GRAFICO 14
 
+ Se observa del gráfico $14$ que el mejor modelo es el _ModeloStepBIC_ ya tiene poca complejidad, $17$ variables y su pseudo bondad del ajuste es pequeño comparado con el mejor ajuste _ModeloStepBIC_Disc_, $0.024$. Su mayor fortalece es que es fácil de interpretar.
+
 
 
 
@@ -561,11 +563,11 @@ TODO GRAFICO 14
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5OD
-Q0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0
-Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMT
-ksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEz
-NDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMz
-U4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTky
-NzIzODMwMl19
+eyJoaXN0b3J5IjpbLTEyMTA0NDg2NzUsMTQ4NTc5Nzk0NSw3ND
+U0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1
+NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1Mj
+gsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwy
+MDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2Mj
+kzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0z
+NDQwOTg2MDddfQ==
 -->
