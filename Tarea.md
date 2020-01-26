@@ -483,7 +483,7 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 |_Modelo 2_|`CCAA` `ForeignersPtge` `Densidad` `Superficie` `ComercTTEHosteleria` `WomanPopulationPtge` `Age_0_4_Ptge`|$0.2085862$|$0.2031566$|$0.013$|$14$||
 |_Modelo 3_|_Modelo 2_ + `Explotaciones` `DifComAutonPtge` `Servicios` `AgricultureUnemploymentPtge`|$0.2117713$|$0.2142237$|$0.0024$|$18$||
 |_Modelo 4_|_Modelo 3_ + `UnemployLess25_Ptge` `Industria` `PobChange_pct` `ServicesUnemploymentPtge`|$0.214493$|$0.2188012$|$0.0043$|$22$||
-|_Modelo 5_|_Modelo 4_ + `ConstructionUnemploymentPtge` `Age_under19_Ptge` `PartidoCCAA` `Age_19_65_pct` `IndustryUnemploymentPtge`|$0.2203828$|$0.2251811$|$0.0047$|$28$||
+|_Modelo 5_|_Modelo 4_ + `ConstructionUnemploymentPtge` `Age_under19_Ptge` `PartidoCCAA` `Age_19_65_pct` `IndustryUnemploymentPtge`|$0.2203828$|$0.2251811$|$0.0047$|$28$|Modelo con el mejor valor para $pseudoR^2\ test$|
 |_Modelo 6_|_Modelo 5_ + `PersonasInmueble` `SameComAutonPtge` `Inmuebles`|$0.2212066$|$0.2242951$|$0.0030$|$31$|| 
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
@@ -507,11 +507,11 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzM0ODQ1MiwtMjA2OTA3NDUyOCwtMT
-I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
-NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
-EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
-ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
-wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
-OTc1XX0=
+eyJoaXN0b3J5IjpbLTE1Njg3NzA5NzAsLTIwNjkwNzQ1MjgsLT
+EyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQz
+OTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMT
+YxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQw
+OTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOT
+gsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1
+MTk3NV19
 -->
