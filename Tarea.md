@@ -418,7 +418,8 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
 
 ### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
- 
+ Dado que no queda claro que modelo sea el mejor se analizan sus
+ bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### Lasso
 
@@ -572,11 +573,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjcyMTczMSwtMzQ0MDk4NjA3LDE5Mj
-cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
-NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
-U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
-LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
-EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
-NDc2NjMxXX0=
+eyJoaXN0b3J5IjpbLTE1MzMzNzQxODAsLTM0NDA5ODYwNywxOT
+I3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQx
+MTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MD
+M1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0
+MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC
+0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5
+NDQ3NjYzMV19
 -->
