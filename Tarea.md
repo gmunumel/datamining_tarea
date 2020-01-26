@@ -584,12 +584,14 @@ Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value
 0.7038865      0.7287500      0.6796590      0.6891253      0.7200000 
 ```
 
-Se observa que el valor que mayor igualdad ofrece entre la sensibilidad (_Sencitivity_) y especifficidad (_Specificity_) es $0.49$. 
+Se observa que el valor que mayor igualdad ofrece entre la sensibilidad (_Sensitivity_) y especificidad (_Specificity_) es $0.49$. Sin embargo, no es el óptimo. El óptimo no los da el índice de _Youden_ y se aprecia en la gráfica $17$. El punto de corte que maximiza _Youden_ es 0.356.
+
+TODO GRAFICA 17
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTE3NzgzMiwtMTUzMjA2NzEzMiwyNj
+eyJoaXN0b3J5IjpbMjA0MTgyNDYzNCwtMTUzMjA2NzEzMiwyNj
 g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
 MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
 E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
