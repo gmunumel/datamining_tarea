@@ -510,7 +510,7 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 |_ModeloBackAIC_|Originales|$0.2241339$|$27$|Modelo con mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
-El mejor modelo es _ModeloStepAIC_ ya que la diferencia de los $pseudoR^2\ test$ es muy pequeña, sólo $0.00017$, y 
+De la tabla $6$ se puede decir, que el mejor modelo es _ModeloStepAIC_ ya que la diferencia de los $pseudoR^2\ test$ es muy pequeña, sólo $0.00017$ y tiene mejor complejidad. 
 
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
@@ -518,7 +518,7 @@ El mejor modelo es _ModeloStepAIC_ ya que la diferencia de los $pseudoR^2\ test$
 |_ModeloBackBIC_|Originales|$0.2092159$|$18$|Este modelo tiene mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
-Considero mejor el modelo _ModeloStepBIC_ ya que tiene mejor complejidad y la diferencia entre $pseudoR^2\ test$ es muy pequeña, sólo $0.000085$. 
+De la tabla anterior considero que el mejor modelo es _ModeloStepBIC_ ya que tiene mejor complejidad y la diferencia entre $pseudoR^2\ test$ es muy pequeña, sólo $0.000085$. 
 
 De la comparación de los modelos ganadores mostrados anteriormente se observa que el mejor modelo es el _ModeloStepBIC_ ya que la diferencia entre ambos modelos es de sólo $0.014$, pero éste tiene mucho menos variables $17$ comparadas con $26$ que tenia el modelo _ModeloStepAIC_. 
 
@@ -542,7 +542,7 @@ De la comparación de los modelos ganadores mostrados anteriormente se observa q
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc4Njc0MjAsLTIwNDk3NTU3MjEsLT
+eyJoaXN0b3J5IjpbLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLT
 gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
 MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
 YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
