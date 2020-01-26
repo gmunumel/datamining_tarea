@@ -356,7 +356,7 @@ Se realizan las transformaciones de las variables cuantitativas utilizando la va
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
-### Variables originales
+### 7.3) Modelos con variables originales
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
@@ -371,7 +371,7 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
  Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
-### Interacciones con las variables originales 
+### 7.4) Modelos con las variables originales e  interacciones
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
@@ -381,7 +381,7 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que se elige el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
-### Transformadas con las variables originales 
+### 7.5) Modelos con transformadas de las variables originales 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$34$|
@@ -576,7 +576,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTI3ODQxLC0zNDQwOTg2MDcsMTkyNz
+eyJoaXN0b3J5IjpbNDQ4MjUwMjYyLC0zNDQwOTg2MDcsMTkyNz
 IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
 MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
 kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
