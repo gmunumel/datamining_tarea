@@ -422,7 +422,7 @@ TODO GRAFICA 12
  El modelo _Lasso_ se descarta ya que me ofrece casi la misma bondad del ajuste que el _Modelo 1_ pero mucha más variables. Al final elijo el _Modelo 1_ _ModeloStepBIC_ ya que a pesar que la complejidad del _Modelo 2_ _ModeloStepBIC_Trans_ tiene menos variables, $15$ comparado a $18$ respectivamente, la diferencia del $R^2$ es pequeña y es más fácil de interpretar en el _Modelo 1_. 
 
 Se analizan los datos del modelo ganador _ModeloStepBIC_.
-
+```
 > coef(modeloStepBIC)
                  (Intercept)                   CCAAArag?n 
                  42.97504206                   4.17269980 
@@ -442,7 +442,14 @@ ConstructionUnemploymentPtge               ForeignersPtge
                   0.14173977                  -0.01767478 
          WomanPopulationPtge     SameComAutonDiffProvPtge 
                  -0.13504343                  -0.12671021
-
+```
+```
+> formula(modeloStepBIC)
+varObjCont ~ CCAA + Age_under19_Ptge + ServicesUnemploymentPtge + 
+  ComercTTEHosteleria + IndustryUnemploymentPtge + ConstructionUnemploymentPtge + 
+  ForeignersPtge + Age_over65_pct + Superficie + WomanPopulationPtge + 
+  SameComAutonDiffProvPtge
+```
 
 
 **Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las variables `Censo`, `Construccion`, `Population` en todos los modelos anteriores y se ha observado que el cambio algunas veces ha mejorado o empeorado pero por muy poco. Dado que no hay una mejora sustancial he decidido descartar la eliminación. 
@@ -591,7 +598,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzAwMTk2MiwtNTYxNjExMTA4LDIwND
+eyJoaXN0b3J5IjpbLTE5MDUyNTE0OSwtNTYxNjExMTA4LDIwND
 M5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMx
 NjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
 A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
