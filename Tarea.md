@@ -569,16 +569,31 @@ TODO GRAFICO 16
 ### Área bajo la curva
 Para buscar el área bajo la curva para el modelo ganador, _ModeloStepBIC_, se usan varios puntos: $0.5$, $0.75$, $0.9$ y $0.49$. Se usa la instrucción `sensEspCorte` para comparar los puntos de corte. 
 
+```
+> sensEspCorte(modeloStepBIC,data_test,"varObjBin",0.5,"1")
+Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value 
+0.7001851      0.7050000      0.6954933      0.6928747      0.7075589 
+> sensEspCorte(modeloStepBIC,data_test,"varObjBin",0.75,"1")
+Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value 
+0.6792104      0.4375000      0.9147381      0.8333333      0.6253122 
+> sensEspCorte(modeloStepBIC,data_test,"varObjBin",0.9,"1")
+Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value 
+0.5206663      0.0312500      0.9975639      0.9259259      0.5138018 
+> sensEspCorte(modeloStepBIC,data_test,"varObjBin",0.49,"1")
+Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value 
+0.7038865      0.7287500      0.6796590      0.6891253      0.7200000 
+```
 
+Se observa que el valor que m
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjk0NTY0OSwtMTUzMjA2NzEzMiwyNj
-g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
-MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
-E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
-ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
-k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
-MTc3MzI1NDJdfQ==
+eyJoaXN0b3J5IjpbLTUwODk5ODI2LC0xNTMyMDY3MTMyLDI2OD
+c1MDQxNywxNDg1Nzk3OTQ1LDc0NTQ0Mjc3NiwxMjk4NDQyNjMz
+LC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3ODcsMT
+Y4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOSwtMTc4
+MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYwOT
+czNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLTMx
+NzczMjU0Ml19
 -->
