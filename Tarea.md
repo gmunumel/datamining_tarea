@@ -532,7 +532,9 @@ El modelo _ModeloStepAIC_Trans_ y _ModeloStepBIC_Trans_ tienen pseudos bondades 
 ### Comparando modelos con variables originales y las transformadas 
 
 #### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
-
+El modelo que se elige por el principio de parsimonia es el _MdeloStepAIC_ ya que a pesar de tener una pseudo bondad del ajuste peor, la diferencia no es tan grande, sólo $0.013$. Sin embargo, su complejidad es mucho menor, $26$ variables comparadas con $33$ variables del modelo _ModeloStepAIC_Trans_. Adicionalmente, 
+ su interpretación es más sencilla. Por lo tanto, se selecciona
+ el modelo _ModeloStepAIC_.
 
 #### _ModeloStepBIC_ vs _ModeloStepBIC_Trans_
 
@@ -547,7 +549,7 @@ El modelo _ModeloStepAIC_Trans_ y _ModeloStepBIC_Trans_ tienen pseudos bondades 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMzM0NjgxLC0xNzMzMjM3NjcwLC0yMD
+eyJoaXN0b3J5IjpbNzA3NjgyNDQ1LC0xNzMzMjM3NjcwLC0yMD
 Q5NzU1NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3
 NDUyOCwtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMT
 A4LDIwNDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3
