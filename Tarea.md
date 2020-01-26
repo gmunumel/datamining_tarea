@@ -469,8 +469,12 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. Es importante notar que a diferencia del modelo lineal en donde se median los errores cuadrados ($R^2$) para evaluar si un modelo era bueno o malo, en este caso se trabajará con el $pseudoR^2$, que tiene valores entre $2$ y $4$. Los mejores modelos serán aquellos cuyos $pseudoR^2$ estén cercanos a $4$. La interpretación de los resultados en el modelo logísticos también se ven afectados, ya que ahora se evalúan posibilidades (_odds_) que un evento pueda suceder y no su probabilidad. 
 
-### 8.1) Modelo de regresión lineal manual
-Al igual que en los modelos lineales se efectuan pru
+Al igual que en los modelos lineales se realizan pruebas con modelos en donde se han eleji
+
+
+### 8.1) Modelo de regresión logística manual
+
+
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
 ### 8.4) Modelos con las variables originales e  interacciones
@@ -489,7 +493,7 @@ Al igual que en los modelos lineales se efectuan pru
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mjg0MTY5OCwtMjA2OTA3NDUyOCwtMT
+eyJoaXN0b3J5IjpbMTgzNDY5NDA4NiwtMjA2OTA3NDUyOCwtMT
 I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
 NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
 EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
