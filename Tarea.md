@@ -421,7 +421,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la formula del modelo es bastante más compleja. 
 
 ### Validación cruzada con todos los modelos
-
+El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $$.
 
 
 
@@ -577,11 +577,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNz
-IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
-MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
-kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
-LTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMT
-A1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0
-NzY2MzFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTY1MDc4ODMsMzU5Nzg3Mzg3LC0zND
+QwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUy
+OTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMj
+E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
+NiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLT
+g4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEy
+MjAyNTldfQ==
 -->
