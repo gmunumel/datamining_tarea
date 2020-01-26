@@ -409,11 +409,13 @@ Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el 
 
 ### Modelo _Lasso_
 
-La gráfica del modelo _Lasso_ nos muestra que hay dos puntos cuando la media del $R^2$ sigue siendo bajo, el óptimo se encuentra entre $97$ y $83$ variables apróximadamente y el segundo mejor entre $27$ y $17$ variables. A partir de este punto la media del $R^2$ aumenta. Se podría tomar este segundo rango de valores como el mejor ya que proporciona menos variables al modelo y así menos complejidad.
+La gráfica 11 del modelo _Lasso_ nos muestra que hay dos puntos cuando la media del $R^2$ sigue siendo bajo, el óptimo se encuentra entre $97$ y $83$ variables aproximadamente y el segundo mejor entre $27$ y $17$ variables. A partir de este punto la media del $R^2$ aumenta. Se podría tomar este segundo rango de valores como el mejor ya que proporciona menos variables al modelo y así menos complejidad.
 
 TODO GRAFICO 11
 
 ### Elección mejor modelo
+
+Se comparan todos los mo
 
 
 
@@ -563,11 +565,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDUzMjIwNSwxNzI2MjkzMTYxLDkwOT
-UwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcs
-MTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NT
-k0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwx
-NjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NT
-UzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5
-Ml19
+eyJoaXN0b3J5IjpbODcwMjQxNDA3LDE3MjYyOTMxNjEsOTA5NT
+AzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywx
+OTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OT
+QxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2
+MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NT
+M0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDky
+XX0=
 -->
