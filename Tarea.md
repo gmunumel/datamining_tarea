@@ -345,7 +345,7 @@ TODO GRAFICA 9
 Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` con $0.00010$. 
 
 
-### 7.2) Modelo con transformaciones y discretizadas
+#### Modelo con transformaciones y discretizadas
 El modelo manual se ha realizado pero sin transformar las variables inputs es por ello que los resultados conseguidos para algunas de ellas podrán no ser los más óptimos. Es por ello que se hace necesario probar ahora el modelo introduciendo las siguientes transformaciones $X$, $log(X)$, $e^X$, $X^2$, $\sqrt{X}$, $X^4$, $\sqrt[4]{X}$. Cabe destacar, que la transformación sólo se realizará para las variables cuantitativas. 
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
@@ -354,7 +354,7 @@ Se realizan las transformaciones de las variables cuantitativas utilizando la va
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
-### 7.3) Modelos con variables originales
+### 7.2) Modelos con variables originales
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
@@ -369,11 +369,11 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 
  Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
-### 7.4) Modelos con las variables originales e  interacciones
+### 7.3) Modelos con las variables originales e  interacciones
 
 En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que se elige el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
-### 7.5) Modelos con variables originales y transformadas
+### 7.4) Modelos con variables originales y transformadas
 
 Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _ModeloStepAIC_Trans_ y $0.6002378$ para el modelo _ModeloStepBIC_Trans_. Sus variables fueron $34$ y $15$ respectivamente. Se puede decir que el modelo _ModeloStepBIC_Trans_ es mejor ya que la diferencia de las bondades del ajuste son muy pequeñas, sólo $0.0073$ y su complejidad es menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Trans_.
 
@@ -386,14 +386,14 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  
  Se aprecian de los modelos transformados y sin transformar que las posibles mejoras en los índices de bondades del ajuste ($R^2$) para los primeros no son tan altos comparados con los modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos sin transformar. 
 
-### 7.6) Modelos con variables originales, transformadas y discretizados
+### 7.5) Modelos con variables originales, transformadas y discretizados
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
 ### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
-### 7.7) Modelos con todas las variables e interacciones
+### 7.6) Modelos con todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
 
 ### Validación cruzada con todos los modelos
@@ -519,11 +519,11 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNj
-g5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgw
-MTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5Nz
-M0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3
-NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMD
-IsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDExNTIsMjEw
-NDI4MjZdfQ==
+eyJoaXN0b3J5IjpbMTYwNjQzOTgxLC0yMDQ5NzU1NzIxLC04MD
+IwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEy
+MjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2Mz
+EsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5
+NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNy
+wxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1
+OTQxMTUyXX0=
 -->
