@@ -504,6 +504,19 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 Se usa los mismos conceptos para definir las transformaciones y discretizadas que se usaron en los modelos lineales. 
 
 ### 8.2) Modelos con variables originales
+|Nombre Modelo|Variables introducidas|$pseudoR^2\ test$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|
+|_ModeloStepAIC_|Originales|$0.5941304$|$25$|Este modelo es mejor que el _ModeloBackAIC_ ya la diferencia de las bondades del ajuste son muy pequeñas, sólo de $0.00051$ y este tiene menos complejidad|
+|_ModeloBackAIC_|Originales|$0.5946408$|$27$||
+TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
+
+|Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
+|:---|:---|:---|:---|:---|
+|_ModeloStepBIC_|Originales|$0.5946924$|$18$||
+|_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
+TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
+
+ Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
 
 ### 8.3) Modelos con las variables originales e  interacciones
 
@@ -525,7 +538,7 @@ Se usa los mismos conceptos para definir las transformaciones y discretizadas qu
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5ODE0NzgyLC0yMDQ5NzU1NzIxLC04MD
+eyJoaXN0b3J5IjpbOTU5NDE0NzE5LC0yMDQ5NzU1NzIxLC04MD
 IwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEy
 MjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2Mz
 EsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5
