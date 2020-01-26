@@ -425,11 +425,11 @@ El resultado de la validación cruzada utilizando todos los modelos se puede apr
 
 TODO GRAFICO 10. 
 
- Observamos que entre el Modelo $1$ que tiene solo $13$ variables y el Modelo $3$ que tiene $18$ hay una mejora de las bondades del ajuste a favor del Modelo $3$. La mejora es de sólo $1\%$ ($0.012$), aunque no es mucha selecciono el Modelo $3$ ya que su interpretación sigue siendo fácil y no me supone muchas variables.
+ Observamos que entre el _Modelo 1_ que tiene solo $13$ variables y el _Modelo 3_ que tiene $18$ hay una mejora de las bondades del ajuste a favor del _Modelo 3_. La mejora es de sólo $1\%$ ($0.012$), aunque no es mucha selecciono el _Modelo 3_ ya que su interpretación sigue siendo fácil y no me supone muchas variables.
  
-Entre el Modelo $4$ y Modelo $7$ se elige el primero ya que tiene mucho menos complejidad y su interpretación es más fácil. Comparando los modelos $3$ y $4$, llamados _ModeloStepBIC_ y _ModeloStepBIC_Int_ respectivamente, se elige el Modelo $3$ ya que la diferencia de bondades del ajuste es sólo del $1\%$ ($0.014$) y su interpretación mucho más sencilla. 
+Entre el _Modelo 4_ y _Modelo 7_ se elige el primero ya que tiene mucho menos complejidad y su interpretación es más fácil. Comparando los modelos $3$ y $4$, llamados _ModeloStepBIC_ y _ModeloStepBIC_Int_ respectivamente, se elige el _Modelo 3_ ya que la diferencia de bondades del ajuste es sólo del $1\%$ ($0.014$) y su interpretación mucho más sencilla. 
  
- Los modelos $5$ y $6$ son muy parecidos, casi iguales por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el Modelo $3$ y Modelo $5$ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del modelo $5$ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
+ Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el Modelo $3$ y Modelo $5$ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del Modelo $5$ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
 
 
 
@@ -585,7 +585,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI0MDA3MjIsLTMxNzczMjU0MiwzNT
+eyJoaXN0b3J5IjpbLTExNzU2NzQzMTQsLTMxNzczMjU0MiwzNT
 k3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2
 MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00Nz
 UxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2
