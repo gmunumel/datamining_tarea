@@ -400,7 +400,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 
 
 
-**Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las variables `Censo`, `Construccion`, `Population` en todos los modelos anteriores y se ha observado que el cambio algunas veces ha mejorado o empeorado por muy poco. 
+**Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las variables `Censo`, `Construccion`, `Population` en todos los modelos anteriores y se ha observado que el cambio algunas veces ha mejorado o empeorado pero por muy poco. 
 
 
 ## 8) Modelo de regresión logística
@@ -546,11 +546,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01Nz
-cwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5
-LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNj
-E3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0
-NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNSwxODEyOTk0OTgyLD
-ExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5MDA4OTM1LDEyMzg3
-MjMyNzBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDAwODM5NzYsMTkyNzIzODMwMiwxMD
+U1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1MiwyMTA0Mjgy
+NiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NT
+Q3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0
+NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMTA1MzcyNDEwNS
+wxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0NzY2MzEsOTQ5
+MDA4OTM1XX0=
 -->
