@@ -394,7 +394,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
  Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Disc_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### 7.6) Modelos con todas las variables e interacciones
-El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
+El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. Por lo tanto, no es un buen modelo 
 
 ### Validación cruzada con todos los modelos
 El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
@@ -545,17 +545,18 @@ La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _Mo
 La diferencia de las pseudo bondades del ajuste entre el modelo _ModeloStepBIC_ y _ModeloStepBIC_Disc_ es de $0.024$, un $2\%$. Es una diferencia muy pequeña, así que observo las complejidades y se tiene que el modelo _ModeloStepBIC_ es más sencillo que el modelo _ModeloStepBIC_Disc_ ya que se tienen las variables $17$ y $19$ respectivamente. Por lo tanto, se elige el modelo _ModeloStepBIC_, que también es el más sencillo. 
 
 ### 8.6) Modelos con todas las variables e interacciones
+
 ### Validación cruzada con todos los modelos
 ### 8.7) Modelo _Lasso_
 ### Área bajo la curva
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODUxNzQyMCw3NDU0NDI3NzYsMTI5OD
-Q0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0
-Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMT
-ksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEz
-NDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMz
-U4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTky
-NzIzODMwMl19
+eyJoaXN0b3J5IjpbLTE0NTk5NzAyMzgsNzQ1NDQyNzc2LDEyOT
+g0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLTgwMjA2
+NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMD
+E5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwx
+MzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MD
+M1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5
+MjcyMzgzMDJdfQ==
 -->
