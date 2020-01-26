@@ -421,7 +421,27 @@ TODO GRAFICA 12
 
  El modelo _Lasso_ se descarta ya que me ofrece casi la misma bondad del ajuste que el _Modelo 1_ pero mucha más variables. Al final elijo el _Modelo 1_ _ModeloStepBIC_ ya que a pesar que la complejidad del _Modelo 2_ _ModeloStepBIC_Trans_ tiene menos variables, $15$ comparado a $18$ respectivamente, la diferencia del $R^2$ es pequeña y es más fácil de interpretar en el _Modelo 1_. 
 
-Se análizan los datos 
+Se analizan los datos del modelo ganador _ModeloStepBIC_.
+
+> coef(modeloStepBIC)
+                 (Intercept)                   CCAAArag?n 
+                 42.97504206                   4.17269980 
+            CCAACastillaLe?n            CCAACastManc_Madr 
+                 12.37338043                   7.44047617 
+                CCAACatalu?a             CCAAGal_Cant_Ast 
+                -20.80189491                   2.96610641 
+           CCAANav_PVasc_Rio              CCAAVal_Mur_Bal 
+                 -8.98228354                   3.12432926 
+            Age_under19_Ptge     ServicesUnemploymentPtge 
+                 -0.26133872                  -0.06598528 
+         ComercTTEHosteleria     IndustryUnemploymentPtge 
+                 -4.42005781                  -0.09425552 
+ConstructionUnemploymentPtge               ForeignersPtge 
+                 -0.08632315                   0.16508986 
+              Age_over65_pct                   Superficie 
+                  0.14173977                  -0.01767478 
+         WomanPopulationPtge     SameComAutonDiffProvPtge 
+                 -0.13504343                  -0.12671021
 
 
 
@@ -571,11 +591,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzND
-Q2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4
-LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNz
-IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
-MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
-kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDBd
-fQ==
+eyJoaXN0b3J5IjpbLTM4NzAwMTk2MiwtNTYxNjExMTA4LDIwND
+M5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMx
+NjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
+A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
+OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMT
+UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
+XX0=
 -->
