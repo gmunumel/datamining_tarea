@@ -512,8 +512,8 @@ TODO TABLA 6[Table caption, works as a reference][section-mmd-tables-table1]
 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
-|_ModeloStepBIC_|Originales|$0.5946924$|$18$||
-|_ModeloBackBIC_|Originales|$0.5946924$|$18$|El modelo anterior y este son iguales, se elige el modelo anterior|
+|_ModeloStepBIC_|Originales|$0.2091306$|$17$||
+|_ModeloBackBIC_|Originales|$0.2092159$|$18$|Este modelo tiene mejor $pseudoR^2 \test$ y peor complejidad|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
  Se observa que las complejidades para los modelos _ModeloStepAIC_ y _ModeloStepBIC_ son diferentes, para el primero es $25$ y para el segundo $18$, y las bondades del ajuste son $0.5941304$ y $0.5946924$ respectivamente. Dado que la diferencia de las bondades del ajuste es tan pequeña, $0.00056$, se elige el modelo _ModeloStepBIC_ por el principio de parsimonia. 
@@ -538,11 +538,11 @@ TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mjg0OTA5OCwtMjA0OTc1NTcyMSwtOD
-AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
-MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
-MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
-OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
-csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
-NTk0MTE1Ml19
+eyJoaXN0b3J5IjpbLTEwODY3ODQ4OTAsLTIwNDk3NTU3MjEsLT
+gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
+MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
+YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
+MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
+A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
+NzU5NDExNTJdfQ==
 -->
