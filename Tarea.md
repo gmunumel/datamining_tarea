@@ -453,7 +453,7 @@ varObjCont ~ CCAA + Age_under19_Ptge + ServicesUnemploymentPtge +
   SameComAutonDiffProvPtge
 ```
 La fórmula puede ser representada de la siguiente forma: 
-$$VotosPartidoDerechaPtge =  42.97+ \beta_1*Age\_under19\_Ptge + ... + \beta_m*ServicesUnemploymentPtge + ... + \epsilon$$
+$$VotosPartidoDerechaPtge =  42.97+ (-0.26)*Age\_under19\_Ptge + ... + (-0.06)*ServicesUnemploymentPtge + ... + \epsilon$$
 
 
 **Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las variables `Censo`, `Construccion`, `Population` en todos los modelos anteriores y se ha observado que el cambio algunas veces ha mejorado o empeorado pero por muy poco. Dado que no hay una mejora sustancial he decidido descartar la eliminación. 
@@ -602,11 +602,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzYwMDQzLC01NjE2MTExMDgsMjA0Mz
-k1MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2
-MSw5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MD
-k4NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4
-LC05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNT
-E5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzZd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMTQ1MTgzMTksLTU2MTYxMTEwOCwyMD
+QzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2Mjkz
+MTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zND
+QwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUy
+OTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMj
+E1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEz
+Nl19
 -->
