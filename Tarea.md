@@ -527,7 +527,11 @@ De la comparación de los modelos ganadores mostrados anteriormente se observa q
 El modelo _ModeloStepAIC_Int_ y _ModeloStepBIC_Int_ tienen pseudos bondades del ajuste de $0.1756561$ y $0.2162576$ que muestran una diferencia de $0.040$. La diferencia es pequeña pero la complejidad de los modelos no. Dado que el modelo _ModeloStepAIC_Int_ tiene $128$ variables y el modelo _ModeloStepBIC_Int_ sólo $26$ se toma éste último. 
 
 ### 8.4) Modelos con variables originales y transformadas
-
+El modelo _ModeloStepAIC_Trans_ y _ModeloStepBIC_Trans_ tienen pseudos bondades
+ del ajuste de $0.2370024$ y $0.2264929$ que muestran una diferencia de 
+ $0.010$. Dado que la diferencia es pequeña, sólo el $1\%$ se debe observar la complejidad
+ de los modelos y se observa que el modelo _ModeloStepBIC_Trans_ es mejor ya que tiene
+ menos variables que el modelo _ModeloStepAIC_Trans_.
 
 ### Comparando modelos con variables originales y las transformadas 
 
@@ -546,7 +550,7 @@ El modelo _ModeloStepAIC_Int_ y _ModeloStepBIC_Int_ tienen pseudos bondades del 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyOTkxODAwLC0xNzMzMjM3NjcwLC0yMD
+eyJoaXN0b3J5IjpbNzk4OTAzMjg1LC0xNzMzMjM3NjcwLC0yMD
 Q5NzU1NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3
 NDUyOCwtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMT
 A4LDIwNDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3
