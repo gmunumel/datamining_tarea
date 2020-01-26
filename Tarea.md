@@ -304,8 +304,6 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
 Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-**Observación**: según la tercera premisa que menciona que las variables input no deben estar muy correlacionadas ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. 
-
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
 
@@ -401,6 +399,8 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 ### Elección mejor modelo
 
 
+
+**Observación**: según la tercera premisa de los modelos lineales que menciona que las variables input no deben estar muy correlacionadas entre si ya que podrían invertir la matrix $X'X$, se observa en el gráfico $5$ que hay varias de ellas que no cumplen esta regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. Se ha hecho la prueba eliminando las va
 
 
 ## 8) Modelo de regresión logística
@@ -546,7 +546,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTkzOTQzNSwxMDU1MjM2NjAzLC01Nz
+eyJoaXN0b3J5IjpbMTgxNjQ0OTMwNSwxMDU1MjM2NjAzLC01Nz
 cwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5
 LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNj
 E3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0
