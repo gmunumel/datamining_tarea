@@ -37,8 +37,7 @@ Comprobación de valores distintos de las variables cuantitativas, gracias a la 
  Con la siguiente instrucción `summary(datos)` se aprecia los datos faltantes (_NA_) en las variables: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`,
  `PobChange_pct`, `PersonasInmueble` y `Explotaciones`. También se observa que para la variable `SameComAutonPtge` se obtiene un porcentaje máximo superior a $100\%$, lo que es un valor fuera del rango ya que es un porcentaje y no se especificó que tuviese valores superiores al $100\%$. Asumo que el valor por encima de la variable `PobChange_pct` es válido ya que de igual forma puede tomar valores negativos que significa una disminución de población.
 
- Se observa que para las siguientes variables faltan datos (_missings_)
- ya que no tiene $8110$ registros que es el total de registros: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`, `PobChange_pct`, `PersonasInmueble` y `Explotaciones`. La instrucción utilizada ha sido `psych::describe(Filter...`.
+ Se observa que para las siguientes variables faltan datos (_missings_) ya que no tiene $8110$ registros que es el total de registros: `totalEmpresas`, `Industria`, `Construccion`, `ComercTTEHosteleria`, `Servicios`, `Inmuebles`, `PobChange_pct`, `PersonasInmueble` y `Explotaciones`. La instrucción utilizada ha sido `psych::describe(Filter...`.
  
 Se verifican frecuencias (`freq`) de las variables cualitativas. Se detecta que para la variable `CCAA` hay comunidades con muy pocos votos como lo son para _Ceuta_ y _Melilla_. Por lo tanto, hay que hacer correcciones. Para la variable `PartidoCCAA` se observa que solo toma valores entre: _PP_, _PSOE_, _Otro_ y son significativos, por tanto, es candidato a convertirse en factor y no se debe agrupar en categorías. 
 ```
@@ -583,7 +582,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MTU3NzMyLDkwOTUwMzU4LC0zMTc3Mz
+eyJoaXN0b3J5IjpbOTkzOTg4OTE4LDkwOTUwMzU4LC0zMTc3Mz
 I1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIzODMwMiwx
 MDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1MiwyMTA0Mj
 gyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2
