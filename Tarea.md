@@ -552,22 +552,27 @@ Para realizar esta validación se utilizan los mejores modelos de cada medición
 
 TODO GRAFICO 14
 
- Se observa del gráfico $14$ que el mejor modelo es el _ModeloStepBIC_ ya tiene poca complejidad, $17$ variables y su pseudo bondad del ajuste es pequeño comparado con el mejor ajuste _ModeloStepBIC_Disc_, $0.024$. Su mayor fortalece es que es fácil de interpretar.
-
-
-
-
+ Se observa del gráfico $14$ que el mejor es el _ModeloStepBIC_ ya tiene poca complejidad, $17$ variables y su pseudo bondad del ajuste es pequeño comparado con el mejor ajuste _ModeloStepBIC_Disc_, $0.024$. Su mayor fortalece es que es fácil de interpretar.
 
 ### 8.7) Modelo _Lasso_
+
+La gráfica del modelo _Lasso_ nos muestra que hay dos puntos cuando el 
+ área bajo la curva sigue siendo alta, el óptimo se encuentra en las
+ variables $60$ aproximadamente y el segundo mejor en $34$ variables. 
+ A partir de este punto el área bajo la curva disminuye constantemente. 
+ Se podría tomar este segundo punto como el mejor ya que proporciona
+ menos variables al modelo y así menos complejidad.
+TODO GRAFICO 15
+
 ### Área bajo la curva
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA0NDg2NzUsMTQ4NTc5Nzk0NSw3ND
-U0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMjA0OTc1
-NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1Mj
-gsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwy
-MDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2Mj
-kzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0z
-NDQwOTg2MDddfQ==
+eyJoaXN0b3J5IjpbLTUzMDQwMTEyMCwxNDg1Nzk3OTQ1LDc0NT
+Q0Mjc3NiwxMjk4NDQyNjMzLC0xNzMzMjM3NjcwLC0yMDQ5NzU1
+NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3NDUyOC
+wtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIw
+NDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOT
+MxNjEsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0
+NDA5ODYwN119
 -->
