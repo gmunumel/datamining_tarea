@@ -602,7 +602,7 @@ La variable más importancia para el mejor modelo _ModeloStepBIC_ ha sido `CCAA`
 Los coeficiente son:
 ```
 > exp(coef(modeloStepBIC))
-        (Intercept)          CCAAArag?n    CCAACastillaLe?n   CCAACastManc_Madr 
+        (Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr 
           0.7126528           2.0692061           9.1120240           2.4597521 
        CCAACatalu?a    CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal 
           0.3216916           3.9607955           0.8896106           2.9433962 
@@ -614,15 +614,15 @@ ComercTTEHosteleria      ForeignersPtge      Age_over65_pct          Superficie
           1.0000061 
 ``` 
 
-Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades comprendidas en Navarra, País Vasco y Rioja hay $0.889$ más posibilidades que se obtengan más votos para los partidos de izquierda que en Andalucía, (`CCAAAndalucía`). En cambio para la comunidad de Castilla León hay $9.11$ más posibilidades que se consigan más votos para los partidos de derecha que en Andalucía. Analizando la variable `WomanPopulationPtge` se puede decir para el porcentaje de población de mujeres que hay $0.97$ más posibilidades que se obtengan más votos para los partidos de la izquierda que de derecha.
+Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades comprendidas en Navarra, País Vasco y Rioja hay $0.889$ más posibilidades que se obtengan más votos para los partidos de izquierda que en Andalucía, (`CCAAAndalucía`). En cambio para la comunidad de Castilla León hay $9.11$ más posibilidades que se consigan más votos para los partidos de derecha que en Andalucía. Analizando la variable `WomanPopulationPtge` se puede decir para el porcentaje de población de mujeres que hay $0.96$ más posibilidades que se obtengan más votos para los partidos de la izquierda que de derecha.
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NzM2MTQzLC0xNTMyMDY3MTMyLDI2OD
-c1MDQxNywxNDg1Nzk3OTQ1LDc0NTQ0Mjc3NiwxMjk4NDQyNjMz
-LC0xNzMzMjM3NjcwLC0yMDQ5NzU1NzIxLC04MDIwNjQ3ODcsMT
-Y4OTQ2NTM0NSwtMjA2OTA3NDUyOCwtMTI2MTEyMjAxOSwtMTc4
-MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYwOT
-czNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLTMx
-NzczMjU0Ml19
+eyJoaXN0b3J5IjpbMjA5NzY0NDM2MCwtMTUzMjA2NzEzMiwyNj
+g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
+MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
+E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
+ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MD
+k3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0z
+MTc3MzI1NDJdfQ==
 -->
