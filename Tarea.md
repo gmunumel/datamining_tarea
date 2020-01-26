@@ -393,11 +393,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 ### Comparando modelos con variables originales y las transformadas 
 
 #### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
- Si se comparan las bondades del 
- ajuste para los modelos _ModeloStepAIC_ y _ModeloStepAIC_Trans_
- se obtiene una diferencia de $0.013$, las complejidades de los 
- modelos han sido de $25$ a $34$ respectivamente. Por el principio
- de parsimonia se tomaría el modelo _ModeloStepAIC_.
+ Si se comparan las bondades del ajuste para los modelos _ModeloStepAIC_ y _ModeloStepAIC_Trans_ se obtiene una diferencia de $0.013$, las complejidades de los modelos han sido de $25$ a $34$ respectivamente. Por el principio de parsimonia se tomaría el modelo _ModeloStepAIC_.
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Si se comparan las bondades del ajuste para los modelos _ModeloStepBIC_ y _ModeloStepBIC_Trans_ se obtiene una diferencia de $0.0055$, las complejidades de los modelos han sido de $18$ a $15$ respectivamente. Aunque hay una mejora de la complejidad del modelo transformado _ModeloStepBIC_Trans_ no se lo toma en cuenta ya que la diferencia de las bondades del ajuste es muy pequeña y su interpretación mucho más compleja. Por el principio de parsimonia se tomaría el modelo _ModeloStepBIC_.
  
@@ -421,6 +417,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
  Dado que no queda claro que modelo sea el mejor se analizan sus
  bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
+### Todas las variables
 ### Lasso
 
 ### Elección mejor modelo
@@ -573,11 +570,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMzNzQxODAsLTM0NDA5ODYwNywxOT
-I3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQx
-MTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MD
-M1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0
-MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC
-0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5
-NDQ3NjYzMV19
+eyJoaXN0b3J5IjpbLTI1NzM1MDA5NSwtMzQ0MDk4NjA3LDE5Mj
+cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
+NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
+U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
+LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
+EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
+NDc2NjMxXX0=
 -->
