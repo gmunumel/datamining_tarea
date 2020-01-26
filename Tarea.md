@@ -379,7 +379,7 @@ TODO TABLA 4[Table caption, works as a reference][section-mmd-tables-table1]
 |_ModeloStepBIC_Int_|Originales-Interacciones|$0.6087072$|$35$|
 TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
-En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que si se debe elegir entre alguno de estos modelos se eligirá el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
+En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que se elige el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
 ### Transformadas con las variables originales 
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
@@ -546,11 +546,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDA5ODYwNywxOTI3MjM4MzAyLDEwNT
-UyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMDQyODI2
-LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5MjcsMTY1ND
-cxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1
-OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0MTA1LD
-E4MTI5OTQ5ODIsMTE3MTIyMDI1OSwtMTY5NDQ3NjYzMSw5NDkw
-MDg5MzVdfQ==
+eyJoaXN0b3J5IjpbNTA1ODU0ODg0LC0zNDQwOTg2MDcsMTkyNz
+IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
+MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
+kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
+LTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMT
+A1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0
+NzY2MzFdfQ==
 -->
