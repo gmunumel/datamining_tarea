@@ -407,9 +407,11 @@ Entre el _Modelo 4_ y _Modelo 7_ se elige el primero ya que tiene mucho menos co
  
 Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el modelo _ModeloStepBIC_Trans_. Entre el _Modelo 3_ y _Modelo 5_ se prefiere elegir el modelo $3$ ya que a pesar de que tiene más variables, $18$ comparado a $15$ del _Modelo 5_ la perdida de la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es mucho más sencilla. 
 
-### Lasso
+### Modelo _Lasso_
 
+La gráfica 11 contiene contiene el detalle del modelo _Lasso_.
 
+TODO GRAFICO 11
 
 ### Elección mejor modelo
 
@@ -561,7 +563,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDY1NTY2NywxNzI2MjkzMTYxLDkwOT
+eyJoaXN0b3J5IjpbLTQxODUxNDk1MSwxNzI2MjkzMTYxLDkwOT
 UwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcs
 MTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NT
 k0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwx
