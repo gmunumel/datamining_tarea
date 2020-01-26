@@ -467,7 +467,7 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 ## 8) Modelo de regresión logística
 
-El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. Es importante notar que a diferencia del modelo lineal en donde se median los errores cuadrados ($R^2$) para evaluar si un modelo era bueno o malo, en este caso se trabajará con el $pseudoR^2$, que tiene valores entre $2$ y $4$. Los mejores modelos serán aquellos cuyos $pseudoR^2$ estén cercanos a $4$. La interpretación de los resultados en el modelo logísticos también 
+El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. Es importante notar que a diferencia del modelo lineal en donde se median los errores cuadrados ($R^2$) para evaluar si un modelo era bueno o malo, en este caso se trabajará con el $pseudoR^2$, que tiene valores entre $2$ y $4$. Los mejores modelos serán aquellos cuyos $pseudoR^2$ estén cercanos a $4$. La interpretación de los resultados en el modelo logísticos también se ven afectados, ya que ahora 
 
 ### 8.1) Modelo de regresión lineal manual
 ### 8.2) Modelo con transformaciones y discretizadas
@@ -488,11 +488,11 @@ El modelo de regresión logística parte con la idea de construir un modelo que 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjIxOTUyMSwtMjA2OTA3NDUyOCwtMT
-I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
-NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
-EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
-ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OC
-wtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMTUx
-OTc1XX0=
+eyJoaXN0b3J5IjpbNDYxODQzNTk2LC0yMDY5MDc0NTI4LC0xMj
+YxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1
+MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MS
+w5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4
+NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC
+05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5
+NzVdfQ==
 -->
