@@ -538,6 +538,7 @@ El modelo que se elige por el principio de parsimonia es el _MdeloStepAIC_ ya qu
 A pesar de que el modelo con las trasformaciones,  _ModeloStepBIC_Trans_ tenga menos complejidad, $16$ variables comparado con $17$ del modelo _ModeloStepBIC_ se elige éste último ya que la diferencia de la pseudo bondad del ajuste es sólo $0.017$ y su interpretación es mucho más fácil.
  
 ### 8.5) Modelos con variables originales, transformadas y discretizados
+La diferencia de los pseudo bondades del ajuste entre _ModeloStepAIC_Disc_ y _ModeloStepBIC_Disc_ es sólo $0.0034$. Dado que la diferencia es muy pequeña se debe análizar su complejidad. Se observa que el modelo _ModeloStepBIC_Disc_ es más sencillo que el modelo _ModeloStepAIC_Disc_ ya que tiene $19$ variables comparadas a $41$ respectivamente. Por lo tanto, se selecciona el modelo _ModeloStepBIC_Disc_.
 
 ### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
@@ -549,11 +550,11 @@ A pesar de que el modelo con las trasformaciones,  _ModeloStepBIC_Trans_ tenga m
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
-A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
-NzQ1MjgsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMT
-EwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwx
-NzI2MjkzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mz
-g3LC0zNDQwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01
-NzcwNDUyOThdfQ==
+eyJoaXN0b3J5IjpbNzQ1NDQyNzc2LDEyOTg0NDI2MzMsLTE3Mz
+MyMzc2NzAsLTIwNDk3NTU3MjEsLTgwMjA2NDc4NywxNjg5NDY1
+MzQ1LC0yMDY5MDc0NTI4LC0xMjYxMTIyMDE5LC0xNzgwMTMzOT
+MyLC01NjE2MTExMDgsMjA0Mzk1MzYzMSwxMzQ0NjA5NzM0LDEw
+NDU1ODk0MzksMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3NzMyNT
+QyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMDIsMTA1
+NTIzNjYwM119
 -->
