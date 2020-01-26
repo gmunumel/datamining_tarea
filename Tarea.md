@@ -482,8 +482,8 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 |_Modelo 1_|Todas|$0.2223965$|$0.2218339$|$0.00056$|$44$|Es el modelo con mejor XXX|
 |_Modelo 2_|`CCAA` `ForeignersPtge` `Densidad` `Superficie` `ComercTTEHosteleria` `WomanPopulationPtge` `Age_0_4_Ptge`|$0.2085862$|$0.2031566$|$0.013$|$14$||
 |_Modelo 3_|_Modelo 2_ + `Explotaciones` `DifComAutonPtge` `Servicios` `AgricultureUnemploymentPtge`|$0.2117713$|$0.2142237$|$0.0024$|$18$||
-|_Modelo 4_|_Modelo 3_ + `UnemployLess25_Ptge` `Industria` `PobChange_pct` `ServicesUnemploymentPtge`|$0.5755794$|$0.5954471$|$0.01986$|$22$||
-|_Modelo 5_|_Modelo 4_ + `UnemployLess25_Ptge` `IndustryUnemploymentPtge` `Superficie` `SameComAutonDiffProvPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$||
+|_Modelo 4_|_Modelo 3_ + `UnemployLess25_Ptge` `Industria` `PobChange_pct` `ServicesUnemploymentPtge`|$0.214493$|$0.2188012$|$0.0043$|$22$||
+|_Modelo 5_|_Modelo 4_ + `ConstructionUnemploymentPtge` `Age_under19_Ptge` `PartidoCCAA` `Age_19_65_pct` `IndustryUnemploymentPtge`|$0.5794009$|$0.600151$|$0.02075$|$26$||
 |_Modelo 6_|_Modelo 5_ + `SameComAutonPtge` `ConstructionUnemploymentPtge` `AgricultureUnemploymentPtge` `ForeignersPtge` `Explotaciones`|$0.5840761$|$0.6046245$|$0.02054$|$31$|| 
 
 ### 8.2) Modelo con transformaciones y discretizadas
@@ -504,11 +504,11 @@ En la tabla $5$ se aprecia los resultados obtenidos. Se ha tomado _Modelo 1_, qu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM1MTcwMTgsLTIwNjkwNzQ1MjgsLT
-EyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQz
-OTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMT
-YxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQw
-OTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOT
-gsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1
-MTk3NV19
+eyJoaXN0b3J5IjpbODc3OTYzOTk0LC0yMDY5MDc0NTI4LC0xMj
+YxMTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1
+MzYzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MS
+w5MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4
+NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC
+05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5
+NzVdfQ==
 -->
