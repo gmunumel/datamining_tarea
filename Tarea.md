@@ -597,9 +597,26 @@ Accuracy    Sensitivity    Specificity Pos Pred Value Neg Pred Value
 
 ### Elección mejor modelo
 
-La variable más importancia para el mejor modelo _ModeloStepBIC_ ha sido `CCAA` con 
+La variable más importancia para el mejor modelo _ModeloStepBIC_ ha sido `CCAA` con $0.124$, seguido de la variable `Age_over65_pct` con $0.0057$. El resto de variables siguen una tendencia a la baja. La última variable es `Servicios` con $0.001$.
+
+Los coeficiente son:
+```
+> exp(coef(modeloStepBIC))
+        (Intercept)          CCAAArag?n    CCAACastillaLe?n   CCAACastManc_Madr 
+          0.7126528           2.0692061           9.1120240           2.4597521 
+       CCAACatalu?a    CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal 
+          0.3216916           3.9607955           0.8896106           2.9433962 
+ComercTTEHosteleria      ForeignersPtge      Age_over65_pct          Superficie 
+          0.2389733           1.0388469           1.0308780           0.9965650 
+           Densidad           Servicios WomanPopulationPtge        Age_0_4_Ptge 
+          0.9997499           3.1783906           0.9676016           1.0757324 
+          Inmuebles 
+          1.0000061 
+``` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTgyNDI4MCwtMTUzMjA2NzEzMiwyNj
+eyJoaXN0b3J5IjpbMTcxMzY1NTA3MiwtMTUzMjA2NzEzMiwyNj
 g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
 MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
 E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
