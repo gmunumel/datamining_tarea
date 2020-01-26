@@ -409,7 +409,7 @@ Los modelos $5$ y $6$ son muy parecidos, casi iguales, por lo tanto se elige el 
 
 ### Modelo _Lasso_
 
-La gráfica 11 contiene contiene el detalle del modelo _Lasso_.
+La gráfica del modelo _Lasso_ nos muestra que hay dos puntos cuando la media del $R^2$ sigue siendo bajo, el óptimo se encuentra entre $97$ y $83$ variables apróximadamente y el segundo mejor entre $27$ y $17$ variables. A partir de este punto la media del $R^2$ aumenta. Se podría tomar este segundo rango de valores como el mejor ya que proporciona menos variables al modelo y así menos complejidad.
 
 TODO GRAFICO 11
 
@@ -563,7 +563,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODUxNDk1MSwxNzI2MjkzMTYxLDkwOT
+eyJoaXN0b3J5IjpbMTQ4MDUzMjIwNSwxNzI2MjkzMTYxLDkwOT
 UwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MDcs
 MTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NT
 k0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwx
