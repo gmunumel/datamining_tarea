@@ -304,7 +304,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
 Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
 
-Según la tercera premisa que menciona que las variables input no deben estar muy correlacionadas, se observa en el gráfico $5$ que hay alguna de ellas que no cumplen este regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-
+**Observación**: según la tercera premisa que menciona que las variables input no deben estar muy correlacionadas, se observa en el gráfico $5$ que hay varias de ellas que no cumplen este regla, como lo son: `Censo-Population`, `Censo-totalEmpresas`, `Censo-Inmuebles`, `Population-totalEmpresas`, `Population-Inmuebles` y `Construccion-ComercTTEHosteleria`. 
 
 ### Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
@@ -546,7 +546,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDA0ODE5MCwxMDU1MjM2NjAzLC01Nz
+eyJoaXN0b3J5IjpbLTI0ODAxNzU2MywxMDU1MjM2NjAzLC01Nz
 cwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtNDc1MTA4NDI5
 LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkxNjQsMTAzNj
 E3NDEzNiwxMzA5NTUzNDAsLTE3Njc4ODY0NTgsLTE3Njc4ODY0
