@@ -423,6 +423,15 @@ El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables qu
 ### Validación cruzada con todos los modelos
 El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
 TODO GRAFICO 10. 
+ Observamos que entre el Modelo $1$ que tiene solo $13$ variables y el Modelo $3$ que tiene $18$ hay una mejora de las bondades del ajuste a favor del Modelo $3$. La mejora es de sólo $1\%$ ($0.012$), aunque no es mucha selecciono el Modelo $3$ ya que su interpretación sigue siendo fácil y no me supone muchas variables.
+ 
+Entre el Modelo $4$ y Modelo $7$ se elige el primero ya que tiene mucho menos complejidad y su interpretación es más fácil. Comparando los modelos $3$ y $4$, llamados _ModeloStepBIC_ y _ModeloStepBIC_Int_ respectivamente, se elige el Modelo $3$ ya que la diferencia de bondades del ajuste es sólo del $1\%$ ($.014$) y su interpretación mucho más sencilla. 
+ Los modelos $5$ y $6$ son exactamente iguales por lo tanto se elige el modelo
+ _ModeloStepBIC_Trans_. 
+ Entre el Modelo $3$ y Modelo $5$ se prefiere elegir el modelo $3$ ya que a pesar
+ de que tiene más variables, $18$ comparado a $15$ del modelo $5$ la perdida de
+ la bondad del ajuste es muy pequeña sólo un $0.0055$ y su interpretación es 
+ mucho más sencilla. 
 
 
 
@@ -578,11 +587,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzczMjU0MiwzNTk3ODczODcsLTM0ND
-A5ODYwNywxOTI3MjM4MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5
-OCwtOTc1OTQxMTUyLDIxMDQyODI2LC00NzUxMDg0MjksOTMyMT
-UxOTc1LDE2MDM1OTE5MjcsMTY1NDcxOTE2NCwxMDM2MTc0MTM2
-LDEzMDk1NTM0MCwtMTc2Nzg4NjQ1OCwtMTc2Nzg4NjQ1OCwtOD
-gwMTIxNDkyLC0xMDUzNzI0MTA1LDE4MTI5OTQ5ODIsMTE3MTIy
-MDI1OV19
+eyJoaXN0b3J5IjpbMTUwNjU4MDI1NiwtMzE3NzMyNTQyLDM1OT
+c4NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMDIsMTA1NTIzNjYw
+MywtNTc3MDQ1Mjk4LC05NzU5NDExNTIsMjEwNDI4MjYsLTQ3NT
+EwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywxNjU0NzE5MTY0
+LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3ODg2NDU4LC0xNz
+Y3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQxMDUsMTgxMjk5
+NDk4Ml19
 -->
