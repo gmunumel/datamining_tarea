@@ -381,7 +381,7 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 
 En el modelo _ModeloStepAIC_Int_ la bondad del ajuste ha sido de $0.6303501$ mientras que el modelo _ModeloStepBIC_Int_ es de $0.6087072$. En el caso de las complejidades tenemos que son $135$ y $35$ respectivamente. De forma, que se elige el modelo _ModeloStepBIC_Int_ ya que la diferencia de bondades del ajuste es sólo $0.021$, pero su complejidad es mucho menor. Por el principio de parsimonia, es preferible el _ModeloStepBIC_Int_.
 
-### 7.5) Modelos con transformadas de las variables originales 
+### 7.5) Modelos con variables originales y transformadas
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_Trans_|Originales-Transformaciones|$0.607605$|$34$|
@@ -403,7 +403,7 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
  modelos sin transformar y que su interpretación es mucho más compleja, por lo tanto, se prefiere usar los modelos
  sin transformar. 
 
-### Variables originales, transformados y discretizados
+### 7.6) Modelos con variables originales, transformadas y discretizados
 |Nombre Modelo|Variables introducidas|$R^2\ test$|Complejidad|
 |:---|:---|:---|:---|:---|
 |_ModeloStepAIC_Disc_|Originales-Interacciones|$0.604728$|$63$|
@@ -417,7 +417,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
  Dado que no queda claro que modelo sea el mejor se analizan sus
  bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
-### Todas las variables e interacciones
+### 7.7) Modelos con todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la formula del modelo es bastante más compleja. 
 
 ### Validación cruzada con todos los modelos
@@ -576,11 +576,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MjUwMjYyLC0zNDQwOTg2MDcsMTkyNz
-IzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1
-MiwyMTA0MjgyNiwtNDc1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNT
-kxOTI3LDE2NTQ3MTkxNjQsMTAzNjE3NDEzNiwxMzA5NTUzNDAs
-LTE3Njc4ODY0NTgsLTE3Njc4ODY0NTgsLTg4MDEyMTQ5MiwtMT
-A1MzcyNDEwNSwxODEyOTk0OTgyLDExNzEyMjAyNTksLTE2OTQ0
-NzY2MzFdfQ==
+eyJoaXN0b3J5IjpbLTI2ODk2MTkwNywtMzQ0MDk4NjA3LDE5Mj
+cyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDEx
+NTIsMjEwNDI4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMz
+U5MTkyNywxNjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQw
+LC0xNzY3ODg2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLT
+EwNTM3MjQxMDUsMTgxMjk5NDk4MiwxMTcxMjIwMjU5LC0xNjk0
+NDc2NjMxXX0=
 -->
