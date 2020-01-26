@@ -567,12 +567,14 @@ Del gráfico $16$ se puede decir que los modelos que mayor área bajo la curva o
 TODO GRAFICO 16
 
 ### Área bajo la curva
-Para buscar el área bajo la curva para el modelo ej
+Para buscar el área bajo la curva para el modelo ganador, _ModeloStepBIC_, se usan varios puntos: $0.5$, $0.75$, $0.9$ y $0.49$. Se usa la instrucción `sensEspCorte` para comparar los puntos de corte. 
+
+
 
 ### Elección mejor modelo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDU3MjczMSwtMTUzMjA2NzEzMiwyNj
+eyJoaXN0b3J5IjpbMTU4Mjk0NTY0OSwtMTUzMjA2NzEzMiwyNj
 g3NTA0MTcsMTQ4NTc5Nzk0NSw3NDU0NDI3NzYsMTI5ODQ0MjYz
 MywtMTczMzIzNzY3MCwtMjA0OTc1NTcyMSwtODAyMDY0Nzg3LD
 E2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjExMjIwMTksLTE3
