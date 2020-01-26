@@ -294,7 +294,7 @@ Antes de realizar el modelo de regresión lineal es importante asegurarnos que l
  
  $$\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_mx_m$$
 
- En mi caso la formula anterior vendría representada por:
+ En mi caso la fórmula anterior vendría representada por:
 
 $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m*Age\_over65\_pct + ... + \epsilon$$
 
@@ -394,7 +394,7 @@ Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en compa
  Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### 7.7) Modelos con todas las variables e interacciones
-El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la formula del modelo es bastante más compleja. 
+El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
 
 ### Validación cruzada con todos los modelos
 El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
@@ -559,11 +559,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyMTA1OTEsOTA5NTAzNTgsLTMxNz
-czMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4MzAy
-LDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLDIxMD
-QyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5Mjcs
-MTY1NDcxOTE2NCwxMDM2MTc0MTM2LDEzMDk1NTM0MCwtMTc2Nz
-g4NjQ1OCwtMTc2Nzg4NjQ1OCwtODgwMTIxNDkyLC0xMDUzNzI0
-MTA1XX0=
+eyJoaXN0b3J5IjpbMTcyNjI5MzE2MSw5MDk1MDM1OCwtMzE3Nz
+MyNTQyLDM1OTc4NzM4NywtMzQ0MDk4NjA3LDE5MjcyMzgzMDIs
+MTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05NzU5NDExNTIsMjEwND
+I4MjYsLTQ3NTEwODQyOSw5MzIxNTE5NzUsMTYwMzU5MTkyNywx
+NjU0NzE5MTY0LDEwMzYxNzQxMzYsMTMwOTU1MzQwLC0xNzY3OD
+g2NDU4LC0xNzY3ODg2NDU4LC04ODAxMjE0OTIsLTEwNTM3MjQx
+MDVdfQ==
 -->
