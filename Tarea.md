@@ -300,7 +300,7 @@ $$VotosPartidoDerechaPtge = \beta_0 + \beta_1*Age\_under19\_Ptge + ... + \beta_m
 
  Donde $n$ y $m$ son enteros positivos pero menores a la totalidad de variables.
 
-Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables.
+Cabe destacar que la fórmula anterior es una simplificación y no tiene en cuenta las interacciones entre las variables ni las discretizadas.
 
 ### 7.1) Modelo de regresión lineal manual
 En este apartado se procede a probar varios modelos en donde se seleccionan las variables basados en su importancia de acuerdo a la información arrojada por _V de Cramer_ para la variable objetivo continua. 
@@ -470,7 +470,7 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 El modelo de regresión logística parte con la idea de construir un modelo que prediga los comportamientos de un conjunto de datos para una variable objetivo binaria. Es importante notar que a diferencia del modelo lineal en donde se median los errores cuadrados ($R^2$) para evaluar si un modelo era bueno o malo, en este caso se trabajará con el $pseudoR^2$, que tiene valores entre $2$ y $4$. Los mejores modelos serán aquellos cuyos $pseudoR^2$ estén cercanos a $4$. La interpretación de los resultados en el modelo logísticos también se ven afectados, ya que ahora se evalúan posibilidades (_odds_) que un evento pueda suceder y no su probabilidad. 
 
 ### 8.1) Modelo de regresión lineal manual
-
+Al igual que en los modelos lineales se efectuan pru
 ### 8.2) Modelo con transformaciones y discretizadas
 ### 8.3) Modelos con variables originales
 ### 8.4) Modelos con las variables originales e  interacciones
@@ -489,7 +489,7 @@ El modelo de regresión logística parte con la idea de construir un modelo que 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODYwODIzMCwtMjA2OTA3NDUyOCwtMT
+eyJoaXN0b3J5IjpbLTY3Mjg0MTY5OCwtMjA2OTA3NDUyOCwtMT
 I2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5
 NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNj
 EsOTA5NTAzNTgsLTMxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5
