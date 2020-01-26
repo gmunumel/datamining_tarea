@@ -467,7 +467,7 @@ La variable más importante es `CCAA` con $0.281$, seguido de `ServicesUnemploym
 
 ## 8) Modelo de regresión logística
 
-
+### 8.1) Modelo de regresión lineal manual
 
 # Files
 
@@ -608,11 +608,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLT
-U2MTYxMTEwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4
-OTQzOSwxNzI2MjkzMTYxLDkwOTUwMzU4LC0zMTc3MzI1NDIsMz
-U5Nzg3Mzg3LC0zNDQwOTg2MDcsMTkyNzIzODMwMiwxMDU1MjM2
-NjAzLC01NzcwNDUyOTgsLTk3NTk0MTE1MiwyMTA0MjgyNiwtND
-c1MTA4NDI5LDkzMjE1MTk3NSwxNjAzNTkxOTI3LDE2NTQ3MTkx
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTk2OTQ2MjM5OCwtMTI2MTEyMjAxOSwtMT
+c4MDEzMzkzMiwtNTYxNjExMTA4LDIwNDM5NTM2MzEsMTM0NDYw
+OTczNCwxMDQ1NTg5NDM5LDE3MjYyOTMxNjEsOTA5NTAzNTgsLT
+MxNzczMjU0MiwzNTk3ODczODcsLTM0NDA5ODYwNywxOTI3MjM4
+MzAyLDEwNTUyMzY2MDMsLTU3NzA0NTI5OCwtOTc1OTQxMTUyLD
+IxMDQyODI2LC00NzUxMDg0MjksOTMyMTUxOTc1LDE2MDM1OTE5
+MjddfQ==
 -->
