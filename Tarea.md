@@ -345,7 +345,7 @@ TODO GRAFICA 9
 Se observa en la gráfica $9$ que la importancia de las variables viene dada en primer lugar por `CCAA` con $0.296$, seguido de `Age_under19_Ptge` con $0.002$, luego `Age_over65_pct` $0.002$, `ComercTTEHosteleria` con $0.0016$, `PersonasInmueble` con $0.0005$ y `Servicios` con $0.00010$. 
 
 
-#### Modelo con transformaciones y discretizadas
+### Modelo con transformaciones y discretizadas
 El modelo manual se ha realizado pero sin transformar las variables inputs es por ello que los resultados conseguidos para algunas de ellas podrán no ser los más óptimos. Es por ello que se hace necesario probar ahora el modelo introduciendo las siguientes transformaciones $X$, $log(X)$, $e^X$, $X^2$, $\sqrt{X}$, $X^4$, $\sqrt[4]{X}$. Cabe destacar, que la transformación sólo se realizará para las variables cuantitativas. 
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
@@ -389,14 +389,14 @@ Las bondades del ajuste de ambos modelos han sido $0.607605$ para el modelo _Mod
 ### 7.5) Modelos con variables originales, transformadas y discretizados
 Se aprecia una mejora para el modelo _ModeloStepAIC_Disc_ de $0.604728$ en comparación con el modelo _ModeloStepBIC_Disc_ de $0.6002378$ y las variables son $63$ y $15$ respectivamente. Dado que la diferencia de las bondades de ajuste es sólo $0.0044$ se escoge el modelo _ModeloStepBIC_Disc_ ya que tiene menos variables y por tanto tiene menos complejidad. 
 
-#### Comparando modelos con variables originales y las discretizadas
+### Comparando modelos con variables originales y las discretizadas
 #### _ModeloStepBIC_ y _ModeloStepBIC_Trans_
  Dado que no queda claro que modelo sea el mejor se analizan sus bondades de ajuste y variables (complejidad). El modelo _ModeloStepBIC_Disc_ mejora las bondades del ajuste $0.6002378$ sobre $0.5946924$ del modelo _ModeloStepBIC_. La diferencia de bondades del ajuste es de $0.0055$, menos de un $1\%$, por lo tanto, se debe evaluar las variables que usan, para el modelo _ModeloStepBIC_ es de $18$ mientras para _ModeloStepBIC_Trans_ es $15$, una pequeña mejora. Dado que la diferencia de bondades del ajuste es pequeña al igual que las complejidades se toma como ganador el modelo _ModeloStepBIC_ ya que su interpretación es más sencilla. 
 
 ### 7.6) Modelos con todas las variables e interacciones
 El valor de bondad del ajuste obtenido ha sido de $0.6421221$ y las variables que utiliza es $55$. Adicionalmente, la fórmula del modelo es bastante más compleja. 
 
-#### Validación cruzada con todos los modelos
+### Validación cruzada con todos los modelos
 El resultado de la validación cruzada utilizando todos los modelos se puede apreciar en el gráfico $10$. 
 
 TODO GRAFICO 10. 
@@ -413,7 +413,7 @@ La gráfica 11 del modelo _Lasso_ nos muestra que hay dos puntos cuando la media
 
 TODO GRAFICO 11
 
-#### Elección mejor modelo
+### Elección mejor modelo
 
 Se comparan tres modelos, el mejor modelo anterior _ModeloStepBIC_, el segundo mejor _ModeloStepBIC_Trans_ y _Lasso_. Los resultados se muestran en la gráfica 12.
 
@@ -506,9 +506,9 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 ### 8.4) Modelos con variables originales y transformadas
 #### Comparando modelos con variables originales y las transformadas 
 
-#### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
+##### _ModeloStepAIC_ vs _ModeloStepAIC_Trans_
 
-#### _ModeloStepBIC_ vs _ModeloStepBIC_Trans_
+##### _ModeloStepBIC_ vs _ModeloStepBIC_Trans_
 
 ### 8.5) Modelos con variables originales, transformadas y discretizados
 #### Comparando modelos con variables originales y las discretizadas
@@ -516,14 +516,14 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 ### 8.6) Modelos con todas las variables e interacciones
 ### 8.7) Modelo _Lasso_
-###
+#### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc2Njc4ODMsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OCwtMzE3NzMyNTQyLDM1OTc4NzM4NywtMzQ0MDk4Nj
-A3LDE5MjcyMzgzMDIsMTA1NTIzNjYwMywtNTc3MDQ1Mjk4LC05
-NzU5NDExNTJdfQ==
+eyJoaXN0b3J5IjpbMTQzODkwOTU1MCwtMjA0OTc1NTcyMSwtOD
+AyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkwNzQ1MjgsLTEyNjEx
+MjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMTEwOCwyMDQzOTUzNj
+MxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwxNzI2MjkzMTYxLDkw
+OTUwMzU4LC0zMTc3MzI1NDIsMzU5Nzg3Mzg3LC0zNDQwOTg2MD
+csMTkyNzIzODMwMiwxMDU1MjM2NjAzLC01NzcwNDUyOTgsLTk3
+NTk0MTE1Ml19
 -->
