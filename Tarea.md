@@ -283,7 +283,7 @@ Con los resultados obtenidos de los gráficos $6$ y $7$ se podría descartar la 
 Antes de realizar el modelo de regresión lineal es importante asegurarnos que las variables input están depurados esto significa:
  1) Asegurarse que tanto las variables objetivos como las input no contienen datos ausentes o missings. 
  2) Las variables input no deben contener datos atípicos, ya que pueden desvirtuar los resultados.
- 3) Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matrix $X'X$. 
+ 3) Evitar aquellas variables independientes que estén muy correlacionados ya que que podrían invertir la matriz $X'X$. 
  4) El número de parámetros incluidos en el modelo ha de ser muy inferior al de observaciones, para evitar problemas en la estimación y de sobreajuste.
 
  Sabemos que el modelo de regresión lineal pretende predecir una variable $y$ (variable objetivo) a partir de un conjunto de $m$ variables $x_i$ (input) a través de la ecuación:
@@ -618,11 +618,11 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzQzOTM0MCw3Mzc5NTIzMjgsMjA5Nz
-Y0NDM2MCwtMTUzMjA2NzEzMiwyNjg3NTA0MTcsMTQ4NTc5Nzk0
-NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
-A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
-NzQ1MjgsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMT
-EwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwx
-NzI2MjkzMTYxXX0=
+eyJoaXN0b3J5IjpbNTA3ODkxMjQyLDczNzk1MjMyOCwyMDk3Nj
+Q0MzYwLC0xNTMyMDY3MTMyLDI2ODc1MDQxNywxNDg1Nzk3OTQ1
+LDc0NTQ0Mjc3NiwxMjk4NDQyNjMzLC0xNzMzMjM3NjcwLC0yMD
+Q5NzU1NzIxLC04MDIwNjQ3ODcsMTY4OTQ2NTM0NSwtMjA2OTA3
+NDUyOCwtMTI2MTEyMjAxOSwtMTc4MDEzMzkzMiwtNTYxNjExMT
+A4LDIwNDM5NTM2MzEsMTM0NDYwOTczNCwxMDQ1NTg5NDM5LDE3
+MjYyOTMxNjFdfQ==
 -->
