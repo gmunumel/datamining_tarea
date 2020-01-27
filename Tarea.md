@@ -491,7 +491,7 @@ TODO TABLA 5[Table caption, works as a reference][section-mmd-tables-table1]
 Analizando los resultados del modelo ganador:
 ```
 > exp(modelo2$coefficients)
-(Intercept)          CCAAArag?n    CCAACastillaLe?n   CCAACastManc_Madr        CCAACatalu?a 
+(Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr        CCAACataluña 
 1.7461357           2.3711080          10.5346443           2.8048985           0.3423511 
 CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal      ForeignersPtge     Densidad 
 4.6850965           0.9561143           3.2408524           1.0353985           0.9998684 
@@ -604,7 +604,7 @@ Los coeficiente son:
 > exp(coef(modeloStepBIC))
         (Intercept)          CCAAAragón    CCAACastillaLeón   CCAACastManc_Madr 
           0.7126528           2.0692061           9.1120240           2.4597521 
-       CCAACatalu?a    CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal 
+       CCAACataluña    CCAAGal_Cant_Ast   CCAANav_PVasc_Rio     CCAAVal_Mur_Bal 
           0.3216916           3.9607955           0.8896106           2.9433962 
 ComercTTEHosteleria      ForeignersPtge      Age_over65_pct          Superficie 
           0.2389733           1.0388469           1.0308780           0.9965650 
@@ -618,7 +618,7 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTI1OTA2NCw3Mzc5NTIzMjgsMjA5Nz
+eyJoaXN0b3J5IjpbMTQ4NzY3NzgwOCw3Mzc5NTIzMjgsMjA5Nz
 Y0NDM2MCwtMTUzMjA2NzEzMiwyNjg3NTA0MTcsMTQ4NTc5Nzk0
 NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
 A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
