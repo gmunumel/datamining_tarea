@@ -424,11 +424,11 @@ TODO GRAFICA 12
 Se analizan los datos del modelo ganador _ModeloStepBIC_.
 ```
 > coef(modeloStepBIC)
-                 (Intercept)                   CCAAArag?n 
+                 (Intercept)                   CCAAAragón 
                  42.97504206                   4.17269980 
-            CCAACastillaLe?n            CCAACastManc_Madr 
+            CCAACastillaLeón            CCAACastManc_Madr 
                  12.37338043                   7.44047617 
-                CCAACatalu?a             CCAAGal_Cant_Ast 
+                CCAACataluña             CCAAGal_Cant_Ast 
                 -20.80189491                   2.96610641 
            CCAANav_PVasc_Rio              CCAAVal_Mur_Bal 
                  -8.98228354                   3.12432926 
@@ -618,7 +618,7 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzY3NzgwOCw3Mzc5NTIzMjgsMjA5Nz
+eyJoaXN0b3J5IjpbMTM2NTcyOTE1MCw3Mzc5NTIzMjgsMjA5Nz
 Y0NDM2MCwtMTUzMjA2NzEzMiwyNjg3NTA0MTcsMTQ4NTc5Nzk0
 NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
 A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
