@@ -350,7 +350,7 @@ El modelo manual se ha realizado pero sin transformar las variables inputs es po
 
  Adicionalmente, la discretización permite capturar relaciones complejas (no lineales) entre las variables de entrada y la variable objetivo, por lo tanto, también se agregan al estudio. 
 
-Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un data frame. Por último, se usa la instrucción `createDataPartition` para crear dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_.
+Se realizan las transformaciones de las variables cuantitativas utilizando la variable objetivo continua gracias a la instrucción `Transf_Auto`. Se unen las discretizaciones de las variables utilizando la función `optbin` y luego se almacenan en un _data frame_. Por último, se usa la instrucción `createDataPartition` para crear dos conjuntos de datos para realizar las mediciones de los modelos llamados _train_ y _test_.
 
 Los tres métodos a utilizar para la selección de variables son _Forward_, _Backward_ y _Stepwise_. Y los métodos de medición alternativos son _AIC_ (Akaike information criterion) y _SBC_ (Schwarz criterion) aunque `R` lo llame _BIC_. 
 
@@ -618,7 +618,7 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTcyOTE1MCw3Mzc5NTIzMjgsMjA5Nz
+eyJoaXN0b3J5IjpbMTQ5MzQzOTM0MCw3Mzc5NTIzMjgsMjA5Nz
 Y0NDM2MCwtMTUzMjA2NzEzMiwyNjg3NTA0MTcsMTQ4NTc5Nzk0
 NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
 A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
