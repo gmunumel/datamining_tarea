@@ -515,7 +515,7 @@ De la tabla $6$ se puede decir, que el mejor modelo es _ModeloStepAIC_ ya que la
 |Nombre Modelo|Variables introducidas|$pseudoR^2\ test$|Complejidad|Comentario|
 |:---|:---|:---|:---|:---|
 |_ModeloStepBIC_|Originales|$0.2091306$|$17$||
-|_ModeloBackBIC_|Originales|$0.2092159$|$18$|Este modelo tiene mejor $pseudoR^2 \test$ y peor complejidad|
+|_ModeloBackBIC_|Originales|$0.2092159$|$18$|Este modelo tiene mejor $pseudoR^2\ test$ y peor complejidad|
 TODO TABLA 7[Table caption, works as a reference][section-mmd-tables-table1]
 
 De la tabla anterior considero que el mejor modelo es _ModeloStepBIC_ ya que tiene mejor complejidad y la diferencia entre $pseudoR^2\ test$ es muy pequeña, sólo $0.000085$. 
@@ -618,11 +618,11 @@ Para la variable `CCAANav_PVasc_Rio` se puede decir para las comunidades compren
 
 El $pseudoR^2\ train$ ha sido de $0.2160604$ mientras el $pseudoR^2\ test$ de $0.2091306$, lo que nos da un buen valor de fiabilidad ya que la diferencia entre ambos es pequeña, $0.0069$. La complejidad es pequeña, 17 variables. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3OTUyMzI4LDIwOTc2NDQzNjAsLTE1Mz
-IwNjcxMzIsMjY4NzUwNDE3LDE0ODU3OTc5NDUsNzQ1NDQyNzc2
-LDEyOTg0NDI2MzMsLTE3MzMyMzc2NzAsLTIwNDk3NTU3MjEsLT
-gwMjA2NDc4NywxNjg5NDY1MzQ1LC0yMDY5MDc0NTI4LC0xMjYx
-MTIyMDE5LC0xNzgwMTMzOTMyLC01NjE2MTExMDgsMjA0Mzk1Mz
-YzMSwxMzQ0NjA5NzM0LDEwNDU1ODk0MzksMTcyNjI5MzE2MSw5
-MDk1MDM1OF19
+eyJoaXN0b3J5IjpbLTMzMTI1OTA2NCw3Mzc5NTIzMjgsMjA5Nz
+Y0NDM2MCwtMTUzMjA2NzEzMiwyNjg3NTA0MTcsMTQ4NTc5Nzk0
+NSw3NDU0NDI3NzYsMTI5ODQ0MjYzMywtMTczMzIzNzY3MCwtMj
+A0OTc1NTcyMSwtODAyMDY0Nzg3LDE2ODk0NjUzNDUsLTIwNjkw
+NzQ1MjgsLTEyNjExMjIwMTksLTE3ODAxMzM5MzIsLTU2MTYxMT
+EwOCwyMDQzOTUzNjMxLDEzNDQ2MDk3MzQsMTA0NTU4OTQzOSwx
+NzI2MjkzMTYxXX0=
 -->
